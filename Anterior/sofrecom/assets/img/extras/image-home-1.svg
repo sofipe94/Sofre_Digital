@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="276px" height="287px" viewBox="0 0 276 287" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.9372549 0 0 0 0 0.27450982 0 0 0 0 0.28235295 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Group-32" transform="translate(6 6)" opacity="0.25883266">
+    <g id="Group-31" opacity="0.5206575" style="mix-blend-mode: multiply;" filter="url(#filter_1)">
+      <g id="Group-24">
+        <path d="M47.8259 2.26104L0 2.26104" transform="translate(192.4995 80.239815)" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M2.26106 0L2.26106 47.8255" transform="translate(190.23755 34.67442)" id="Stroke-2" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M2.26106 47.8255L2.26106 0" transform="translate(190.23755 192.50005)" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M47.8259 2.26104L0 2.26104" transform="translate(192.4995 190.2381)" id="Stroke-4" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 2.26104L47.8259 2.26104" transform="translate(34.672836 190.2381)" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M2.26106 47.8255L2.26106 0" transform="translate(80.23854 192.50005)" id="Stroke-6" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M2.26106 0L2.26106 47.8255" transform="translate(80.23854 34.67442)" id="Stroke-7" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 2.26104L47.8259 2.26104" transform="translate(34.672836 80.239815)" id="Stroke-8" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 0L82.5014 82.5009" transform="translate(192.4986 192.49915)" id="Stroke-9" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M33.9158 67.8312C52.647 67.8312 67.8317 52.6467 67.8317 33.9156C67.8317 15.1845 52.647 0 33.9158 0C15.1846 0 0 15.1845 0 33.9156C0 52.6467 15.1846 67.8312 33.9158 67.8312Z" transform="translate(104.00857 104.00788)" id="Oval" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 0L82.5014 82.5009" transform="translate(0 0.0018088327)" id="Stroke-11" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 82.5009L82.5014 0" transform="translate(0 192.49779)" id="Stroke-13" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 82.5009L82.5014 0" transform="translate(192.4986 0)" id="Stroke-15" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>

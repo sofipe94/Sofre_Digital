@@ -1,0 +1,49 @@
+footer{
+    margin: 0;
+    padding: 0;
+#footer{
+    margin: 0;
+    padding: 0;
+    .linea_gruesa{
+        border: solid rgb(255, 0, 0) 3px;
+    }
+    .logo_footer{
+        width: 165px;
+        height: 100px;
+    }
+    .bandera{
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+    }
+    .icono_redes{
+        width: 30px;
+        height: 30px;
+        margin: 3px;
+    }
+    p{
+        margin: 0;
+    }
+    .nav-link{
+        text-decoration:none;
+        color: black;
+        padding: 2px;
+    }
+    .nav-link:hover{
+        color: rgb(229, 72, 72);
+    }
+    .copyright{
+        margin: 20px;
+        margin-left: 100px;
+    }
+    .legales{
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    .legales:hover{
+        color: rgb(229, 72, 72);
+        font-weight: 500;
+    }
+}
+}

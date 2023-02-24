@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.67058825 0 0 0 0 0.40392157 0 0 0 0 0.6666667 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Group-5" transform="translate(1.5 1.5)" filter="url(#filter_1)">
+    <path d="M35.2114 17.6123C35.2114 27.3402 27.3299 35.2246 17.6057 35.2246C7.88149 35.2246 0 27.3402 0 17.6123C0 7.88444 7.88149 0 17.6057 0C27.3299 0 35.2114 7.88444 35.2114 17.6123Z" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M11.9259 11.9304L11.9259 11.9304C10.7796 13.0771 8.9212 13.0771 7.77683 11.9304L0.859746 5.0107C-0.286582 3.8659 -0.286582 2.00682 0.859746 0.860067C2.00607 -0.286689 3.86445 -0.286689 5.00882 0.860067L11.9259 7.77974C13.0722 8.92454 13.0722 10.7836 11.9259 11.9304Z" transform="translate(32.214844 32.209473)" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2.67638 2.66541L0.368688 0.357714" transform="translate(29.919922 29.930664)" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

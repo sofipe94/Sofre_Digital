@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Outsiders';
+    src: url('../fonts/Outsiders-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Outsiders-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outsiders';
+    src: url('../fonts/Outsiders-Bold.woff2') format('woff2'),
+        url('../fonts/Outsiders-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outsiders';
+    src: url('../fonts/Outsiders-Medium.woff2') format('woff2'),
+        url('../fonts/Outsiders-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outsiders';
+    src: url('../fonts/Outsiders-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Outsiders-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}

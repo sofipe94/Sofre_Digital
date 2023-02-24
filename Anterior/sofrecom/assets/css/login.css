@@ -1,0 +1,10 @@
+.login h1 a {
+	width: 254px !important;
+	height: 100px !important;
+	padding: 0 !important;
+	margin-bottom: 24px !important;
+	background: url(../img/logo.png) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+}

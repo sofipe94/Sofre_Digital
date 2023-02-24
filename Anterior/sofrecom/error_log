@@ -1,0 +1,8 @@
+[28-Nov-2021 04:01:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/sofrecom/public_html/wp-content/themes/sofrecom/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/sofrecom/public_html/wp-content/themes/sofrecom/index.php on line 1
+[14-Dec-2021 09:52:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/sofrecom/public_html/wp-content/themes/sofrecom/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/sofrecom/public_html/wp-content/themes/sofrecom/index.php on line 1

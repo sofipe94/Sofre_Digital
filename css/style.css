@@ -1,0 +1,117 @@
+header {
+  background-image: url(../images/header/home-presentation-1536x736.jpg);
+  height: 90vh; }
+  header #header {
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    header #header #logo_inicio {
+      margin-top: 20px;
+      width: 165px;
+      height: 100px; }
+    header #header #navegador {
+      margin-top: 20px; }
+    header #header .arriba {
+      margin-right: 20px; }
+    header #header .icono_mail {
+      width: 18px;
+      height: 15px; }
+    header #header .icono_redes {
+      width: 18px;
+      height: 18px; }
+    header #header .btn-outline-light {
+      border: solid white 1px;
+      border-radius: 100px;
+      font-size: 0.9rem;
+      margin: 5px; }
+    header #header .btn-outline-light:hover {
+      background-color: #e54848;
+      color: white; }
+    header #header .link_header {
+      margin: 5px;
+      text-decoration: none;
+      color: white; }
+    header #header .link_header:hover {
+      color: #e54848;
+      font-weight: 500; }
+    header #header .nav-link {
+      color: white;
+      padding-right: 15px;
+      padding-left: 15px; }
+    header #header .item-1:hover {
+      color: #e54848;
+      font-weight: 500; }
+    header #header .nav-item-1:hover {
+      border-bottom: solid #e54848 4px; }
+    header #header .item-2:hover {
+      color: #72ffd0;
+      font-weight: 500; }
+    header #header .nav-item-2:hover {
+      border-bottom: solid #72ffd0 4px; }
+    header #header .item-3:hover {
+      color: #a14ea1;
+      font-weight: 500; }
+    header #header .nav-item-3:hover {
+      border-bottom: solid #a14ea1 4px; }
+    header #header .item-4:hover {
+      color: #217cf5;
+      font-weight: 500; }
+    header #header .nav-item-4:hover {
+      border-bottom: solid #217cf5 4px; }
+    header #header .btn-danger {
+      border: solid #e54848 1px;
+      border-radius: 100px; }
+    header #header .btn-danger:hover {
+      background-color: transparent;
+      color: #e54848;
+      font-weight: 500;
+      border: solid #e54848 2px; }
+    header #header h2 {
+      color: white;
+      margin: 15px;
+      padding: 10px; }
+    header #header p {
+      color: white;
+      margin: 15px;
+      padding: 10px; }
+
+footer {
+  margin: 0;
+  padding: 0; }
+  footer #footer {
+    margin: 0;
+    padding: 0; }
+    footer #footer .linea_gruesa {
+      border: solid red 3px; }
+    footer #footer .logo_footer {
+      width: 165px;
+      height: 100px; }
+    footer #footer .bandera {
+      width: 35px;
+      height: 35px;
+      margin: 10px; }
+    footer #footer .icono_redes {
+      width: 30px;
+      height: 30px;
+      margin: 3px; }
+    footer #footer p {
+      margin: 0; }
+    footer #footer .nav-link {
+      text-decoration: none;
+      color: black;
+      padding: 2px; }
+    footer #footer .nav-link:hover {
+      color: #e54848; }
+    footer #footer .copyright {
+      margin: 20px;
+      margin-left: 100px; }
+    footer #footer .legales {
+      margin: 20px;
+      text-decoration: none;
+      color: black; }
+    footer #footer .legales:hover {
+      color: #e54848;
+      font-weight: 500; }
+
+#main-inicio {
+  height: 500vh; }
