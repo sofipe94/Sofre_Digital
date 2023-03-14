@@ -1,11 +1,12 @@
 footer{
     margin: 0;
     padding: 0;
-#footer{
+.footer{
     margin: 0;
     padding: 0;
     .linea_gruesa{
-        border: solid rgb(255, 0, 0) 3px;
+        border: solid $rojo 3px;
+        opacity: 1;
     }
     .logo_footer{
         width: 165px;
@@ -26,11 +27,11 @@ footer{
     }
     .nav-link{
         text-decoration:none;
-        color: black;
+        color: $negro;
         padding: 2px;
     }
     .nav-link:hover{
-        color: rgb(229, 72, 72);
+        color: $rojo;
     }
     .copyright{
         margin: 20px;
@@ -39,10 +40,10 @@ footer{
     .legales{
         margin: 20px;
         text-decoration: none;
-        color: black;
+        color: $negro;
     }
     .legales:hover{
-        color: rgb(229, 72, 72);
+        color: $rojo;
         font-weight: 500;
     }
 }

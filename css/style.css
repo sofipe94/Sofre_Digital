@@ -1,117 +1,380 @@
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 header {
   background-image: url(../images/header/home-presentation-1536x736.jpg);
-  height: 90vh; }
-  header #header {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  header .header {
     padding-top: 20px;
     margin-left: 50px;
     margin-right: 50px; }
-    header #header #logo_inicio {
+    header .header .logo_inicio {
       margin-top: 20px;
       width: 165px;
       height: 100px; }
-    header #header #navegador {
+    header .header .navegador {
       margin-top: 20px; }
-    header #header .arriba {
+    header .header .arriba {
       margin-right: 20px; }
-    header #header .icono_mail {
+    header .header .icono_mail {
       width: 18px;
       height: 15px; }
-    header #header .icono_redes {
+    header .header .icono_redes {
       width: 18px;
       height: 18px; }
-    header #header .btn-outline-light {
+    header .header .btn-outline-light {
       border: solid white 1px;
       border-radius: 100px;
       font-size: 0.9rem;
       margin: 5px; }
-    header #header .btn-outline-light:hover {
+    header .header .btn-outline-light:hover {
       background-color: #e54848;
       color: white; }
-    header #header .link_header {
+    header .header .link_header {
       margin: 5px;
       text-decoration: none;
       color: white; }
-    header #header .link_header:hover {
+    header .header .link_header:hover {
       color: #e54848;
-      font-weight: 500; }
-    header #header .nav-link {
+      font-weight: 400; }
+    header .header .nav-item-1 .nav-link {
       color: white;
       padding-right: 15px;
       padding-left: 15px; }
-    header #header .item-1:hover {
+    header .header .nav-item-2 .nav-link {
+      color: white;
+      padding-right: 15px;
+      padding-left: 15px; }
+    header .header .nav-item-3 .nav-link {
+      color: white;
+      padding-right: 15px;
+      padding-left: 15px; }
+    header .header .nav-item-4 .nav-link {
+      color: white;
+      padding-right: 15px;
+      padding-left: 15px; }
+    header .header .item-1:hover {
       color: #e54848;
-      font-weight: 500; }
-    header #header .nav-item-1:hover {
+      font-weight: 400; }
+    header .header .nav-item-1:hover {
       border-bottom: solid #e54848 4px; }
-    header #header .item-2:hover {
+    header .header .item-2:hover {
       color: #72ffd0;
-      font-weight: 500; }
-    header #header .nav-item-2:hover {
+      font-weight: 400; }
+    header .header .nav-item-2:hover {
       border-bottom: solid #72ffd0 4px; }
-    header #header .item-3:hover {
+    header .header .item-3:hover {
       color: #a14ea1;
-      font-weight: 500; }
-    header #header .nav-item-3:hover {
+      font-weight: 400; }
+    header .header .nav-item-3:hover {
       border-bottom: solid #a14ea1 4px; }
-    header #header .item-4:hover {
+    header .header .item-4:hover {
       color: #217cf5;
-      font-weight: 500; }
-    header #header .nav-item-4:hover {
+      font-weight: 400; }
+    header .header .nav-item-4:hover {
       border-bottom: solid #217cf5 4px; }
-    header #header .btn-danger {
-      border: solid #e54848 1px;
-      border-radius: 100px; }
-    header #header .btn-danger:hover {
+    header .header .btn-danger {
+      border: solid #e54848 2px;
+      border-radius: 104px; }
+    header .header .btn-danger:hover {
       background-color: transparent;
       color: #e54848;
-      font-weight: 500;
       border: solid #e54848 2px; }
-    header #header h2 {
-      color: white;
-      margin: 15px;
-      padding: 10px; }
-    header #header p {
-      color: white;
-      margin: 15px;
-      padding: 10px; }
+    header .header .texto {
+      margin-top: 120px;
+      margin-bottom: 120px; }
+      header .header .texto h2 {
+        font-family: "Hepta Slab", serif;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 250%; }
+      header .header .texto p {
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 110%; }
 
 footer {
   margin: 0;
   padding: 0; }
-  footer #footer {
+  footer .footer {
     margin: 0;
     padding: 0; }
-    footer #footer .linea_gruesa {
-      border: solid red 3px; }
-    footer #footer .logo_footer {
+    footer .footer .linea_gruesa {
+      border: solid #e54848 3px;
+      opacity: 1; }
+    footer .footer .logo_footer {
       width: 165px;
       height: 100px; }
-    footer #footer .bandera {
+    footer .footer .bandera {
       width: 35px;
       height: 35px;
       margin: 10px; }
-    footer #footer .icono_redes {
+    footer .footer .icono_redes {
       width: 30px;
       height: 30px;
       margin: 3px; }
-    footer #footer p {
+    footer .footer p {
       margin: 0; }
-    footer #footer .nav-link {
+    footer .footer .nav-link {
       text-decoration: none;
       color: black;
       padding: 2px; }
-    footer #footer .nav-link:hover {
+    footer .footer .nav-link:hover {
       color: #e54848; }
-    footer #footer .copyright {
+    footer .footer .copyright {
       margin: 20px;
       margin-left: 100px; }
-    footer #footer .legales {
+    footer .footer .legales {
       margin: 20px;
       text-decoration: none;
       color: black; }
-    footer #footer .legales:hover {
+    footer .footer .legales:hover {
       color: #e54848;
       font-weight: 500; }
 
-#main-inicio {
-  height: 500vh; }
+.main-inicio .soluciones {
+  background-image: url(../images/iconos/home-services.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 15%; }
+
+.main-inicio .solucionesHeader {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.main-inicio .imagenSoluciones {
+  height: 150px;
+  width: 150px; }
+
+.main-inicio .textoSolucionesNoColor {
+  color: #1d5083;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 400;
+  margin-left: 35px;
+  margin-bottom: 0px; }
+
+.main-inicio .textoSolucionesColor {
+  color: #e54848;
+  font-weight: 600;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  margin-left: 35px; }
+
+.main-inicio .boxSoluciones {
+  height: 300px;
+  width: 300px; }
+
+.main-inicio .iconoSoluciones {
+  height: 70px;
+  width: 80px; }
+
+.main-inicio .parrafoSoluciones {
+  color: #1d5083;
+  font-family: "Hepta Slab", serif;
+  margin: 30px;
+  font-weight: 500; }
+
+.main-inicio .linkSoluciones {
+  color: #e54848;
+  text-decoration: none;
+  font-family: "Hepta Slab", serif;
+  font-weight: 600; }
+
+.main-inicio .beneficios {
+  background-color: #013e49; }
+
+.main-inicio .beneficiosEncabezado {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.main-inicio .imagenBeneficios {
+  height: 150px;
+  width: 150px;
+  margin-top: 50px; }
+
+.main-inicio .textoBeneficiosNoColor {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 400;
+  margin-left: 35px; }
+
+.main-inicio .textoBeneficiosColor {
+  color: #18dbca;
+  font-weight: 600;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  margin-left: 35px;
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+.main-inicio .boxBeneficios {
+  height: 400px;
+  width: 200px; }
+
+.main-inicio .iconoBeneficios {
+  height: 65px;
+  width: 60px; }
+
+.main-inicio .iconoBeneficiosBorde {
+  border-radius: 100px;
+  box-shadow: 0px 5px 10px;
+  padding: 30px; }
+
+.main-inicio .parrafoBeneficios {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  margin: 30px;
+  font-weight: 500; }
+
+.main-inicio .lineaBeneficios {
+  border: solid #18dbca 3px;
+  opacity: 1;
+  margin: 0; }
+
+.main-inicio .oportunidades {
+  margin: 70px;
+  margin-left: 120px; }
+
+.main-inicio .imagenOportunidades {
+  height: 500px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.main-inicio .iconoOportunidades {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0; }
+
+.main-inicio .textoOportunidadesNoColor {
+  color: #1d5083;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 400;
+  margin-left: 10px; }
+
+.main-inicio .textoOportunidadesColor {
+  color: #a14ea1;
+  font-weight: 600;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  margin-left: 100px; }
+
+.main-inicio .textoOportunidadesDescrip {
+  color: #1d5083;
+  font-weight: 400;
+  margin-left: 100px; }
+
+.main-inicio .btn-primary {
+  border: solid #a14ea1 2px;
+  border-radius: 104px;
+  background-color: transparent;
+  color: #a14ea1;
+  margin-left: 100px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.main-inicio .btn-primary:hover {
+  background-color: #a14ea1;
+  color: white;
+  border: solid #a14ea1 2px; }
+
+.main-inicio .proyecto {
+  margin: 70px;
+  margin-left: 120px; }
+
+.main-inicio .imagenProyecto {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.main-inicio .iconoProyecto {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0; }
+
+.main-inicio .tituloProyecto {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  margin-bottom: 30px; }
+
+.main-inicio .formProyecto {
+  margin: 120px;
+  padding-right: 280px; }
+
+.main-inicio .mb-3 {
+  box-sizing: 10px; }
+
+.main-inicio .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px; }
+
+.main-inicio .form-control:focus {
+  box-shadow: none;
+  border: solid #e54848 1px; }
+
+.main-inicio .btn-secondary {
+  background-color: #e54848;
+  border: solid #e54848 2px;
+  border-radius: 104px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 50px; }
+
+.main-inicio .btn-secondary:hover {
+  background-color: transparent;
+  color: #e54848;
+  border: solid #e54848 2px; }
+
+.main-inicio .tituloPartners {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  font-size: 200%;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 90px; }
+
+.main-inicio .insights {
+  background-image: url(../images/iconos/home-insights.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 12%; }
+
+.main-inicio .tituloInsights {
+  color: #1d5083;
+  font-family: "Hepta Slab", serif;
+  font-size: 250%;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-left: 30px; }
+
+.main-inicio .imagenInsights {
+  height: 150px;
+  width: 150px;
+  margin-left: 90px; }

@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sofre Digital">
-    <meta namer="keywords" content="sofre">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css"/>
-    <title>SofreDigital</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sofre Digital">
+  <meta namer="keywords" content="sofre">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1;100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css"/>
+  <title>SofreDigital</title>
 </head>
 <body>
   <header class="container-fluid">
-    <div id="header" class="row">
+    <div class="row header">
       <div class="col-4">
         <a href="./index.html">
-          <img id="logo_inicio" src="./images/logos/logo_blanco.png" alt="Logo">
+          <img class="logo_inicio" src="./images/logos/logo_blanco.png" alt="Logo">
         </a>
       </div>
-      <div id="navegador" class="col-lg-8 d-flex flex-column h-auto">
+      <div class="navegador col-lg-8 d-flex flex-column h-auto">
         <div class="arriba col-0 d-flex align-items-center justify-content-end">
           <button type="button" class="btn btn-outline-light">
             <a href=""></a>
@@ -56,27 +59,165 @@
           </nav>
         </div>
       </div>      
-      <div class="col-5 d-flex flex-column justify content-center align-items-left">
+      <div class="texto col-12 col-lg-7 d-flex flex-column justify-content-end align-items-start">
         <h2>Mejoramos la experiencia de sus clientes, controlamos sus costos.</h2>
         <p>Creamos valor para su organización a través de la Transformación Digital Corporativa.</p>
       </div>
     </div>
   </header>
   <main class="container-fluid">
-      <div id="main-inicio" class="row">
-        
+      <div class="main-inicio">
+        <div>Botones</div>
+
+        <div class="row soluciones">
+          <div class="d-flex flex-row solucionesHeader">
+            <div class="col-md-2 col-12 d-flex align-items-start justify-content-start align-items-md-center justify-content-md-end">
+              <img src="./images/iconos/home-services-title.jpg" alt="Link" class="imagenSoluciones">
+            </div>
+            <div class="col-md-10 col-12 d-flex flex-column flex-wrap align-items-start justify-content-start align-items-md-start justify-content-md-center">
+              <p class="textoSolucionesNoColor">Llevamos soluciones tecnológicas a más de</p>
+              <p class="textoSolucionesColor">150 Compañías líderes de Argentina y Latam</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-evenly justify-content-evenly flex-wrap">
+            <div class="d-flex flex-column align-items-center justify-content-center boxSoluciones">
+              <img src="./images/iconos/services-item-icon-01.png" alt="Soluciones de transformación digital" class="iconoSoluciones">
+              <p class="text-center parrafoSoluciones">Soluciones de transformación digital</p>  
+              <a href="" class="linkSoluciones">Ver más</a>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxSoluciones">
+              <img src="./images/iconos/services-item-icon-02.png" alt="Servicio de software delivery" class="iconoSoluciones">
+              <p class="text-center parrafoSoluciones">Servicio de software delivery</p>
+              <a href="" class="linkSoluciones">Ver más</a>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxSoluciones">
+              <img src="./images/iconos/services-item-icon-03.png" alt="Servicio de infraestructura de redes" class="iconoSoluciones">
+              <p class="text-center parrafoSoluciones">Servicio de infraestructura de redes</p>
+              <a href="" class="linkSoluciones">Ver más</a>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxSoluciones">
+              <img src="./images/iconos/services-item-icon-04.png" alt="Servicio de desarrollo gerenciado" class="iconoSoluciones">
+              <p class="text-center parrafoSoluciones">Servicio de desarrollo gerenciado</p>
+              <a href="" class="linkSoluciones">Ver más</a>
+            </div>            
+          </div>
+        </div>
+
+        <div class="beneficios">
+          <div class="d-flex flex-row beneficiosEncabezado">
+            <div class="col-md-2 col-12 d-flex align-items-start justify-content-start align-items-md-center justify-content-md-end"><img src="./images/iconos/home-benefits-title.jpg" alt="Beneficios" class="imagenBeneficios"></div>
+            <div class="col-md-10 col-12 d-flex flex-column flex-wrap align-items-start justify-content-start align-items-md-start justify-content-md-center">
+              <p class="textoBeneficiosColor">Un espacio de oportunidades:</p>
+              <p class="textoBeneficiosNoColor">Capacitación, crecimiento y proyección global</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-around justify-content-evenly flex-wrap">
+            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+              <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-02.png" alt="Proyectos desafiantes con empresas líderes" class="iconoBeneficios"></div>
+              <p class="text-center parrafoBeneficios">Proyectos desafiantes con empresas líderes</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+              <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-03.png" alt="Presencia en 4 continentes, 11 países" class="iconoBeneficios"></div>
+              <p class="text-center parrafoBeneficios">Presencia en 4 continentes, 11 países</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+              <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-04.png" alt="30 años en el mercado argentino" class="iconoBeneficios"></div>
+              <p class="text-center parrafoBeneficios">30 años en el mercado argentino</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+              <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-05.png" alt="Trabajo remoto" class="iconoBeneficios"></div>
+              <p class="text-center parrafoBeneficios">Trabajo remoto</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+              <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-06.png" alt="CEP Centro de Entrenamiento Profesional" class="iconoBeneficios"></div>
+              <p class="text-center parrafoBeneficios">CEP Centro de Entrenamiento Profesional</p>
+            </div>
+          </div>
+          <hr class="lineaBeneficios">
+        </div>
+
+        <div class="oportunidades">
+          <div class="d-flex">
+            <div class="col-5 d-flex flex-row align-items-start justify-content-center">
+              <div><img src="./images/iconos/work-banner-img.jpg" alt="Hombre trabajando" class="imagenOportunidades"></div>
+              <div><img src="./images/iconos/work-banner-icon.png" alt="Oportunidades" class="iconoOportunidades"></div>
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start justify-content-center">
+              <div class="d-flex flex-row">
+              <p class="textoOportunidadesColor">Oportunidades</p>
+              <p class="textoOportunidadesNoColor">laborales</p>
+              </div>
+              <p class="textoOportunidadesDescrip">Conoce todas las oportunidades profesionales abiertas en Sofre Digital. Visita nuestra página de ofertas y postúlate.</p>
+              <button type="button" class="btn btn-primary">Ver Oportunidades</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="partners">
+          <div>
+            <h4 class="tituloPartners">Nuestros Partners</h4>
+          </div>
+          <div>
+
+          </div>            
+        </div>
+
+        <div class="insights">
+          <div class="d-flex">
+            <div class="col-12 d-flex flex-row align-items-center justify-content-start">
+              <div>
+                <img src="./images/iconos/icon-related.png" alt="hoja" class="imagenInsights">
+              </div>
+              <div>
+                <h4 class="tituloInsights">Insights</h4>
+              </div>
+            </div>
+            <div>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="d-flex">
+            <div class="col-5 d-flex flex-row align-items-start justify-content-center">
+              <div><img src="./images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto"></div>
+              <div><img src="./images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start justify-content-center formProyecto">
+              <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
+              <form>
+                <div class="mb-3">
+                  <label for="Email" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                  <input type="text" class="form-control" id="ServicioDeInteres">
+                </div>
+                <div class="mb-3">
+                  <label for="Comentarios" class="form-label">Comentarios</label>
+                  <input type="text" class="form-control" id="Comentarios">
+                </div>
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+              </form>
+            </div>
+          </div>          
+        </div>
       </div>
   </main>
   <footer class="container-fluid">
-    <div id="footer">
+    <div class="footer">
       <hr class="linea_gruesa">
       <div class="row">
-        <div class="col-lg-4 d-flex align-items-center justify-content-center">
+        <div class="col-lg-4 col-sm-6 col-12 d-flex align-items-center justify-content-center">
           <a href="./index.html">
             <img class="logo_footer" src="./images/logos/logo-color.png" alt="">
           </a>
         </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center">
+        <div class="col-lg-4 col-sm-6 col-12 d-flex align-items-center justify-content-center">
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Qué hacemos</a>
@@ -92,7 +233,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="col-lg-4 col-12 d-flex flex-column align-items-center justify-content-center">
           <div class="d-flex flex-inline">
             <img class="bandera" src="./images/iconos/ar.png" alt="Bandera Argentina">
             <div class="d-flex flex-column">
@@ -119,15 +260,14 @@
       </div>
       <hr>
       <div class="row">
-        <div class="col-lg-9 d-flex align-items-center justify-content-start">
+        <div class="col-lg-9 col-12 d-flex align-items-center justify-content-lg-start justify-content-center">
           <p class="copyright">© Copyright 2023 Sofre Digital. Todos los derechos reservados.</p>
         </div>
-        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+        <div class="col-lg-3 col-12 d-flex align-items-center justify-content-center">
           <a class="legales" href="">Legales</a>
         </div>
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

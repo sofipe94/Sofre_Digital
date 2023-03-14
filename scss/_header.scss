@@ -1,16 +1,19 @@
 header{
     background-image: url(../images/header/home-presentation-1536x736.jpg);
-    height: 90vh;
-    #header{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .header{
         padding-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
-        #logo_inicio{
+        .logo_inicio{
             margin-top: 20px;
             width: 165px;
             height: 100px;
         }
-        #navegador{
+        .navegador{
             margin-top: 20px;
         }
         .arriba{
@@ -25,76 +28,110 @@ header{
             height: 18px;
         }
         .btn-outline-light{
-            border: solid white 1px;
+            border: solid $blanco 1px;
             border-radius: 100px;
             font-size: 0.9rem;
             margin: 5px;
         }
         .btn-outline-light:hover{
-            background-color: rgb(229, 72, 72);
-            color: white;
+            background-color: $rojo;
+            color: $blanco;
         }
         .link_header{
             margin: 5px;
             text-decoration: none;
-            color: white;
+            color: $blanco;
         }
         .link_header:hover{
-            color: rgb(229, 72, 72);
-            font-weight: 500;
+            color: $rojo;
+            font-weight: 400;
         }
-        .nav-link{
-            color: white;
-            padding-right: 15px;
-            padding-left: 15px;
+        .nav-item-1{
+            .nav-link{
+                color: $blanco;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }
+        .nav-item-2{
+            .nav-link{
+                color: $blanco;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }
+        .nav-item-3{
+            .nav-link{
+                color: $blanco;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }
+        .nav-item-4{
+            .nav-link{
+                color: $blanco;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
         }
         .item-1:hover{
-            color: rgb(229, 72, 72);
-            font-weight: 500;
+            color: $rojo;
+            font-weight: 400;
         }
         .nav-item-1:hover{
-            border-bottom: solid rgb(229, 72, 72) 4px;
+            border-bottom: solid $rojo 4px;
         }
         .item-2:hover{
-            color: rgb(114, 255, 208);
-            font-weight: 500;
+            color: $verdeagua;
+            font-weight: 400;
         }
         .nav-item-2:hover{
-            border-bottom: solid rgb(114, 255, 208) 4px;
+            border-bottom: solid $verdeagua 4px;
         }
         .item-3:hover{
-            color: rgb(161, 78, 161);
-            font-weight: 500;
+            color: $violeta;
+            font-weight: 400;
         }
         .nav-item-3:hover{
-            border-bottom: solid rgb(161, 78, 161) 4px;
+            border-bottom: solid $violeta 4px;
         }
         .item-4:hover{
-            color: rgb(33, 124, 245);
-            font-weight: 500;
+            color: $azul;
+            font-weight: 400;
         }
         .nav-item-4:hover{
-            border-bottom: solid rgb(33, 124, 245) 4px;
+            border-bottom: solid $azul 4px;
         }
         .btn-danger{
-            border: solid rgb(229, 72, 72) 1px;
-            border-radius: 100px;
+            border: solid $rojo 2px;
+            border-radius: 104px;
         }
         .btn-danger:hover{
             background-color: transparent;
-            color: rgb(229, 72, 72);
-            font-weight: 500;
-            border: solid rgb(229, 72, 72) 2px;
+            color: $rojo;
+            border: solid $rojo 2px;
         }
-        h2{
-            color: white;
-            margin: 15px;
-            padding: 10px;
-        }
-        p{
-            color: white;
-            margin: 15px;
-            padding: 10px;
-        }
+        .texto{
+            margin-top: 120px;
+            margin-bottom: 120px;
+            h2{
+                font-family: $letraSofre;
+                color: $blanco;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 250%;           
+            }
+            p{
+                color: $blanco;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-weight: 600;
+                font-size: 110%;
+            }
+        }        
     }
 }

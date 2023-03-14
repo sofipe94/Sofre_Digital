@@ -1,3 +1,234 @@
-#main-inicio{
-    height: 500vh;
+.main-inicio{
+    .soluciones{
+        background-image: url(../images/iconos/home-services.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: 15%;
+    }
+    .solucionesHeader{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .imagenSoluciones{
+        height: 150px;
+        width: 150px;
+    }
+    .textoSolucionesNoColor{
+        color: $letrazul;
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 400;
+        margin-left: 35px;
+        margin-bottom: 0px;
+    }
+    .textoSolucionesColor{
+        color: $rojo;
+        font-weight: 600;
+        font-family: $letraSofre;
+        font-size: 180%;
+        margin-left: 35px;
+    }
+    .boxSoluciones{
+        height: 300px;
+        width: 300px;
+    }
+    .iconoSoluciones{
+        height: 70px;
+        width: 80px;
+    }
+    .parrafoSoluciones{
+        color: $letrazul;
+        font-family: $letraSofre;
+        margin: 30px;
+        font-weight: 500;
+    }
+    .linkSoluciones{
+        color: $rojo;
+        text-decoration: none;
+        font-family: $letraSofre;
+        font-weight: 600;
+    }
+    .beneficios{
+        background-color: $fondoVerde;
+    }
+    .beneficiosEncabezado{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .imagenBeneficios{
+        height: 150px;
+        width: 150px;
+        margin-top: 50px;
+    }
+    .textoBeneficiosNoColor{
+        color: $blanco;
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 400;
+        margin-left: 35px;
+    }
+    .textoBeneficiosColor{
+        color: $letraverdeagua;
+        font-weight: 600;
+        font-family: $letraSofre;
+        font-size: 180%;
+        margin-left: 35px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .boxBeneficios{
+        height: 400px;
+        width: 200px;
+    }
+    .iconoBeneficios{
+        height: 65px;
+        width: 60px;
+    }
+    .iconoBeneficiosBorde{
+        border-radius: 100px;
+        box-shadow: 0px 5px 10px ;
+        padding: 30px;
+    }
+    .parrafoBeneficios{
+        color: $blanco;
+        font-family: $letraSofre;
+        margin: 30px;
+        font-weight: 500;
+    }
+    .lineaBeneficios{
+        border: solid $letraverdeagua 3px;
+        opacity: 1;
+        margin: 0;
+    }
+    .oportunidades{
+        margin: 70px;
+        margin-left: 120px;
+    }
+    .imagenOportunidades{
+        height: 500px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoOportunidades{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .textoOportunidadesNoColor{
+        color: $letrazul;
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .textoOportunidadesColor{
+        color: $violeta;
+        font-weight: 600;
+        font-family: $letraSofre;
+        font-size: 180%;
+        margin-left: 100px;
+    }
+    .textoOportunidadesDescrip{
+        color: $letrazul;
+        font-weight: 400;
+        margin-left: 100px;
+    }
+    .btn-primary{
+        border: solid $violeta 2px;
+        border-radius: 104px;
+        background-color: transparent;
+        color: $violeta;
+        margin-left: 100px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn-primary:hover{
+        background-color: $violeta;
+        color: $blanco;
+        border: solid $violeta 2px;
+    }
+    .proyecto{
+        margin: 70px;
+        margin-left: 120px;
+    }
+    .imagenProyecto{
+        height: 550px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoProyecto{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .tituloProyecto{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .formProyecto{
+        margin: 120px;
+        padding-right: 280px;
+    }
+    .mb-3{
+        box-sizing: 10px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $rojo 1px;
+    }
+    .btn-secondary{
+        background-color: $rojo;
+        border: solid $rojo 2px;
+        border-radius: 104px;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin: 50px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $rojo;
+        border: solid $rojo 2px;
+    }
+    .tituloPartners{
+        color: $letraverdeagua;
+        font-family: $letraSofre;
+        font-size: 200%;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-left: 90px;
+    }
+    .insights{
+        background-image: url(../images/iconos/home-insights.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: 12%;
+    }
+    .tituloInsights{
+        color: $letrazul;
+        font-family: $letraSofre;
+        font-size: 250%;
+        font-weight: 600;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .imagenInsights{
+        height: 150px;
+        width: 150px;
+        margin-left: 90px;
+    }
 }
