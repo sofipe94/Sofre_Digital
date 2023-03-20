@@ -1,9 +1,12 @@
 header{
-    background-image: url(../images/header/home-presentation-1536x736.jpg);
+    background-image: url(../images/header/home-presentation-2048x981.jpg);
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+    background-size: cover;
+    height: 700px;
+    // @media (max-width:1200px){
+    //     background-color: white;
+        
+    //    }  
     .header{
         padding-top: 20px;
         margin-left: 50px;
@@ -47,6 +50,7 @@ header{
             font-weight: 400;
         }
         .nav-item-1{
+            border-bottom: solid transparent 4px;
             .nav-link{
                 color: $blanco;
                 padding-right: 15px;
@@ -54,6 +58,7 @@ header{
             }
         }
         .nav-item-2{
+            border-bottom: solid transparent 4px;
             .nav-link{
                 color: $blanco;
                 padding-right: 15px;
@@ -61,6 +66,7 @@ header{
             }
         }
         .nav-item-3{
+            border-bottom: solid transparent 4px;
             .nav-link{
                 color: $blanco;
                 padding-right: 15px;
@@ -68,6 +74,7 @@ header{
             }
         }
         .nav-item-4{
+            border-bottom: solid transparent 4px;
             .nav-link{
                 color: $blanco;
                 padding-right: 15px;
@@ -106,10 +113,16 @@ header{
             border: solid $rojo 2px;
             border-radius: 104px;
         }
+        .btn-danger a{
+            text-decoration: none;
+            color: $blanco;
+        }
         .btn-danger:hover{
             background-color: transparent;
-            color: $rojo;
             border: solid $rojo 2px;
+        }
+        .btn-danger a:hover{
+            color: $rojo;
         }
         .texto{
             margin-top: 120px;
@@ -132,6 +145,6 @@ header{
                 font-weight: 600;
                 font-size: 110%;
             }
-        }        
+        }      
     }
 }

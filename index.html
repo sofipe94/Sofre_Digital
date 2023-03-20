@@ -21,20 +21,20 @@
           <img class="logo_inicio" src="./images/logos/logo_blanco.png" alt="Logo">
         </a>
       </div>
-      <div class="navegador col-lg-8 d-flex flex-column h-auto">
+      <div class="navegador col-xl-8 d-flex flex-column h-auto">
         <div class="arriba col-0 d-flex align-items-center justify-content-end">
           <button type="button" class="btn btn-outline-light">
             <a href=""></a>
             <img class="icono_mail" src="./images/iconos/mail blanco.png" alt="Mail">
             Suscribete al newsletter
-          </button>
+          </button>          
           <button type="button" class="btn btn-outline-light">
             <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes" src="./images/iconos/linkedin blanco_header.png" alt="Linkedin"></a>
           </button>
           <a class="link_header" href="./index.html">Español</a>
         </div>
         <div class="d-flex align-items-center justify-content-end">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar navbar-expand-xl bg-body-tertiary">
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -51,7 +51,9 @@
                     <a class="nav-link item-4 active" aria-current="page" href="#">Blog</a>
                   </li>
                   <li>
-                    <button type="button" class="btn btn-danger">Contactanos</button>
+                    <button type="button" class="btn btn-danger">
+                      <a href="./index.html#proyecto">Contactanos</a>
+                    </button>
                   </li>
                 </ul>
               </div>
@@ -67,7 +69,38 @@
   </header>
   <main class="container-fluid">
       <div class="main-inicio">
-        <div>Botones</div>
+
+        <div id="botones" class="row">
+          <div class="d-flex flex-wrap justify-content-evenly align-items-evenly">
+              <a href="./index.html#botones" class="linkBotones">
+                <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start" >
+                  <img src="./images/botones/home-links-01.png" alt="empiece aquí" class="imagenBotones">
+                  <p class="textoBotones">Empiece aquí</p>
+                </button>
+              </a>
+            <a href="#" class="linkBotones">
+              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+                <img src="./images/botones/home-links-02.png" alt="qué hacemos" class="imagenBotones">
+                <p class="textoBotones">Soluciones de</p>
+                <p class="textoBotones"><strong>Transformación Digital</strong></p>
+              </button>
+            </a>
+            <a href="#" class="linkBotones">
+              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+                <img src="./images/botones/home-links-03.png" alt="quiénes somos" class="imagenBotones">
+                <p class="textoBotones"><strong>+150 Compañías Líderes </strong></p>
+                <p class="textoBotones">confían en Sofre Digital</p>
+              </button>
+            </a>
+            <a href="#" class="linkBotones">
+              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+                <img src="./images/botones/home-links-04.png" alt="trabaja con nosotros" class="imagenBotonesTrabajo">
+                <p class="textoBotones">Trabajo Remoto &</p>
+                <p class="textoBotones"><strong>Oportunidades Globales</strong></p>
+              </button>
+            </a>
+          </div>
+        </div>
 
         <div class="row soluciones">
           <div class="d-flex flex-row solucionesHeader">
@@ -112,23 +145,23 @@
             </div>
           </div>
           <div class="d-flex align-items-around justify-content-evenly flex-wrap">
-            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+            <div class="d-flex flex-column align-items-center justify-content-start boxBeneficios">
               <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-02.png" alt="Proyectos desafiantes con empresas líderes" class="iconoBeneficios"></div>
               <p class="text-center parrafoBeneficios">Proyectos desafiantes con empresas líderes</p>
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+            <div class="d-flex flex-column align-items-center justify-content-start boxBeneficios">
               <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-03.png" alt="Presencia en 4 continentes, 11 países" class="iconoBeneficios"></div>
               <p class="text-center parrafoBeneficios">Presencia en 4 continentes, 11 países</p>
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+            <div class="d-flex flex-column align-items-center justify-content-start boxBeneficios">
               <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-04.png" alt="30 años en el mercado argentino" class="iconoBeneficios"></div>
               <p class="text-center parrafoBeneficios">30 años en el mercado argentino</p>
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+            <div class="d-flex flex-column align-items-center justify-content-start boxBeneficios">
               <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-05.png" alt="Trabajo remoto" class="iconoBeneficios"></div>
               <p class="text-center parrafoBeneficios">Trabajo remoto</p>
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center boxBeneficios">
+            <div class="d-flex flex-column align-items-center justify-content-start boxBeneficios">
               <div class="iconoBeneficiosBorde"><img src="./images/iconos/home-benefits-06.png" alt="CEP Centro de Entrenamiento Profesional" class="iconoBeneficios"></div>
               <p class="text-center parrafoBeneficios">CEP Centro de Entrenamiento Profesional</p>
             </div>
@@ -142,7 +175,7 @@
               <div><img src="./images/iconos/work-banner-img.jpg" alt="Hombre trabajando" class="imagenOportunidades"></div>
               <div><img src="./images/iconos/work-banner-icon.png" alt="Oportunidades" class="iconoOportunidades"></div>
             </div>
-            <div class="col-6 d-flex flex-column align-items-start justify-content-center">
+            <div class="col-6 d-flex flex-column align-items-start justify-content-center cuadroOportunidades">
               <div class="d-flex flex-row">
               <p class="textoOportunidadesColor">Oportunidades</p>
               <p class="textoOportunidadesNoColor">laborales</p>
@@ -157,14 +190,34 @@
           <div>
             <h4 class="tituloPartners">Nuestros Partners</h4>
           </div>
-          <div>
-
-          </div>            
+          <!-- <div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/partners/Automation.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/partners/ciena.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/partners/foatinet.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>             -->
         </div>
 
         <div class="insights">
-          <div class="d-flex">
-            <div class="col-12 d-flex flex-row align-items-center justify-content-start">
+          <div class="row d-flex">
+            <div class="col-12 d-flex align-items-center justify-content-start insightHeader">
               <div>
                 <img src="./images/iconos/icon-related.png" alt="hoja" class="imagenInsights">
               </div>
@@ -172,21 +225,42 @@
                 <h4 class="tituloInsights">Insights</h4>
               </div>
             </div>
-            <div>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+              <div class="col-12 d-flex flex-wrap align-items-center justify-content-center flex-wrap">
+                <div class="boxNoticia"><a href="#">
+                  <div class="boxImgNoticia"><img src="./images/insights/MujEnTec.png" alt="Mujeres en tecnología" class="imgNoticia"></div>
+                  <div class="d-flex flex-column justify-content-center align-items-start textoNoticia">
+                    <p>MAR 07, 2023 |</p>
+                    <h5>Mujeres en tecnología</h5>
+                    <p>Las mujeres han ocupado un rol importante en el progreso de la tecnología a lo largo de los años, siendo...</p>
+                  </div>
+                </a></div>
+                <div class="boxNoticia"><a href="#">
+                  <div class="boxImgNoticia"><img src="./images/insights/RyRI.jpg" alt="Radios y redes inteligentes" class="imgNoticia"></div>
+                  <div class="d-flex flex-column justify-content-center align-items-start textoNoticia">
+                    <p>FEB 10, 2023 |</p>
+                    <h5>Radios y redes inteligentes</h5>
+                    <p>Las primeras tecnologías con inteligencia existen desde hace más de cincuenta años, pero los avances en la informática han permitido...</p>
+                  </div>
+                </a></div>
+                <div class="boxNoticia"><a href="#">
+                  <div class="boxImgNoticia"><img src="./images/insights/Ind4.0.jpg" alt="Industria 4.0: nuevas oportunidades" class="imgNoticia"></div>
+                  <div class="d-flex flex-column justify-content-center align-items-start textoNoticia">
+                    <p>ENE 11, 2023 |</p>
+                    <h5>Industria 4.0: nuevas oportunidades</h5>
+                    <p>Los descubrimientos de la electrónica y la informática permitieron que muchas tareas se hicieran de manera automática, pero en la</p>
+                  </div>
+                </a></div>
+              </div>
             </div>
           </div>
-        </div>
 
         <div class="proyecto">
-          <div class="d-flex">
+          <div class="row d-flex" id="proyecto">
             <div class="col-5 d-flex flex-row align-items-start justify-content-center">
               <div><img src="./images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto"></div>
               <div><img src="./images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
             </div>
-            <div class="col-6 d-flex flex-column align-items-start justify-content-center formProyecto">
+            <div class="col-7 d-flex flex-wrap flex-column align-items-start justify-content-center formProyecto">
               <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
               <form>
                 <div class="mb-3">
@@ -211,13 +285,13 @@
   <footer class="container-fluid">
     <div class="footer">
       <hr class="linea_gruesa">
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 col-12 d-flex align-items-center justify-content-center">
+      <div class="row direccion">
+        <div class="col-lg-4 col-sm-6 col-12 d-flex align-items-center justify-content-center direccion">
           <a href="./index.html">
             <img class="logo_footer" src="./images/logos/logo-color.png" alt="">
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6 col-12 d-flex align-items-center justify-content-center">
+        <div class="col-lg-4 col-sm-6 col-12 d-flex align-items-center justify-content-center direccion">
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Qué hacemos</a>
@@ -233,7 +307,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-4 col-12 d-flex flex-column align-items-center justify-content-center">
+        <div class="col-lg-4 col-12 d-flex flex-column align-items-center justify-content-center direccion">
           <div class="d-flex flex-inline">
             <img class="bandera" src="./images/iconos/ar.png" alt="Bandera Argentina">
             <div class="d-flex flex-column">
@@ -259,7 +333,7 @@
         </div>
       </div>
       <hr>
-      <div class="row">
+      <div class="row direccion">
         <div class="col-lg-9 col-12 d-flex align-items-center justify-content-lg-start justify-content-center">
           <p class="copyright">© Copyright 2023 Sofre Digital. Todos los derechos reservados.</p>
         </div>

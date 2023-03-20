@@ -1,14 +1,52 @@
 .main-inicio{
+    .linkBotones{
+        text-decoration: none;
+    }
+    .btn-light{
+        width: 300px;
+        height: 180px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 3px rgb(232, 228, 228);
+        padding-left: 35px;
+        margin-top: -70px;
+        margin-bottom: 50px;
+    }
+    .imagenBotones{
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .imagenBotonesTrabajo{
+        width: 60px;
+        height: 50px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .textoBotones{
+        font-size: 1.1rem;
+        color: $letrazul;
+        padding: 0px;
+        margin: 0;
+        margin-left: 5px;
+    }
+    .btn-light:hover{
+        transform: scale(1.1);
+        background-color: white;
+    }
     .soluciones{
         background-image: url(../images/iconos/home-services.png);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: top;
         background-size: 15%;
+        margin: 0;
+        padding: 0;
     }
     .solucionesHeader{
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-right: 0px;
     }
     .imagenSoluciones{
         height: 150px;
@@ -51,6 +89,8 @@
     }
     .beneficios{
         background-color: $fondoVerde;
+        margin: 0;
+        padding: 0;
     }
     .beneficiosEncabezado{
         margin-top: 50px;
@@ -80,6 +120,7 @@
     .boxBeneficios{
         height: 400px;
         width: 200px;
+        padding-top: 50px;
     }
     .iconoBeneficios{
         height: 65px;
@@ -104,6 +145,7 @@
     .oportunidades{
         margin: 70px;
         margin-left: 120px;
+        padding: 0;
     }
     .imagenOportunidades{
         height: 500px;
@@ -117,6 +159,11 @@
         margin: 0;
         margin-top: 30px;
         padding: 0;
+        z-index: 10;
+    }
+    .cuadroOportunidades{
+        background-color: $fondoClarito;
+        z-index: -1;
     }
     .textoOportunidadesNoColor{
         color: $letrazul;
@@ -155,6 +202,7 @@
     .proyecto{
         margin: 70px;
         margin-left: 120px;
+        padding: 0;
     }
     .imagenProyecto{
         height: 550px;
@@ -168,6 +216,7 @@
         margin: 0;
         margin-top: 30px;
         padding: 0;
+        z-index:10;
     }
     .tituloProyecto{
         font-family: $letraSofre;
@@ -176,8 +225,11 @@
         margin-bottom: 30px;
     }
     .formProyecto{
-        margin: 120px;
-        padding-right: 280px;
+        margin-top: 120px;
+        padding-right: 150px;
+        padding-left: 100px;
+        background-color: $fondoClarito;
+        z-index: -1;
     }
     .mb-3{
         box-sizing: 10px;
@@ -203,6 +255,10 @@
         color: $rojo;
         border: solid $rojo 2px;
     }
+    .partners{
+        margin: 0;
+        padding: 0;
+    }
     .tituloPartners{
         color: $letraverdeagua;
         font-family: $letraSofre;
@@ -217,18 +273,65 @@
         background-position-x: right;
         background-position-y: top;
         background-size: 12%;
+        margin-right: 20px;
+    }
+    .insightHeader{
+        background-color: $fondoClarito;
+        height: 350px;
+        z-index: -1;
     }
     .tituloInsights{
         color: $letrazul;
         font-family: $letraSofre;
         font-size: 250%;
         font-weight: 600;
-        margin-bottom: 30px;
+        margin-top: -75px;
         margin-left: 30px;
     }
     .imagenInsights{
         height: 150px;
         width: 150px;
-        margin-left: 90px;
+        margin-left: 130px;
+        margin-top: -95px;
+    }
+    .boxNoticia{
+        margin: 10px;
+        margin-top: -90px;
+        height: 400px;
+        width: 400px;
+        border-bottom: solid $azul 2px;
+        a{
+            text-decoration: none;
+        }
+    }
+    .boxImgNoticia{
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .imgNoticia{
+        width: 400px;
+        height: 200px;
+    }
+    .textoNoticia{
+        padding: 15px;
+        p{
+            color: $letrazul;
+        }
+        h5{
+            color: $azul;
+            font-weight: 500;
+        }
+    }
+    .boxNoticia:hover{
+        .imgNoticia{
+            transform: scale(1.2);
+            transition-duration: 1s;
+        }
+        .textoNoticia{
+            p{
+                color: rgb(53, 110, 185);
+            }
+        }
     }
 }
