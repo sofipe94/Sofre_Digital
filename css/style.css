@@ -7,14 +7,19 @@ body {
   padding: 0; }
 
 header {
-  background-image: url(../images/header/home-presentation-2048x981.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px; }
+  width: 100%;
+  margin: 0;
+  padding: 0; }
   header .header {
+    background-image: url(../images/header/home-presentation-2048x981.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
     padding-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px; }
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0; }
     header .header .logo_inicio {
       margin-top: 20px;
       width: 165px;
@@ -74,10 +79,10 @@ header {
     header .header .nav-item-1:hover {
       border-bottom: solid #e54848 4px; }
     header .header .item-2:hover {
-      color: #72ffd0;
+      color: #5cd3ab;
       font-weight: 400; }
     header .header .nav-item-2:hover {
-      border-bottom: solid #72ffd0 4px; }
+      border-bottom: solid #5cd3ab 4px; }
     header .header .item-3:hover {
       color: #a14ea1;
       font-weight: 400; }
@@ -100,8 +105,8 @@ header {
     header .header .btn-danger a:hover {
       color: #e54848; }
     header .header .texto {
-      margin-top: 120px;
-      margin-bottom: 120px; }
+      margin-top: 20px;
+      margin-bottom: 220px; }
       header .header .texto h2 {
         font-family: "Hepta Slab", serif;
         color: white;
@@ -117,7 +122,98 @@ header {
         padding-top: 10px;
         padding-bottom: 10px;
         font-weight: 600;
-        font-size: 110%; }
+        font-size: 115%; }
+  header .headerPages {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px; }
+    header .headerPages .logo_pages {
+      margin-top: 10px;
+      width: 155px;
+      height: 90px; }
+    header .headerPages .arriba {
+      margin-right: 20px; }
+    header .headerPages .icono_mail_pages {
+      width: 18px;
+      height: 15px; }
+    header .headerPages .icono_redes_pages {
+      width: 18px;
+      height: 18px; }
+    header .headerPages .btn-outline-light {
+      border: solid #133a61 1px;
+      border-radius: 100px;
+      font-size: 0.9rem;
+      margin: 5px;
+      color: #133a61; }
+    header .headerPages .btn-outline-light:hover {
+      background-color: #e54848;
+      color: white;
+      border: solid white 1px; }
+    header .headerPages .link_header_pages {
+      margin: 5px;
+      text-decoration: none;
+      color: #133a61; }
+    header .headerPages .link_header_pages:hover {
+      color: #e54848;
+      font-weight: 400; }
+    header .headerPages .nav-item-1 {
+      border-bottom: solid transparent 4px; }
+      header .headerPages .nav-item-1 .nav-link {
+        color: #133a61;
+        padding-right: 15px;
+        padding-left: 15px; }
+    header .headerPages .nav-item-2 {
+      border-bottom: solid transparent 4px; }
+      header .headerPages .nav-item-2 .nav-link {
+        color: #133a61;
+        padding-right: 15px;
+        padding-left: 15px; }
+    header .headerPages .nav-item-3 {
+      border-bottom: solid transparent 4px; }
+      header .headerPages .nav-item-3 .nav-link {
+        color: #133a61;
+        padding-right: 15px;
+        padding-left: 15px; }
+    header .headerPages .nav-item-4 {
+      border-bottom: solid transparent 4px; }
+      header .headerPages .nav-item-4 .nav-link {
+        color: #133a61;
+        padding-right: 15px;
+        padding-left: 15px; }
+    header .headerPages .item-1:hover {
+      color: #e54848;
+      font-weight: 400; }
+    header .headerPages .nav-item-1:hover {
+      border-bottom: solid #e54848 4px; }
+    header .headerPages .item-2:hover {
+      color: #5cd3ab;
+      font-weight: 400; }
+    header .headerPages .nav-item-2:hover {
+      border-bottom: solid #5cd3ab 4px; }
+    header .headerPages .item-3:hover {
+      color: #a14ea1;
+      font-weight: 400; }
+    header .headerPages .nav-item-3:hover {
+      border-bottom: solid #a14ea1 4px; }
+    header .headerPages .item-4:hover {
+      color: #217cf5;
+      font-weight: 400; }
+    header .headerPages .nav-item-4:hover {
+      border-bottom: solid #217cf5 4px; }
+    header .headerPages .btn-danger {
+      border: solid #e54848 2px;
+      border-radius: 104px; }
+    header .headerPages .btn-danger a {
+      text-decoration: none;
+      color: white; }
+    header .headerPages .btn-danger:hover {
+      background-color: transparent;
+      border: solid #e54848 2px; }
+    header .headerPages .btn-danger a:hover {
+      color: #e54848; }
 
 footer {
   margin: 0;
@@ -161,42 +257,52 @@ footer {
       color: #e54848;
       font-weight: 500; }
 
-.main-inicio .linkBotones {
+main {
+  margin: 0;
+  padding: 0; }
+
+.mainInicio .botones {
+  width: 100%;
+  margin: 0; }
+
+.mainInicio .linkBotones {
   text-decoration: none; }
 
-.main-inicio .btn-light {
+.mainInicio .btn-light {
   width: 300px;
   height: 180px;
   border-radius: 15px;
   box-shadow: 2px 2px 3px #e8e4e4;
   padding-left: 35px;
   margin-top: -70px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white; }
 
-.main-inicio .imagenBotones {
+.mainInicio .imagenBotones {
   width: 50px;
   height: 50px;
   margin-left: 5px;
   margin-bottom: 10px; }
 
-.main-inicio .imagenBotonesTrabajo {
+.mainInicio .imagenBotonesTrabajo {
   width: 60px;
   height: 50px;
   margin-left: 5px;
   margin-bottom: 10px; }
 
-.main-inicio .textoBotones {
+.mainInicio .textoBotones {
   font-size: 1.1rem;
   color: #133a61;
   padding: 0px;
   margin: 0;
   margin-left: 5px; }
 
-.main-inicio .btn-light:hover {
-  transform: scale(1.1);
-  background-color: white; }
+.mainInicio .btn-light:hover {
+  transform: scale(1.1); }
 
-.main-inicio .soluciones {
+.mainInicio .soluciones {
   background-image: url(../images/iconos/home-services.png);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -205,16 +311,16 @@ footer {
   margin: 0;
   padding: 0; }
 
-.main-inicio .solucionesHeader {
+.mainInicio .solucionesHeader {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 0px; }
 
-.main-inicio .imagenSoluciones {
+.mainInicio .imagenSoluciones {
   height: 150px;
   width: 150px; }
 
-.main-inicio .textoSolucionesNoColor {
+.mainInicio .textoSolucionesNoColor {
   color: #133a61;
   font-family: "Hepta Slab", serif;
   font-size: 180%;
@@ -222,55 +328,55 @@ footer {
   margin-left: 35px;
   margin-bottom: 0px; }
 
-.main-inicio .textoSolucionesColor {
+.mainInicio .textoSolucionesColor {
   color: #e54848;
   font-weight: 600;
   font-family: "Hepta Slab", serif;
   font-size: 180%;
   margin-left: 35px; }
 
-.main-inicio .boxSoluciones {
+.mainInicio .boxSoluciones {
   height: 300px;
   width: 300px; }
 
-.main-inicio .iconoSoluciones {
+.mainInicio .iconoSoluciones {
   height: 70px;
   width: 80px; }
 
-.main-inicio .parrafoSoluciones {
+.mainInicio .parrafoSoluciones {
   color: #133a61;
   font-family: "Hepta Slab", serif;
   margin: 30px;
   font-weight: 500; }
 
-.main-inicio .linkSoluciones {
+.mainInicio .linkSoluciones {
   color: #e54848;
   text-decoration: none;
   font-family: "Hepta Slab", serif;
   font-weight: 600; }
 
-.main-inicio .beneficios {
+.mainInicio .beneficios {
   background-color: #013e49;
   margin: 0;
   padding: 0; }
 
-.main-inicio .beneficiosEncabezado {
+.mainInicio .beneficiosEncabezado {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-.main-inicio .imagenBeneficios {
+.mainInicio .imagenBeneficios {
   height: 150px;
   width: 150px;
   margin-top: 50px; }
 
-.main-inicio .textoBeneficiosNoColor {
+.mainInicio .textoBeneficiosNoColor {
   color: white;
   font-family: "Hepta Slab", serif;
   font-size: 180%;
   font-weight: 400;
   margin-left: 35px; }
 
-.main-inicio .textoBeneficiosColor {
+.mainInicio .textoBeneficiosColor {
   color: #18dbca;
   font-weight: 600;
   font-family: "Hepta Slab", serif;
@@ -279,43 +385,44 @@ footer {
   margin-top: 50px;
   margin-bottom: 0px; }
 
-.main-inicio .boxBeneficios {
+.mainInicio .boxBeneficios {
   height: 400px;
   width: 200px;
   padding-top: 50px; }
 
-.main-inicio .iconoBeneficios {
+.mainInicio .iconoBeneficios {
   height: 65px;
   width: 60px; }
 
-.main-inicio .iconoBeneficiosBorde {
+.mainInicio .iconoBeneficiosBorde {
   border-radius: 100px;
   box-shadow: 0px 5px 10px;
   padding: 30px; }
 
-.main-inicio .parrafoBeneficios {
+.mainInicio .parrafoBeneficios {
   color: white;
   font-family: "Hepta Slab", serif;
   margin: 30px;
   font-weight: 500; }
 
-.main-inicio .lineaBeneficios {
+.mainInicio .lineaBeneficios {
   border: solid #18dbca 3px;
   opacity: 1;
   margin: 0; }
 
-.main-inicio .oportunidades {
+.mainInicio .oportunidades {
   margin: 70px;
   margin-left: 120px;
   padding: 0; }
 
-.main-inicio .imagenOportunidades {
+.mainInicio .imagenOportunidades {
   height: 500px;
   width: 500px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  z-index: 10; }
 
-.main-inicio .iconoOportunidades {
+.mainInicio .iconoOportunidades {
   height: 130px;
   width: 130px;
   margin: 0;
@@ -323,30 +430,29 @@ footer {
   padding: 0;
   z-index: 10; }
 
-.main-inicio .cuadroOportunidades {
-  background-color: #f6f6ff;
-  z-index: -1; }
+.mainInicio .cuadroOportunidades {
+  background-color: #f6f6ff; }
 
-.main-inicio .textoOportunidadesNoColor {
+.mainInicio .textoOportunidadesNoColor {
   color: #133a61;
   font-family: "Hepta Slab", serif;
   font-size: 180%;
   font-weight: 400;
   margin-left: 10px; }
 
-.main-inicio .textoOportunidadesColor {
+.mainInicio .textoOportunidadesColor {
   color: #a14ea1;
   font-weight: 600;
   font-family: "Hepta Slab", serif;
   font-size: 180%;
   margin-left: 100px; }
 
-.main-inicio .textoOportunidadesDescrip {
+.mainInicio .textoOportunidadesDescrip {
   color: #133a61;
   font-weight: 400;
   margin-left: 100px; }
 
-.main-inicio .btn-primary {
+.mainInicio .btn-primary {
   border: solid #a14ea1 2px;
   border-radius: 104px;
   background-color: transparent;
@@ -356,23 +462,23 @@ footer {
   padding-left: 30px;
   padding-right: 30px; }
 
-.main-inicio .btn-primary:hover {
+.mainInicio .btn-primary:hover {
   background-color: #a14ea1;
   color: white;
   border: solid #a14ea1 2px; }
 
-.main-inicio .proyecto {
+.mainInicio .proyecto {
   margin: 70px;
   margin-left: 120px;
   padding: 0; }
 
-.main-inicio .imagenProyecto {
+.mainInicio .imagenProyecto {
   height: 550px;
   width: 500px;
   margin: 0;
   padding: 0; }
 
-.main-inicio .iconoProyecto {
+.mainInicio .iconoProyecto {
   height: 130px;
   width: 130px;
   margin: 0;
@@ -380,31 +486,30 @@ footer {
   padding: 0;
   z-index: 10; }
 
-.main-inicio .tituloProyecto {
+.mainInicio .tituloProyecto {
   font-family: "Hepta Slab", serif;
   font-size: 180%;
   font-weight: 500;
   margin-bottom: 30px; }
 
-.main-inicio .formProyecto {
+.mainInicio .formProyecto {
   margin-top: 120px;
   padding-right: 150px;
   padding-left: 100px;
-  background-color: #f6f6ff;
-  z-index: -1; }
+  background-color: #f6f6ff; }
 
-.main-inicio .mb-3 {
+.mainInicio .mb-3 {
   box-sizing: 10px; }
 
-.main-inicio .form-control {
+.mainInicio .form-control {
   border: solid black 0.5px;
   border-radius: 0px; }
 
-.main-inicio .form-control:focus {
+.mainInicio .form-control:focus {
   box-shadow: none;
   border: solid #e54848 1px; }
 
-.main-inicio .btn-secondary {
+.mainInicio .btn-secondary {
   background-color: #e54848;
   border: solid #e54848 2px;
   border-radius: 104px;
@@ -412,16 +517,16 @@ footer {
   padding-right: 250px;
   margin: 50px; }
 
-.main-inicio .btn-secondary:hover {
+.mainInicio .btn-secondary:hover {
   background-color: transparent;
   color: #e54848;
   border: solid #e54848 2px; }
 
-.main-inicio .partners {
+.mainInicio .partners {
   margin: 0;
   padding: 0; }
 
-.main-inicio .tituloPartners {
+.mainInicio .tituloPartners {
   color: #18dbca;
   font-family: "Hepta Slab", serif;
   font-size: 200%;
@@ -429,7 +534,7 @@ footer {
   margin-bottom: 30px;
   margin-left: 90px; }
 
-.main-inicio .insights {
+.mainInicio .insights {
   background-image: url(../images/iconos/home-insights.png);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -437,12 +542,12 @@ footer {
   background-size: 12%;
   margin-right: 20px; }
 
-.main-inicio .insightHeader {
+.mainInicio .insightHeader {
   background-color: #f6f6ff;
   height: 350px;
   z-index: -1; }
 
-.main-inicio .tituloInsights {
+.mainInicio .tituloInsights {
   color: #133a61;
   font-family: "Hepta Slab", serif;
   font-size: 250%;
@@ -450,41 +555,1028 @@ footer {
   margin-top: -75px;
   margin-left: 30px; }
 
-.main-inicio .imagenInsights {
+.mainInicio .imagenInsights {
   height: 150px;
   width: 150px;
   margin-left: 130px;
   margin-top: -95px; }
 
-.main-inicio .boxNoticia {
+.mainInicio .boxNoticia {
   margin: 10px;
   margin-top: -90px;
   height: 400px;
   width: 400px;
   border-bottom: solid #217cf5 2px; }
-  .main-inicio .boxNoticia a {
+  .mainInicio .boxNoticia a {
     text-decoration: none; }
 
-.main-inicio .boxImgNoticia {
+.mainInicio .boxImgNoticia {
   width: 400px;
   height: 200px;
   overflow: hidden; }
 
-.main-inicio .imgNoticia {
+.mainInicio .imgNoticia {
   width: 400px;
   height: 200px; }
 
-.main-inicio .textoNoticia {
+.mainInicio .textoNoticia {
   padding: 15px; }
-  .main-inicio .textoNoticia p {
+  .mainInicio .textoNoticia p {
     color: #133a61; }
-  .main-inicio .textoNoticia h5 {
+  .mainInicio .textoNoticia h5 {
     color: #217cf5;
     font-weight: 500; }
 
-.main-inicio .boxNoticia:hover .imgNoticia {
+.mainInicio .boxNoticia:hover .imgNoticia {
   transform: scale(1.2);
   transition-duration: 1s; }
 
-.main-inicio .boxNoticia:hover .textoNoticia p {
+.mainInicio .boxNoticia:hover .textoNoticia p {
   color: #356eb9; }
+
+.mainQH .imagenesQH {
+  width: 950px;
+  height: 550px; }
+
+.mainQH .seccionQH {
+  height: 550px; }
+
+.mainQH .iconoQH {
+  height: 90px;
+  width: 90px;
+  margin: 50px;
+  margin-left: 150px; }
+
+.mainQH .logoQH {
+  height: 90px;
+  width: 120px;
+  margin: 50px;
+  margin-left: 250px; }
+
+.mainQH .tituloQH {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-top: 10px;
+  font-size: 250%; }
+
+.mainQH .textoQH {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  font-size: 120%;
+  margin-top: 50px; }
+
+.mainQH .linkBotones {
+  text-decoration: none; }
+
+.mainQH .btn-light {
+  width: 300px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #e8e4e4;
+  padding-left: 35px;
+  margin-top: -70px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white; }
+
+.mainQH .imagenBotones {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.mainQH .textoBotones {
+  font-size: 1.1rem;
+  color: #133a61;
+  padding: 0px;
+  margin: 0;
+  margin-left: 5px; }
+
+.mainQH .btn-light:hover {
+  transform: scale(1.1); }
+
+.mainQH .AccClarito {
+  background-color: #f6f6ff; }
+
+.mainQH .imagenesAccQH {
+  width: 950px;
+  height: 550px;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.mainQH .AccQH {
+  padding-left: 170px;
+  padding-right: 170px; }
+
+.mainQH .iconoAccQH {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQH .tituloAccQH {
+  color: #e54848;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 200%; }
+
+.mainQH .textoAccQH {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQH .accordion {
+  margin-bottom: 50px;
+  font-family: "Hepta Slab", serif; }
+
+.mainQH .accordion-item {
+  border: transparent;
+  border-bottom: solid 1px #133a61;
+  border-radius: 0px; }
+
+.mainQH .accordion-item:focus {
+  border-bottom: solid 1px white; }
+
+.mainQH .accordion-header {
+  color: #133a61;
+  border-radius: 0px; }
+
+.mainQH .accordion-button {
+  color: #133a61;
+  font-weight: 600;
+  border-radius: 0px;
+  background-color: none; }
+
+.mainQH .accordion-button:focus {
+  color: #e54848;
+  border-bottom: solid 1px #e54848;
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: white; }
+
+.mainQH .accordion-body {
+  color: #133a61; }
+
+.mainQH .proyecto {
+  margin: 70px;
+  margin-left: 120px;
+  padding: 0; }
+
+.mainQH .imagenProyecto {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.mainQH .iconoProyecto {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  z-index: 10; }
+
+.mainQH .tituloProyecto {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  margin-bottom: 30px; }
+
+.mainQH .formProyecto {
+  margin-top: 120px;
+  padding-right: 150px;
+  padding-left: 100px;
+  background-color: #f6f6ff; }
+
+.mainQH .mb-3 {
+  box-sizing: 10px; }
+
+.mainQH .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px; }
+
+.mainQH .form-control:focus {
+  box-shadow: none;
+  border: solid #e54848 1px; }
+
+.mainQH .btn-secondary {
+  background-color: #e54848;
+  border: solid #e54848 2px;
+  border-radius: 104px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 50px; }
+
+.mainQH .btn-secondary:hover {
+  background-color: transparent;
+  color: #e54848;
+  border: solid #e54848 2px; }
+
+.mainQS .imagenesQS {
+  width: 950px;
+  height: 550px; }
+
+.mainQS .seccionQS {
+  height: 550px; }
+
+.mainQS .iconoQS {
+  height: 90px;
+  width: 90px;
+  margin: 50px;
+  margin-left: 150px; }
+
+.mainQS .logoQS {
+  height: 90px;
+  width: 120px;
+  margin: 50px;
+  margin-left: 250px; }
+
+.mainQS .tituloQS {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-top: 10px;
+  font-size: 250%; }
+
+.mainQS .textoQS {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  font-size: 120%;
+  margin-top: 50px;
+  margin-right: 250px; }
+
+.mainQS .linkBotones {
+  text-decoration: none; }
+
+.mainQS .btn-light {
+  width: 300px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #e8e4e4;
+  padding-left: 35px;
+  margin-top: -70px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white; }
+
+.mainQS .imagenBotones {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.mainQS .imagenBotonesClientes {
+  width: 60px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.mainQS .textoBotones {
+  font-size: 1.1rem;
+  color: #133a61;
+  padding: 0px;
+  margin: 0;
+  margin-left: 5px; }
+
+.mainQS .btn-light:hover {
+  transform: scale(1.1); }
+
+.mainQS .sectTreinta {
+  background-color: #f6f6ff; }
+
+.mainQS .sectTextoTreinta {
+  padding-right: 0;
+  padding-left: 350px;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.mainQS .imagenTreinta {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-right: 250px;
+  padding-left: 0; }
+
+.mainQS .iconoTreinta {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQS .tituloTreinta {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 210%; }
+
+.mainQS .textoTreinta {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 70px; }
+
+.mainQS .sectMngt {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.mainQS .sectIconMngt {
+  padding-left: 350px; }
+
+.mainQS .iconoMngt {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQS .tituloMngt {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 210%; }
+
+.mainQS .btn-success {
+  background-color: #12c9b9;
+  border: solid #12c9b9;
+  padding: 10px;
+  box-shadow: 2px 2px 3px #e8e4e4;
+  width: 200px;
+  height: 70px;
+  border-radius: 50px; }
+
+.mainQS .sectTextoMngt {
+  height: 600px; }
+
+.mainQS .imagenMngt {
+  width: 300px;
+  height: 400px;
+  margin-top: 150px; }
+
+.mainQS .nombreMngt {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  padding-left: 50px; }
+
+.mainQS .textoMngt {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  padding-left: 50px;
+  padding-right: 300px; }
+
+.mainQS .cifrasClave {
+  background-color: #12c9b9; }
+
+.mainQS .headerCC {
+  margin: 50px;
+  padding-left: 250px; }
+
+.mainQS .iconoCC {
+  height: 90px;
+  width: 90px; }
+
+.mainQS .tituloCC {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  font-size: 200%;
+  padding-left: 10px; }
+
+.mainQS .sectCircCC {
+  padding-left: 250px;
+  padding-right: 250px; }
+
+.mainQS .casilleroCC {
+  width: 200px;
+  height: 400px; }
+
+.mainQS .circuloCC {
+  width: 200px;
+  height: 200px;
+  background-color: #013e49;
+  border: solid 1px #013e49;
+  border-radius: 150px;
+  text-align: center; }
+
+.mainQS .tituloCircCC {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  font-size: 330%;
+  font-weight: 500;
+  text-align: center;
+  margin: 0; }
+
+.mainQS .textoCircCC {
+  color: #013e49;
+  font-family: "Hepta Slab", serif;
+  text-align: center;
+  padding-top: 20px; }
+
+.mainQS .sectMundo {
+  background-image: url(../images/quienessomos/Sofre-mundo.jpg);
+  background-size: cover;
+  height: 800px; }
+
+.mainQS .iconoMundo {
+  width: 70px;
+  height: 70px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  margin-left: 250px; }
+
+.mainQS .tituloMundo {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 210%;
+  padding-left: 250px; }
+
+.mainQS .textoMundo {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  padding-left: 250px; }
+
+.mainQS .sectPartners {
+  background-color: #f6f6ff;
+  height: 300px; }
+
+.mainQS .headerPartners {
+  margin-top: 70px;
+  margin-left: 250px; }
+
+.mainQS .iconoPartners {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px; }
+
+.mainQS .tituloPartners {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 210%; }
+
+.mainQS .headerClientes {
+  margin-top: 70px;
+  margin-left: 250px; }
+
+.mainQS .iconoClientes {
+  width: 80px;
+  height: 70px;
+  margin-bottom: 20px; }
+
+.mainQS .tituloClientes {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 210%; }
+
+.mainQS .textoClientes {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  font-size: 90%; }
+
+.mainQS .sectCompr {
+  background-color: #013e49;
+  background-size: 50%; }
+
+.mainQS .AccQS {
+  padding-left: 170px;
+  padding-right: 170px; }
+
+.mainQS .imagenesAccQS {
+  width: 950px;
+  height: 550px;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.mainQS .iconoAccQS {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQS .tituloAccQS {
+  color: #18dbca;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 200%; }
+
+.mainQS .textoAccQS {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQS .accordion {
+  margin-bottom: 50px;
+  font-family: "Hepta Slab", serif; }
+
+.mainQS .accordion-item {
+  border: transparent;
+  border-bottom: solid 1px #133a61;
+  border-radius: 0px; }
+
+.mainQS .accordion-item:focus {
+  border-bottom: solid 1px white; }
+
+.mainQS .accordion-header {
+  color: #133a61;
+  border-radius: 0px; }
+
+.mainQS .accordion-button {
+  color: #133a61;
+  font-weight: 600;
+  border-radius: 0px;
+  background-color: none; }
+
+.mainQS .accordion-button:focus {
+  color: #18dbca;
+  border-bottom: solid 1px #18dbca;
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: white; }
+
+.mainQS .accordion-body {
+  color: #133a61; }
+
+.mainQS .proyecto {
+  margin: 70px;
+  margin-left: 120px;
+  padding: 0; }
+
+.mainQS .imagenProyecto {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.mainQS .iconoProyecto {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  z-index: 10; }
+
+.mainQS .tituloProyecto {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  margin-bottom: 30px; }
+
+.mainQS .formProyecto {
+  margin-top: 120px;
+  padding-right: 150px;
+  padding-left: 100px;
+  background-color: #f6f6ff; }
+
+.mainQS .mb-3 {
+  box-sizing: 10px; }
+
+.mainQS .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px; }
+
+.mainQS .form-control:focus {
+  box-shadow: none;
+  border: solid #e54848 1px; }
+
+.mainQS .btn-secondary {
+  background-color: #e54848;
+  border: solid #e54848 2px;
+  border-radius: 104px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 50px; }
+
+.mainQS .btn-secondary:hover {
+  background-color: transparent;
+  color: #e54848;
+  border: solid #e54848 2px; }
+
+.mainQH .imagenesQH {
+  width: 950px;
+  height: 550px; }
+
+.mainQH .seccionQH {
+  height: 550px; }
+
+.mainQH .iconoQH {
+  height: 90px;
+  width: 90px;
+  margin: 50px;
+  margin-left: 150px; }
+
+.mainQH .logoQH {
+  height: 90px;
+  width: 120px;
+  margin: 50px;
+  margin-left: 250px; }
+
+.mainQH .tituloQH {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-top: 10px;
+  font-size: 250%; }
+
+.mainQH .textoQH {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  font-size: 120%;
+  margin-top: 50px; }
+
+.mainQH .linkBotones {
+  text-decoration: none; }
+
+.mainQH .btn-light {
+  width: 300px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #e8e4e4;
+  padding-left: 35px;
+  margin-top: -70px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white; }
+
+.mainQH .imagenBotones {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.mainQH .textoBotones {
+  font-size: 1.1rem;
+  color: #133a61;
+  padding: 0px;
+  margin: 0;
+  margin-left: 5px; }
+
+.mainQH .btn-light:hover {
+  transform: scale(1.1); }
+
+.mainQH .AccClarito {
+  background-color: #f6f6ff; }
+
+.mainQH .imagenesAccQH {
+  width: 950px;
+  height: 550px;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.mainQH .AccQH {
+  padding-left: 170px;
+  padding-right: 170px; }
+
+.mainQH .iconoAccQH {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQH .tituloAccQH {
+  color: #e54848;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 200%; }
+
+.mainQH .textoAccQH {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainQH .accordion {
+  margin-bottom: 50px;
+  font-family: "Hepta Slab", serif; }
+
+.mainQH .accordion-item {
+  border: transparent;
+  border-bottom: solid 1px #133a61;
+  border-radius: 0px; }
+
+.mainQH .accordion-item:focus {
+  border-bottom: solid 1px white; }
+
+.mainQH .accordion-header {
+  color: #133a61;
+  border-radius: 0px; }
+
+.mainQH .accordion-button {
+  color: #133a61;
+  font-weight: 600;
+  border-radius: 0px;
+  background-color: none; }
+
+.mainQH .accordion-button:focus {
+  color: #e54848;
+  border-bottom: solid 1px #e54848;
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: white; }
+
+.mainQH .accordion-body {
+  color: #133a61; }
+
+.mainQH .proyecto {
+  margin: 70px;
+  margin-left: 120px;
+  padding: 0; }
+
+.mainQH .imagenProyecto {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.mainQH .iconoProyecto {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  z-index: 10; }
+
+.mainQH .tituloProyecto {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  margin-bottom: 30px; }
+
+.mainQH .formProyecto {
+  margin-top: 120px;
+  padding-right: 150px;
+  padding-left: 100px;
+  background-color: #f6f6ff; }
+
+.mainQH .mb-3 {
+  box-sizing: 10px; }
+
+.mainQH .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px; }
+
+.mainQH .form-control:focus {
+  box-shadow: none;
+  border: solid #e54848 1px; }
+
+.mainQH .btn-secondary {
+  background-color: #e54848;
+  border: solid #e54848 2px;
+  border-radius: 104px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 50px; }
+
+.mainQH .btn-secondary:hover {
+  background-color: transparent;
+  color: #e54848;
+  border: solid #e54848 2px; }
+
+.mainTCN .imagenesTCN {
+  width: 950px;
+  height: 550px; }
+
+.mainTCN .seccionTCN {
+  height: 550px; }
+
+.mainTCN .iconoTCN {
+  height: 90px;
+  width: 90px;
+  margin: 50px;
+  margin-left: 150px; }
+
+.mainTCN .logoTCN {
+  height: 90px;
+  width: 120px;
+  margin: 50px;
+  margin-left: 250px; }
+
+.mainTCN .tituloTCN {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-top: 10px;
+  font-size: 250%; }
+
+.mainTCN .textoTCN {
+  font-family: "Hepta Slab", serif;
+  color: #133a61;
+  margin-left: 150px;
+  font-size: 110%;
+  margin-top: 50px;
+  margin-right: 250px; }
+
+.mainTCN .linkBotones {
+  text-decoration: none; }
+
+.mainTCN .btn-light {
+  width: 300px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #e8e4e4;
+  padding-left: 35px;
+  margin-top: -70px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white; }
+
+.mainTCN .imagenBotones {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.mainTCN .imagenBotonesEsp {
+  width: 60px;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.mainTCN .textoBotones {
+  font-size: 1.1rem;
+  color: #133a61;
+  padding: 0px;
+  margin: 0;
+  margin-left: 5px; }
+
+.mainTCN .btn-light:hover {
+  transform: scale(1.1); }
+
+.mainTCN .sectOp {
+  background-color: #f6f6ff;
+  height: 500px; }
+
+.mainTCN .headerOp {
+  margin-top: 50px;
+  margin-left: 150px; }
+
+.mainTCN .iconoOp {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mainTCN .tituloOp {
+  color: #a14ea1;
+  font-family: "Hepta Slab", serif;
+  font-size: 200%;
+  margin-top: 10px; }
+
+.mainTCN .textoOp {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 90%; }
+
+.mainTCN .textoOpEsp {
+  color: #133a61;
+  font-family: "Hepta Slab", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 90%; }
+
+.mainTCN .cuadrosOp {
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  margin: 10px;
+  margin-top: -100px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #e8e4e4; }
+
+.mainTCN .imagenesCuadrosOp {
+  width: 550px;
+  height: 100px;
+  padding-top: 10px; }
+
+.mainTCN .textoCuadrosOp {
+  color: #a14ea1;
+  font-family: "Hepta Slab", serif;
+  font-weight: 500;
+  padding-top: 20px;
+  margin: 0; }
+
+.mainTCN .sectBeneficios {
+  background-color: #a14ea1;
+  margin-top: 30px; }
+
+.mainTCN .headerTCNBeneficios {
+  margin: 50px;
+  padding-left: 250px; }
+
+.mainTCN .tituloylogoTCNBeneficios {
+  margin-bottom: 30px; }
+
+.mainTCN .iconoTCNBeneficios {
+  height: 90px;
+  width: 90px; }
+
+.mainTCN .tituloTCNBeneficios {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  padding-left: 10px; }
+
+.mainTCN .textoTCNBeneficios {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  font-size: 90%;
+  padding-top: 10px; }
+
+.mainTCN .sectCircTCN {
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-bottom: 50px; }
+
+.mainTCN .casilleroTCN {
+  width: 250px;
+  height: 300px; }
+
+.mainTCN .imagenCircTCN {
+  width: 150px;
+  height: 150px; }
+
+.mainTCN .textoCircTCN {
+  color: white;
+  font-family: "Hepta Slab", serif;
+  text-align: center;
+  padding-top: 20px; }
+
+.mainTCN .CVTCN {
+  margin: 70px;
+  margin-left: 120px;
+  padding: 0; }
+
+.mainTCN .imagenformTCN {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.mainTCN .iconoformTCN {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  z-index: 10; }
+
+.mainTCN .tituloformTCN {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  margin-bottom: 30px; }
+
+.mainTCN .formTCN {
+  margin-top: 120px;
+  padding-right: 150px;
+  padding-left: 100px;
+  background-color: #f6f6ff; }
+
+.mainTCN .mb-3 {
+  box-sizing: 10px; }
+
+.mainTCN .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px; }
+
+.mainTCN .form-control:focus {
+  box-shadow: none;
+  border: solid #a14ea1 1px; }
+
+.mainTCN .btn-secondary {
+  background-color: #a14ea1;
+  border: solid #a14ea1 2px;
+  border-radius: 104px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 50px; }
+
+.mainTCN .btn-secondary:hover {
+  background-color: transparent;
+  color: #a14ea1;
+  border: solid #a14ea1 2px; }
