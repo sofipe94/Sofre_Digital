@@ -16,52 +16,71 @@
 <body>
   <header class="container-fluid">
     <div class="row headerPages">
-      <div class="col-4">
+      <div class="col-0 col-xl-4 d-flex align-items-center justify-content-start">
         <a href="../index.html">
           <img class="logo_pages" src="../images/logos/logo-color.png" alt="Logo">
+          <img class="logo_scrolling" src="../images/logos/logo-color.png" alt="Logo">
         </a>
       </div>
-      <div class="navegador col-xl-8 d-flex flex-column h-auto">
-        <div class="arriba col-0 d-flex align-items-center justify-content-end">
+      <div class="navegador row col-12 col-xl-8 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
+        <div class="arriba d-flex align-items-center justify-content-end">
           <button type="button" class="btn btn-outline-light">
             <a href=""></a>
-            <img class="icono_mail_pages" src="../images/iconos/mail blanco.png" alt="Mail">
+            <img class="icono_mail_pages" src="../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
           <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin blanco_header.png" alt="Linkedin"></a>
+            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           </button>
           <a class="link_header_pages" href="../index.html">Español</a>
         </div>
-        <div class="d-flex align-items-center justify-content-end">
-          <nav class="navbar navbar-expand-xl bg-body-tertiary">
-            <div class="container-fluid">
+        <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
+          <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid d-flex flex-inline flex-xl-column header_fixed">
+                <a class="navbar-brand col-3" href="../index.html"><img class="logo_reducido_color" src="../images/logos/logo-color.png" alt="Logo"></a>
+                <button class="navbar-toggler col-9" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon ms-auto"></span>
+                </button>                
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item-1">
-                    <a class="nav-link item-1 active" aria-current="page" href="../pages/quehacemos.html">Qué hacemos</a>
+                    <a class="nav-link item-1" aria-current="page" href="../pages/quehacemos.html">Qué hacemos</a>
                   </li>
                   <li class="nav-item-2">
-                    <a class="nav-link item-2 active" aria-current="page" href="../pages/quienessomos.html">Quiénes somos</a>
+                    <a class="nav-link item-2" aria-current="page" href="../pages/quienessomos.html">Quiénes somos</a>
                   </li>
                   <li class="nav-item-3">
-                    <a class="nav-link item-3 active" aria-current="page" href="../pages/trabajaconnosotros.html">Trabaja con nosotros</a>
+                    <a class="nav-link item-3" aria-current="page" href="../pages/trabajaconnosotros.html">Trabaja con nosotros</a>
                   </li>
                   <li class="nav-item-4">
-                    <a class="nav-link item-4 active" aria-current="page" href="../pages/blog.html">Blog</a>
+                    <a class="nav-link item-4" aria-current="page" href="../pages/blog.html">Blog</a>
                   </li>
                   <li>
                     <button type="button" class="btn btn-danger">
-                      <a href="../index.html#proyecto">Contactanos</a>
+                      <a href="./trabajaconnosotros.html#formCV">Contactanos</a>
                     </button>
+                  </li>
+                  <li class="nav-item-5">
+                      <a class="nav-link item-5" aria-current="page" href="">
+                        <img class="icono_mail" src="../images/iconos/mail azul.png" alt="Mail">
+                        Suscribete al newsletter
+                      </a>
+                  </li>
+                  <li class="nav-item-6">
+                      <a class="nav-link item-6" aria-current="page" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
+                  </li>
+                  <li class="nav-item-7">
+                    <a class="nav-link item-7" aria-current="page" href="../index.html">Español</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         </div>
-      </div>
+      </div>      
     </div>
+
+    
   </header>
 
   <main class="container-fluid">
@@ -303,5 +322,7 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="../scripts/header.js"></script>
+  <script src="../scripts/main.js"></script>
 </body>
 </html>

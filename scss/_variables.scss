@@ -14,5 +14,17 @@ $letraverdeagua: rgb(24, 219, 202);
 $verdeaguaoscuro: rgb(18, 201, 185);
 $fondoVerde: rgb(1, 62, 73);
 $fondoClarito: rgb(246, 246, 255);
+$celeste: rgb(66, 208, 255);
+$celesteOscuro: rgb(0, 164, 240);
 
 $letraSofre: 'Hepta Slab', serif;
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

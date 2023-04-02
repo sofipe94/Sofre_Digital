@@ -209,64 +209,10 @@ main{
         color: $blanco;
         border: solid $violeta 2px;
     }
-    .proyecto{
-        margin: 70px;
-        margin-left: 120px;
-        padding: 0;
-    }
-    .imagenProyecto{
-        height: 550px;
-        width: 500px;
-        margin: 0;
-        padding: 0;
-    }
-    .iconoProyecto{
-        height: 130px;
-        width: 130px;
-        margin: 0;
-        margin-top: 30px;
-        padding: 0;
-        z-index:10;
-    }
-    .tituloProyecto{
-        font-family: $letraSofre;
-        font-size: 180%;
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-    .formProyecto{
-        margin-top: 120px;
-        padding-right: 150px;
-        padding-left: 100px;
-        background-color: $fondoClarito;
-    }
-    .mb-3{
-        box-sizing: 10px;
-    }
-    .form-control{
-        border: solid $negro 0.5px;
-        border-radius: 0px;
-    }
-    .form-control:focus{
-        box-shadow: none;
-        border: solid $rojo 1px;
-    }
-    .btn-secondary{
-        background-color: $rojo;
-        border: solid $rojo 2px;
-        border-radius: 104px;
-        padding-left: 250px;
-        padding-right: 250px;
-        margin: 50px;
-    }
-    .btn-secondary:hover{
-        background-color: transparent;
-        color: $rojo;
-        border: solid $rojo 2px;
-    }
     .partners{
         margin: 0;
         padding: 0;
+        height: 300px;
     }
     .tituloPartners{
         color: $letraverdeagua;
@@ -274,8 +220,88 @@ main{
         font-size: 200%;
         font-weight: 400;
         margin-bottom: 30px;
-        margin-left: 90px;
+        margin-left: 250px;
     }
+    .carousel{
+        margin-top: 60px;
+    }
+    .carousel-inner{
+        width: 60.5%;
+        overflow: hidden;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .img-carousel{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        padding: 10px;
+        filter: grayscale(100%);
+    }
+    .img-carousel:hover{
+        filter: grayscale(0%);
+    }
+    .img-carousel-esp{
+        width: 180px;
+        height: 60px;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        filter: grayscale(100%);
+    }
+    .img-carousel-esp:hover{
+        filter: grayscale(0%);
+    }
+    .carousel-control-next{
+        filter: invert(1) grayscale(100);
+        margin-right: 180px;
+    }
+    .carousel-control-next:hover{
+        opacity: 0.5;
+    }
+    .carousel-control-prev{
+        filter: invert(1) grayscale(100);
+        margin-left: 180px;
+    }
+    .carousel-control-prev:hover{
+        opacity: 0.5;
+    }
+    @media (max-width: 767px) {
+        .carousel-inner .carousel-item > div {
+            display: none;
+        }
+        .carousel-inner .carousel-item > div:first-child {
+            display: block;
+        }
+    }
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+    @media (min-width: 768px) {
+        
+        .carousel-inner .carousel-item-end.active,
+        .carousel-inner .carousel-item-next {
+          transform: translateX(180px);
+          transition: linear ;
+          transition-duration: 0.6s;
+        }
+        
+        .carousel-inner .carousel-item-start.active, 
+        .carousel-inner .carousel-item-prev {
+          transform: translateX(-180px);
+          transition: ease-out ;
+          transition-duration: 0.6s;
+        }
+    }
+    
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { 
+      transform: translateX(-180px);
+      transition: linear ;
+      transition-duration: 0.6s;
+    } 
     .insights{
         background-image: url(../images/iconos/home-insights.png);
         background-repeat: no-repeat;
@@ -343,8 +369,71 @@ main{
             }
         }
     }
+    .proyecto{
+        margin: 70px;
+        margin-left: 120px;
+        padding: 0;
+    }
+    .imagenProyecto{
+        height: 550px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoProyecto{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+        z-index:10;
+    }
+    .tituloProyecto{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .formProyecto{
+        margin-top: 120px;
+        padding-right: 150px;
+        padding-left: 100px;
+        background-color: $fondoClarito;
+    }
+    .mb-3{
+        box-sizing: 10px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $rojo 1px;
+    }
+    .btn-secondary{
+        background-color: $rojo;
+        border: solid $rojo 2px;
+        border-radius: 104px;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin: 50px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $rojo;
+        border: solid $rojo 2px;
+    }
+    
 }    
 .mainQH{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .row{
+        margin: 0;
+        padding: 0;
+    }
     .imagenesQH{
         width: 950px;
         height: 550px;
@@ -410,69 +499,87 @@ main{
     .btn-light:hover{
         transform: scale(1.1);
     }
-    .AccClarito{
-        background-color: $fondoClarito;
-    }
-    .imagenesAccQH{
-        width: 950px;
-        height: 550px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-    }
-    .AccQH{
-        padding-left: 170px;
-        padding-right: 170px;
-    }
-    .iconoAccQH{
-        width: 60px;
-        height: 60px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .tituloAccQH{
-        color: $rojo;
-        font-family: $letraSofre;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 200%;
-    }
-    .textoAccQH{
-        color: $letrazul;
-        font-family: $letraSofre;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .accordion{
-        margin-bottom: 50px;
-        font-family: $letraSofre;
-    }
-    .accordion-item{
-        border: transparent;
-        border-bottom: solid 1px $letrazul;
-        border-radius: 0px;
-    }
-    .accordion-item:focus{
-        border-bottom: solid 1px $blanco;
-    }
-    .accordion-header{
-        color: $letrazul;
-        border-radius: 0px;  
-    }
-    .accordion-button{
-        color: $letrazul; 
-        font-weight: 600;
-        border-radius: 0px;
-        background-color: none;  
-    }
-    .accordion-button:focus{
-        color: $rojo;
-        border-bottom: solid 1px $rojo;
-        border-radius: 0px;
-        box-shadow: none;
-        background-color: $blanco;
-    }
-    .accordion-body{
-        color: $letrazul;
+    .sect_Acc{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        .AccSinFondo{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .AccClarito{
+            background-color: $fondoClarito;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .div_ImgAccQH{
+            margin: 0;
+            padding: 0;
+
+        }
+        .imagenesAccQH{
+            width: 950px;
+            height: 550px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+        .AccQH{
+            padding-left: 170px;
+            padding-right: 170px;
+        }
+        .iconoAccQH{
+            width: 60px;
+            height: 60px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .tituloAccQH{
+            color: $rojo;
+            font-family: $letraSofre;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 200%;
+        }
+        .textoAccQH{
+            color: $letrazul;
+            font-family: $letraSofre;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .accordion{
+            margin-bottom: 50px;
+            font-family: $letraSofre;
+        }
+        .accordion-item{
+            border: solid 1px transparent;
+            border-bottom: solid 1px $letrazul;
+            border-radius: 0px;
+        }
+        .accordion-item:focus{
+            border-bottom: none;
+        }
+        .accordion-header{
+            color: $letrazul;
+            border-radius: 0px;
+            border-bottom: solid 1px transparent;    
+        }
+        .accordion-button{
+            color: $letrazul; 
+            font-weight: 600;
+            border-radius: 0px;
+            background-color: transparent;  
+        }
+        .accordion-button:focus{
+            color: $rojo;
+            border-bottom: solid 1px $rojo;
+            border-radius: 0px;
+            box-shadow: none;
+        }
+        .accordion-body{
+            color: $letrazul;
+        }
     }
     .proyecto{
         margin: 70px;
@@ -531,6 +638,10 @@ main{
     }
 } 
 .mainQS{
+    .row{
+        margin: 0;
+        padding: 0;
+    }
     .imagenesQS{
         width: 950px;
         height: 550px;
@@ -692,8 +803,10 @@ main{
         background-color: $verdeaguaoscuro;
     }
     .headerCC{
-        margin: 50px;
-        padding-left: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-left: 300px;
+        width: 100%;
     }
     .iconoCC{
         height: 90px;
@@ -762,11 +875,13 @@ main{
     }
     .sectPartners{
         background-color: $fondoClarito;
-        height: 300px;
+        height: 500px;
+        width: 100%;
     }
     .headerPartners{
-        margin-top: 70px;
-        margin-left: 250px;
+        padding-top: 70px;
+        padding-left: 250px;
+        width: 100;
     }
     .iconoPartners{
         width: 70px;
@@ -777,8 +892,84 @@ main{
         color: $letraverdeagua;
         font-family: $letraSofre;
         margin-top: 20px;
-        margin-bottom: 20px;
         font-size: 210%;
+    }
+    .carousel-inner{
+        width: 60.6%;
+        overflow: hidden;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .img-carousel{
+        width: 180px;
+        height: 80px;
+        margin: 10px;
+        padding: 10px;
+        filter: grayscale(100%);
+    }
+    .img-carousel:hover{
+        filter: grayscale(0%);
+    }
+    .img-carousel-esp{
+        width: 180px;
+        height: 60px;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        filter: grayscale(100%);
+    }
+    .img-carousel-esp:hover{
+        filter: grayscale(0%);
+    }
+    .carousel-control-next{
+        filter: invert(1) grayscale(100);
+        margin-right: 180px;
+    }
+    .carousel-control-next:hover{
+        opacity: 0.5;
+    }
+    .carousel-control-prev{
+        filter: invert(1) grayscale(100);
+        margin-left: 180px;
+    }
+    .carousel-control-prev:hover{
+        opacity: 0.5;
+    }
+    @media (max-width: 767px) {
+        .carousel-inner .carousel-item > div {
+            display: none;
+        }
+        .carousel-inner .carousel-item > div:first-child {
+            display: block;
+        }
+    }
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+    @media (min-width: 768px) {
+        
+        .carousel-inner .carousel-item-end.active,
+        .carousel-inner .carousel-item-next {
+          transform: translateX(180px);
+          transition: linear ;
+          transition-duration: 0.6s;
+        }
+        
+        .carousel-inner .carousel-item-start.active, 
+        .carousel-inner .carousel-item-prev {
+          transform: translateX(-180px);
+          transition: ease-out ;
+          transition-duration: 0.6s;
+        }
+    }
+    
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { 
+      transform: translateX(-180px);
+      transition: linear ;
+      transition-duration: 0.6s;
     }
     .headerClientes{
         margin-top: 70px;
@@ -843,25 +1034,25 @@ main{
         border-bottom: solid 1px $letrazul;
         border-radius: 0px;
     }
-    .accordion-item:focus{
+    .accordion-item:focus-within{
         border-bottom: solid 1px $blanco;
     }
     .accordion-header{
         color: $letrazul;
-        border-radius: 0px;  
+        border-radius: 0px;
+        border-bottom: solid 1px $blanco;  
     }
     .accordion-button{
         color: $letrazul; 
         font-weight: 600;
         border-radius: 0px;
-        background-color: none;  
+        background-color: $blanco; 
     }
     .accordion-button:focus{
         color: $letraverdeagua;
         border-bottom: solid 1px $letraverdeagua;
         border-radius: 0px;
         box-shadow: none;
-        background-color: $blanco;
     }
     .accordion-body{
         color: $letrazul;
@@ -1109,6 +1300,12 @@ main{
     }
 } 
 .mainTCN{
+    margin: 0;
+    padding: 0;
+    .row{
+        margin: 0;
+        padding: 0;
+    }
     .imagenesTCN{
         width: 950px;
         height: 550px;
