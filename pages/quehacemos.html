@@ -10,19 +10,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1;100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="shortcut icon" href="../images/logos/logo_browser.ico">
   <title>Qué hacemos - Sofre Digital</title>
 </head>
 <body>
   <header class="container-fluid">
     <div class="row headerPages">
-      <div class="col-0 col-xl-4 d-flex align-items-center justify-content-start">
+      <div class="navegador d-flex flex-inline">
+        <div class="col-0 col-xl-2 d-flex align-items-center justify-content-start">
         <a href="../index.html">
           <img class="logo_pages" src="../images/logos/logo-color.png" alt="Logo">
           <img class="logo_scrolling" src="../images/logos/logo-color.png" alt="Logo">
         </a>
-      </div>
-      <div class="navegador row col-12 col-xl-8 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
+        </div>
+        <div class=" row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
           <button type="button" class="btn btn-outline-light">
             <a href=""></a>
@@ -36,15 +39,15 @@
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
           <nav class="navbar navbar-expand-xl">
-            <div class="container-fluid d-flex flex-inline flex-xl-column header_fixed">
-                <a class="navbar-brand col-3" href="../index.html"><img class="logo_reducido_color" src="../images/logos/logo-color.png" alt="Logo"></a>
-                <button class="navbar-toggler col-9" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid d-flex flex-inline flex-xl-column header_nav">
+                <a class="navbar-brand" href="../index.html"><img class="logo_reducido_color" src="../images/logos/logo-color.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon ms-auto"></span>
                 </button>                
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item-1">
-                    <a class="nav-link item-1" aria-current="page" href="../pages/quehacemos.html">Qué hacemos</a>
+                  <li class="nav-item-1 activeQH_nav">
+                    <a class="nav-link item-1 activeQH_item" aria-current="page" href="../pages/quehacemos.html">Qué hacemos</a>
                   </li>
                   <li class="nav-item-2">
                     <a class="nav-link item-2" aria-current="page" href="../pages/quienessomos.html">Quiénes somos</a>
@@ -77,29 +80,33 @@
             </div>
           </nav>
         </div>
-      </div>      
+      </div> 
+      </div>
+      
+           
     </div>
   </header>
 
   <main class="container-fluid">
       <div class="mainQH">
 
-        <div class="row">
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="col-6"><img src="../images/quehacemos/primera-seccion.jpg" alt="Qué hacemos" class="imagenesQH"></div>
-            <div class="col-6 d-flex flex-column align-items-start justify-content-start seccionQH">
-              <div class="d-flex flex-inline">
+        <div class="row" >
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center sectPrimQH">
+            <div class="col-6 sectImgSol"><img src="../images/quehacemos/primera-seccion.jpg" alt="Qué hacemos" class="imagenesQH"></div>
+            <div class="col-6 d-flex flex-column justify-content-start seccionQH">
+              <div class="d-flex justify-content-between">
                 <img src="../images/quehacemos/icono-primera-seccion.png" alt="" class="iconoQH">
                 <img src="../images/quehacemos/logo.png" alt="" class="logoQH">
               </div>              
               <h3 class="tituloQH">Impulse la innovación dentro de su organización</h3>
               <p class="textoQH">Con un servicio de alta calidad para sus clientes.</p>
+              <a href="./quehacemos.html#botonesQH"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down"></a>
             </div>
           </div>
         </div>
 
-        <div class="row AccSinFondo">
-          <div class="d-flex flex-wrap justify-content-center align-items-center">
+        <div class="row" id="botonesQH">
+          <div class="d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center botones">
               <a href="../pages/quehacemos.html#sectOne" class="linkBotones">
                 <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start" >
                   <img src="../images/quehacemos/iconos botones/boton1.png" alt="Soluciones de transformación Digital" class="imagenBotones">
@@ -132,8 +139,8 @@
         </div>
 
         <div class="sect_Acc">
-          <div class="row" id="sectOne">
-            <div class="col-6 AccQH">
+          <div class="row AccSinFondo flex-column-reverse flex-md-row" id="sectOne">
+            <div class="AccQH">
               <img src="../images/quehacemos/iconos botones/boton1.png" alt="" class="iconoAccQH">
               <h4 class="tituloAccQH">Soluciones de Transformación Digital</h4>
               <p class="textoAccQH">Co-creamos soluciones digitales basadas en la automatización y robotización de procesos claves de negocio.</p>
@@ -141,7 +148,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Digital Solutions Design
+                      Digital Solutions Design 
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
@@ -267,28 +274,28 @@
                 </div>
               </div>
             </div>
-          <div class="col-6 div_ImgAccQH">
+          <div class="div_ImgAccQH">
             <img src="../images/quehacemos/soldetransdigital.jpg" alt="" class="imagenesAccQH">
           </div>
         </div>
   
-        <div class="row AccClarito" id="sectTwo">
-          <div class="col-6 div_ImgAccQH">
+        <div class="row AccClarito flex-column flex-md-row" id="sectTwo">
+          <div class="div_ImgAccQH">
             <img src="../images/quehacemos/servsoftdelivery.jpg" alt="" class="imagenesAccQH">
           </div>
-          <div class="col-6 AccQH">
+          <div class="AccQH">
             <img src="../images/quehacemos/iconos botones/boton2.png" alt="" class="iconoAccQH">
             <h4 class="tituloAccQH">Servicio de software delivery</h4>
             <p class="textoAccQH">Creamos aplicaciones y soluciones de software utilizando las capacidades y el expertise en cada una de sus etapas.</p>
-            <div class="accordion AccClarito" id="accordionTwo">
-              <div class="accordion-item AccClarito">
-                <h2 class="accordion-header AccClarito">
-                  <button class="accordion-button AccClarito" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+            <div class="accordion" id="accordionTwo">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                     Mobile Solutions
                   </button>
                 </h2>
                 <div id="collapseEight" class="accordion-collapse collapse show" data-bs-parent="#accordionTwo">
-                  <div class="accordion-body AccClarito">
+                  <div class="accordion-body">
                     <p>Sofre Digital simplifica el acceso a los múltiples dispositivos con los que puede contar un usuario en la actualidad, integrando y diseñando soluciones móviles complementando y potenciando los procesos de transformación digital de nuestros clientes, capturando información,interpretando documentación o agregándole inteligencia y agilidad a sus procesos de negocio.</p>
                     <p>Para ello contamos con experiencia en desarrollo de soluciones híbridas, nativas con diferentes lenguajes y frameworks para cada plataforma.</p>
                   </div>
@@ -362,8 +369,8 @@
           </div>
         </div>
   
-        <div class="row AccSinFondo" id="sectThree">
-          <div class="col-6 AccQH">
+        <div class="row AccSinFondo flex-column-reverse flex-md-row" id="sectThree">
+          <div class="AccQH">
             <img src="../images/quehacemos/iconos botones/boton3.png" alt="" class="iconoAccQH">
             <h4 class="tituloAccQH">Servicio de infraestructura de redes</h4>
             <p class="textoAccQH">La introducción de nuevas tecnologías en las redes requiere de un asesoramiento altamente calificado. En Sofre Digital contamos con equipos técnicos entrenados y con experiencia en el despliegue en campo, soporte posterior a la operación y mantenimiento.</p>
@@ -429,28 +436,28 @@
               </div>
             </div>
           </div>
-        <div class="col-6 div_ImgAccQH">
+        <div class="div_ImgAccQH">
           <img src="../images/quehacemos/servinfrredes.jpg" alt="" class="imagenesAccQH">
         </div>
       </div>
   
-      <div class="row AccClarito" id="sectFour">
-        <div class="col-6 div_ImgAccQH">
+      <div class="row AccClarito flex-column flex-md-row" id="sectFour">
+        <div class="div_ImgAccQH">
           <img src="../images/quehacemos/servdesarrollogeren.jpg" alt="" class="imagenesAccQH">
         </div>
-        <div class="col-6 AccQH">
+        <div class="AccQH">
           <img src="../images/quehacemos/iconos botones/boton4.png" alt="" class="iconoAccQH">
           <h4 class="tituloAccQH">Servicio de desarrollo gerenciado</h4>
           <p class="textoAccQH">Nuestros servicios de desarrollo gerenciado ayudan a nuestros clientes a cubrir necesidades de desarrollo con profesionales altamente capacitados y formados en procesos de negocio de su industria.</p>
-          <div class="accordion AccClarito" id="accordionFour">
-            <div class="accordion-item AccClarito">
-              <h2 class="accordion-header AccClarito">
-                <button class="accordion-button AccClarito" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
+          <div class="accordion" id="accordionFour">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
                   Software Maintenance
                 </button>
               </h2>
               <div id="collapseEighteen" class="accordion-collapse collapse show" data-bs-parent="#accordionFour">
-                <div class="accordion-body AccClarito">
+                <div class="accordion-body">
                   <p>Nuestra experiencia acumulada en el desarrollo y mantenimiento de soluciones IT, en empresas líderes en su industria nos permite tener bases metodológicas y conocimiento experto en la definición de SLA´s para el mantenimiento de software. Con fuerte orientación en empresas de telecomunicaciones, banca, seguros, servicios, etc.</p>
                 </div>
               </div>
@@ -472,36 +479,32 @@
       </div>
         </div>
 
-        
-
-        
         <div class="proyecto">
-          <div class="row d-flex" id="proyecto">
-            <div class="col-5 d-flex flex-row align-items-start justify-content-center">
-              <div><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto"></div>
-              <div><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
-            </div>
-            <div class="col-7 d-flex flex-wrap flex-column align-items-start justify-content-center formProyecto">
-              <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-              <form>
-                <div class="mb-3">
-                  <label for="Email" class="form-label">Email *</label>
-                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                  <input type="text" class="form-control" id="ServicioDeInteres">
-                </div>
-                <div class="mb-3">
-                  <label for="Comentarios" class="form-label">Comentarios</label>
-                  <input type="text" class="form-control" id="Comentarios">
-                </div>
-                <button type="submit" class="btn btn-secondary">Enviar</button>
-              </form>
+          <div class="row col-12 d-flex flex-inline align-items-center justify-content-center" id="proyecto">
+            <div class="d-flex flex-column flex-md-row align-items-start justify-content-center">
+              <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto"></div>
+              <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
+              <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
+                <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
+                <form class="d-flex flex-column align-items-center justify-content-center">
+                  <div class="mb-3">
+                    <label for="Email" class="form-label">Email *</label>
+                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                    <input type="text" class="form-control" id="ServicioDeInteres">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Comentarios" class="form-label">Comentarios</label>
+                    <input type="text" class="form-control" id="Comentarios">
+                  </div>
+                  <button type="submit" class="btn btn-secondary">Enviar</button>
+                </form>
+              </div>
             </div>
           </div>          
         </div>
-      </div>
   </main>
 
   <footer class="container-fluid">
@@ -530,7 +533,7 @@
           </ul>
         </div>
         <div class="col-lg-4 col-12 d-flex flex-column align-items-center justify-content-center direccion">
-          <div class="d-flex flex-inline">
+          <div class="d-flex flex-md-row flex-column align-items-center justify-content-center align-items-md-start sectFoot">
             <img class="bandera" src="../images/iconos/ar.png" alt="Bandera Argentina">
             <div class="d-flex flex-column">
               <p>Sofre Digital S.A.</p>

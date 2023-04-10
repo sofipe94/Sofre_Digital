@@ -11,11 +11,19 @@ footer{
     .logo_footer{
         width: 165px;
         height: 100px;
+        margin: 20px 0px;
+    }
+    ul{
+        margin: 20px 0px;
+    }
+    .sectFoot{
+        margin: 20px 0px;
+        padding: 0;
     }
     .bandera{
         width: 35px;
         height: 35px;
-        margin: 10px;
+        margin: 5px 20px;
     }
     .icono_redes{
         width: 30px;
@@ -35,11 +43,11 @@ footer{
     }
     .direccion{
         margin: 0;
-        padding: 0;
+        padding: 0px 50px;
     }
     .copyright{
         margin: 20px;
-        margin-left: 100px;
+        text-align: center;
     }
     .legales{
         margin: 20px;
@@ -49,6 +57,11 @@ footer{
     .legales:hover{
         color: $rojo;
         font-weight: 500;
+    }
+    @media (max-width: 768px){
+        ul{
+            text-align: center;
+        }
     }
 }
 }

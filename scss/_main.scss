@@ -6,21 +6,23 @@ main{
     .botones{
         width: 100%;
         margin: 0;
+        padding: 0 10px;
     }
     .linkBotones{
         text-decoration: none;
+        margin: 30px 0px 150px 0px;
+        padding: 30px 30px;
+        width: 100%;
     }
     .btn-light{
-        width: 300px;
+        width: 100%;
         height: 180px;
         border-radius: 15px;
         box-shadow: 2px 2px 3px rgb(232, 228, 228);
-        padding-left: 35px;
-        margin-top: -70px;
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 30px;
+        padding: 0px 35px;
+        margin: -150px 0px 0px 0px;
         background-color: white;
+        text-align: left;
     }
     .imagenBotones{
         width: 50px;
@@ -61,6 +63,8 @@ main{
     .imagenSoluciones{
         height: 150px;
         width: 150px;
+        padding: 0;
+        margin: 0;
     }
     .textoSolucionesNoColor{
         color: $letrazul;
@@ -153,9 +157,20 @@ main{
         margin: 0;
     }
     .oportunidades{
-        margin: 70px;
-        margin-left: 120px;
-        padding: 0;
+        padding: 0px 0px 0px 00px;
+        margin: 70px 0px;
+    }
+    .sectImgOp{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcOp{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
     }
     .imagenOportunidades{
         height: 500px;
@@ -168,12 +183,21 @@ main{
         height: 130px;
         width: 130px;
         margin: 0;
-        margin-top: 30px;
         padding: 0;
+        position: relative;
+        top: 30px;
+        left: 0px;
         z-index: 10;
     }
     .cuadroOportunidades{
         background-color: $fondoClarito;
+        height: auto;
+        width: 650px;
+        padding: 130px;
+        margin: 0px;
+        position: relative;
+        top: 95px;
+        left: -130px;
     }
     .textoOportunidadesNoColor{
         color: $letrazul;
@@ -187,22 +211,20 @@ main{
         font-weight: 600;
         font-family: $letraSofre;
         font-size: 180%;
-        margin-left: 100px;
     }
     .textoOportunidadesDescrip{
         color: $letrazul;
         font-weight: 400;
-        margin-left: 100px;
     }
     .btn-primary{
         border: solid $violeta 2px;
         border-radius: 104px;
         background-color: transparent;
         color: $violeta;
-        margin-left: 100px;
         padding: 10px;
         padding-left: 30px;
         padding-right: 30px;
+        margin-top: 20px;
     }
     .btn-primary:hover{
         background-color: $violeta;
@@ -210,43 +232,55 @@ main{
         border: solid $violeta 2px;
     }
     .partners{
-        margin: 0;
+        margin: 30px 0px;
         padding: 0;
         height: 300px;
+    }
+    .sectTituloPartners{
+        margin: 0;
+        padding: 0px 100px;
+        width: 100%;
+        height: auto;
     }
     .tituloPartners{
         color: $letraverdeagua;
         font-family: $letraSofre;
         font-size: 200%;
         font-weight: 400;
-        margin-bottom: 30px;
-        margin-left: 250px;
+    }
+    .sectCarousel{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
     }
     .carousel{
         margin-top: 60px;
     }
     .carousel-inner{
-        width: 60.5%;
+        width: 80%;
         overflow: hidden;
-        margin-left: 250px;
-        margin-right: 250px;
+        margin: 0px 120px;
+    }
+    .carousel-item{
+        width: 200px;
+        height: 70px;
+        margin: 10px 30px 10px 10px;
+        padding: 10px;
     }
     .img-carousel{
-        width: 180px;
-        height: 80px;
-        margin: 10px;
-        padding: 10px;
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
         filter: grayscale(100%);
     }
     .img-carousel:hover{
         filter: grayscale(0%);
     }
     .img-carousel-esp{
-        width: 180px;
-        height: 60px;
-        margin: 10px;
-        margin-top: 20px;
-        padding: 10px;
+        width: auto;
+        height: 100%;
+        padding: 0px 10px;
         filter: grayscale(100%);
     }
     .img-carousel-esp:hover{
@@ -254,14 +288,12 @@ main{
     }
     .carousel-control-next{
         filter: invert(1) grayscale(100);
-        margin-right: 180px;
     }
     .carousel-control-next:hover{
         opacity: 0.5;
     }
     .carousel-control-prev{
         filter: invert(1) grayscale(100);
-        margin-left: 180px;
     }
     .carousel-control-prev:hover{
         opacity: 0.5;
@@ -314,27 +346,32 @@ main{
         background-color: $fondoClarito;
         height: 350px;
         z-index: -1;
+        padding: 70px 120px;
     }
     .tituloInsights{
-        color: $letrazul;
+        color: $azul;
         font-family: $letraSofre;
         font-size: 250%;
         font-weight: 600;
-        margin-top: -75px;
-        margin-left: 30px;
+        margin: 20px;
     }
     .imagenInsights{
         height: 150px;
         width: 150px;
-        margin-left: 130px;
-        margin-top: -95px;
+    }
+    .sectBoxNot{
+        margin: 0px;
+        margin-top: -90px;
+        height: auto;
+        width: 100%;
+        padding: 0px 20px;
     }
     .boxNoticia{
-        margin: 10px;
-        margin-top: -90px;
+        margin: 20px;
         height: 400px;
         width: 400px;
         border-bottom: solid $azul 2px;
+        box-shadow: 1px 2px 2px rgb(232, 228, 228);
         a{
             text-decoration: none;
         }
@@ -370,13 +407,25 @@ main{
         }
     }
     .proyecto{
-        margin: 70px;
-        margin-left: 120px;
+        margin: 90px 0px 150px 0px;
         padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
     }
     .imagenProyecto{
-        height: 550px;
-        width: 500px;
+        height: auto;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
@@ -384,47 +433,56 @@ main{
         height: 130px;
         width: 130px;
         margin: 0;
-        margin-top: 30px;
         padding: 0;
-        z-index:10;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
     }
     .tituloProyecto{
         font-family: $letraSofre;
         font-size: 180%;
         font-weight: 500;
-        margin-bottom: 30px;
+        padding: 40px 170px;
     }
     .formProyecto{
-        margin-top: 120px;
-        padding-right: 150px;
-        padding-left: 100px;
         background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
     }
-    .mb-3{
-        box-sizing: 10px;
+    form{
+        padding: 0px 100px 40px 100px;
     }
     .form-control{
         border: solid $negro 0.5px;
         border-radius: 0px;
+        width: 500px;
+        height: 50px;
     }
     .form-control:focus{
         box-shadow: none;
         border: solid $rojo 1px;
     }
+    #Comentarios{
+        height: 100px;
+    }
     .btn-secondary{
         background-color: $rojo;
         border: solid $rojo 2px;
         border-radius: 104px;
-        padding-left: 250px;
-        padding-right: 250px;
-        margin: 50px;
+        padding-left: 220px;
+        padding-right: 220px;
     }
     .btn-secondary:hover{
         background-color: transparent;
         color: $rojo;
         border: solid $rojo 2px;
     }
-    
 }    
 .mainQH{
     width: 100%;
@@ -434,54 +492,69 @@ main{
         margin: 0;
         padding: 0;
     }
+    .sectPrimQH{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .sectImgSol{
+        width: 50%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
     .imagenesQH{
-        width: 950px;
-        height: 550px;
+        width: 100%;
+        height: auto;
     }
     .seccionQH{
-        height: 550px;
+        width: 50%;
+        height: auto;
+        padding: 10px 100px 50px 100px;
+        margin: 0;
     }
     .iconoQH{
         height: 90px;
         width: 90px;
-        margin: 50px;
-        margin-left: 150px;
     }
     .logoQH{
         height: 90px;
         width: 120px;
-        margin: 50px;
-        margin-left: 250px;
+        margin-right: 50px;
     }
     .tituloQH{
         font-family: $letraSofre;
         color: $letrazul;
-        margin-left: 150px;
-        margin-right: 250px;
-        margin-top: 10px;
-        font-size: 250%;
+        font-size: 220%;
+        padding: 30px 0px;
     }
     .textoQH{
         font-family: $letraSofre;
         color: $letrazul;
-        margin-left: 150px;
         font-size: 120%;
-        margin-top: 50px;
+    }
+    .botones{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0 10px;
     }
     .linkBotones{
         text-decoration: none;
+        margin: 30px 0px 150px 0px;
+        padding: 30px 30px;
+        width: 100%;
     }
     .btn-light{
-        width: 300px;
+        width: 100%;
         height: 180px;
         border-radius: 15px;
         box-shadow: 2px 2px 3px rgb(232, 228, 228);
-        padding-left: 35px;
-        margin-top: -70px;
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 30px;
+        padding: 0px 35px;
+        margin: -70px 0px 0px 0px;
         background-color: white;
+        text-align: left;
     }
     .imagenBotones{
         width: 50px;
@@ -501,33 +574,32 @@ main{
     }
     .sect_Acc{
         width: 100%;
-        margin: 0;
-        padding: 0;
+        margin: -50px 0px 0px 0px;
+        padding: 0px;
         .AccSinFondo{
             width: 100%;
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
         }
         .AccClarito{
             background-color: $fondoClarito;
             width: 100%;
-            margin: 0;
-            padding: 0;
+            margin: 70px 0px;
+            padding: 50px 0px;
         }
         .div_ImgAccQH{
             margin: 0;
             padding: 0;
-
+            width: 50%;
         }
         .imagenesAccQH{
-            width: 950px;
-            height: 550px;
-            margin-top: 70px;
-            margin-bottom: 70px;
+            width: 100%;
+            height: auto;
         }
         .AccQH{
-            padding-left: 170px;
-            padding-right: 170px;
+            width: 50%;
+            height: auto;
+            padding: 30px 200px;
         }
         .iconoAccQH{
             width: 60px;
@@ -553,24 +625,26 @@ main{
             font-family: $letraSofre;
         }
         .accordion-item{
-            border: solid 1px transparent;
+            border: transparent;
             border-bottom: solid 1px $letrazul;
             border-radius: 0px;
+            background-color: transparent;
         }
-        .accordion-item:focus{
-            border-bottom: none;
+        .accordion-item:focus-within{
+            border-bottom: solid 1px transparent;
         }
         .accordion-header{
             color: $letrazul;
             border-radius: 0px;
-            border-bottom: solid 1px transparent;    
+            border-bottom: solid 1px transparent; 
+            background-color: transparent;   
         }
         .accordion-button{
             color: $letrazul; 
             font-weight: 600;
             border-radius: 0px;
-            background-color: transparent;  
-        }
+            background-color: transparent;
+        }    
         .accordion-button:focus{
             color: $rojo;
             border-bottom: solid 1px $rojo;
@@ -582,9 +656,21 @@ main{
         }
     }
     .proyecto{
-        margin: 70px;
-        margin-left: 120px;
+        margin: 90px 0px 150px 0px;
         padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
     }
     .imagenProyecto{
         height: 550px;
@@ -596,40 +682,50 @@ main{
         height: 130px;
         width: 130px;
         margin: 0;
-        margin-top: 30px;
         padding: 0;
-        z-index:10;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
     }
     .tituloProyecto{
         font-family: $letraSofre;
         font-size: 180%;
         font-weight: 500;
-        margin-bottom: 30px;
+        padding: 40px 170px;
     }
     .formProyecto{
-        margin-top: 120px;
-        padding-right: 150px;
-        padding-left: 100px;
         background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
     }
-    .mb-3{
-        box-sizing: 10px;
+    form{
+        padding: 0px 170px 40px 170px;
     }
     .form-control{
         border: solid $negro 0.5px;
         border-radius: 0px;
+        width: 500px;
+        height: 50px;
     }
     .form-control:focus{
         box-shadow: none;
         border: solid $rojo 1px;
     }
+    #Comentarios{
+        height: 100px;
+    }
     .btn-secondary{
         background-color: $rojo;
         border: solid $rojo 2px;
         border-radius: 104px;
-        padding-left: 250px;
-        padding-right: 250px;
-        margin: 50px;
+        padding-left: 220px;
+        padding-right: 220px;
     }
     .btn-secondary:hover{
         background-color: transparent;
@@ -642,55 +738,68 @@ main{
         margin: 0;
         padding: 0;
     }
+    .sectPrimQS{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .sectImgQS{
+        width: 50%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
     .imagenesQS{
-        width: 950px;
-        height: 550px;
+        width: 100%;
+        height: auto;
     }
     .seccionQS{
-        height: 550px;
+        width: 50%;
+        height: auto;
+        padding: 10px 100px 50px 100px;
+        margin: 0;
     }
     .iconoQS{
         height: 90px;
         width: 90px;
-        margin: 50px;
-        margin-left: 150px;
     }
     .logoQS{
         height: 90px;
         width: 120px;
-        margin: 50px;
-        margin-left: 250px;
+        margin-right: 50px;
     }
     .tituloQS{
         font-family: $letraSofre;
         color: $letrazul;
-        margin-left: 150px;
-        margin-right: 250px;
-        margin-top: 10px;
-        font-size: 250%;
+        padding: 15px 0px;
+        font-size: 220%;
     }
     .textoQS{
         font-family: $letraSofre;
         color: $letrazul;
-        margin-left: 150px;
-        font-size: 120%;
-        margin-top: 50px;
-        margin-right: 250px;
+        font-size: 110%;
+    }
+    .botones{
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
     }
     .linkBotones{
         text-decoration: none;
+        margin: 30px 0px 150px 0px;
+        padding: 30px 30px;
+        width: 100%;
     }
     .btn-light{
-        width: 300px;
+        width: 100%;
         height: 180px;
         border-radius: 15px;
         box-shadow: 2px 2px 3px rgb(232, 228, 228);
-        padding-left: 35px;
-        margin-top: -70px;
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 30px;
+        padding: 0px 35px;
+        margin: -80px 0px 0px 0px;
         background-color: white;
+        text-align: left;
     }
     .imagenBotones{
         width: 50px;
@@ -716,18 +825,24 @@ main{
     }
     .sectTreinta{
         background-color: $fondoClarito;
+        padding: 40px 150px;
     }
     .sectTextoTreinta{
-        padding-right: 0;
-        padding-left: 350px;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+    .sectImgTreinta{
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        height: auto;
     }
     .imagenTreinta{
-        margin-top: 70px;
-        margin-bottom: 70px;
-        padding-right: 250px;
-        padding-left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
     }
     .iconoTreinta{
         width: 60px;
@@ -750,11 +865,13 @@ main{
         padding-right: 70px;
     }
     .sectMngt{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin: 0px;
+        padding: 50px 150px;
+        height: auto;
+        width: 100%;
     }
     .sectIconMngt{
-        padding-left: 350px;
+        padding:0;
     }
     .iconoMngt{
         width: 60px;
@@ -779,25 +896,23 @@ main{
         border-radius: 50px;
     }
     .sectTextoMngt{
-        height: 600px;
+        padding-right: 30px;
+        padding-top: 150px;
+        height: auto;
     }
     .imagenMngt{
         width: 300px;
         height: 400px;
-        margin-top: 150px;
     }
     .nombreMngt{
         color: $letraverdeagua;
         font-family: $letraSofre;
-        margin-top: 150px;
-        margin-bottom: 20px;
         padding-left: 50px;
     }
     .textoMngt{
         color: $letrazul;
         font-family: $letraSofre;
         padding-left: 50px;
-        padding-right: 300px;
     }
     .cifrasClave{
         background-color: $verdeaguaoscuro;
@@ -805,7 +920,7 @@ main{
     .headerCC{
         margin-top: 50px;
         margin-bottom: 50px;
-        padding-left: 300px;
+        padding-left: 150px;
         width: 100%;
     }
     .iconoCC{
@@ -819,8 +934,7 @@ main{
         padding-left: 10px;
     }
     .sectCircCC{
-        padding-left: 250px;
-        padding-right: 250px;
+        padding: 0px 50px;
     }
     .casilleroCC{
         width: 200px;
@@ -881,7 +995,7 @@ main{
     .headerPartners{
         padding-top: 70px;
         padding-left: 250px;
-        width: 100;
+        width: 100%;
     }
     .iconoPartners{
         width: 70px;
@@ -895,27 +1009,29 @@ main{
         font-size: 210%;
     }
     .carousel-inner{
-        width: 60.6%;
+        width: 80%;
         overflow: hidden;
-        margin-left: 250px;
-        margin-right: 250px;
+        margin: 0px 120px;
+    }
+    .carousel-item{
+        width: 200px;
+        height: 70px;
+        margin: 10px 30px 10px 10px;
+        padding: 10px;
     }
     .img-carousel{
-        width: 180px;
-        height: 80px;
-        margin: 10px;
-        padding: 10px;
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
         filter: grayscale(100%);
     }
     .img-carousel:hover{
         filter: grayscale(0%);
     }
     .img-carousel-esp{
-        width: 180px;
-        height: 60px;
-        margin: 10px;
-        margin-top: 20px;
-        padding: 10px;
+        width: auto;
+        height: 100%;
+        padding: 0px 10px;
         filter: grayscale(100%);
     }
     .img-carousel-esp:hover{
@@ -923,14 +1039,12 @@ main{
     }
     .carousel-control-next{
         filter: invert(1) grayscale(100);
-        margin-right: 180px;
     }
     .carousel-control-next:hover{
         opacity: 0.5;
     }
     .carousel-control-prev{
         filter: invert(1) grayscale(100);
-        margin-left: 180px;
     }
     .carousel-control-prev:hover{
         opacity: 0.5;
@@ -972,8 +1086,9 @@ main{
       transition-duration: 0.6s;
     }
     .headerClientes{
-        margin-top: 70px;
-        margin-left: 250px;
+        padding: 70px 0px 50px 250px;
+        margin: 0;
+        width: 100%;
     }
     .iconoClientes{
         width: 80px;
@@ -992,19 +1107,69 @@ main{
         font-family: $letraSofre;
         font-size: 90%;
     }
+    .linkBtnQS{
+        text-decoration: none;
+        width: 300px;
+        width: auto;
+    }
+    .btn-outline-secondary{
+        padding: 10px 25px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .btn-outline-secondary:hover{
+        background-color: transparent;
+        color: $gris;
+    }
+    .sectionImgClientes{
+        margin: 70px 0px;
+        padding: 0px 100px;
+    }
+    .boxCliente{
+        width: 220px;
+        height: 110px;
+        margin: 10px 20px;
+    }
+    .imgCliente_alto{
+        width: auto;
+        height: 100%;
+        padding: 15px;
+    }
+    .imgCliente_ancho{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
     .sectCompr{
+        margin: 70px 0px;
+        padding: 0;
+    }
+    .headerCompromisos{
         background-color: $fondoVerde;
-        background-size: 50%;
+        padding-top: 30px;
+    }
+    .sectImgCompromisos{
+        width: 50%;
+    }
+    .sectTextoCompromisos{
+        width: 50%;
+        height: auto;
+        margin: 0;
+        padding: 0px 110px;
     }
     .AccQS{
-        padding-left: 170px;
-        padding-right: 170px;
+        padding: 0px;
+        margin: 0;
+        width: 100%;
     }
     .imagenesAccQS{
-        width: 950px;
-        height: 550px;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 50px;
+        left: 0px;
     }
     .iconoAccQS{
         width: 60px;
@@ -1026,8 +1191,9 @@ main{
         margin-bottom: 20px;
     }
     .accordion{
-        margin-bottom: 50px;
         font-family: $letraSofre;
+        width: 50%;
+        padding: 20px 100px;
     }
     .accordion-item{
         border: transparent;
@@ -1058,9 +1224,21 @@ main{
         color: $letrazul;
     }
     .proyecto{
-        margin: 70px;
-        margin-left: 120px;
+        margin: 90px 0px 150px 0px;
         padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
     }
     .imagenProyecto{
         height: 550px;
@@ -1072,40 +1250,50 @@ main{
         height: 130px;
         width: 130px;
         margin: 0;
-        margin-top: 30px;
         padding: 0;
-        z-index:10;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
     }
     .tituloProyecto{
         font-family: $letraSofre;
         font-size: 180%;
         font-weight: 500;
-        margin-bottom: 30px;
+        padding: 40px 170px;
     }
     .formProyecto{
-        margin-top: 120px;
-        padding-right: 150px;
-        padding-left: 100px;
         background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
     }
-    .mb-3{
-        box-sizing: 10px;
+    form{
+        padding: 0px 170px 40px 170px;
     }
     .form-control{
         border: solid $negro 0.5px;
         border-radius: 0px;
+        width: 500px;
+        height: 50px;
     }
     .form-control:focus{
         box-shadow: none;
         border: solid $rojo 1px;
     }
+    #Comentarios{
+        height: 100px;
+    }
     .btn-secondary{
         background-color: $rojo;
         border: solid $rojo 2px;
         border-radius: 104px;
-        padding-left: 250px;
-        padding-right: 250px;
-        margin: 50px;
+        padding-left: 220px;
+        padding-right: 220px;
     }
     .btn-secondary:hover{
         background-color: transparent;
@@ -1113,192 +1301,6 @@ main{
         border: solid $rojo 2px;
     }
 }
-.mainQH{
-    .imagenesQH{
-        width: 950px;
-        height: 550px;
-    }
-    .seccionQH{
-        height: 550px;
-    }
-    .iconoQH{
-        height: 90px;
-        width: 90px;
-        margin: 50px;
-        margin-left: 150px;
-    }
-    .logoQH{
-        height: 90px;
-        width: 120px;
-        margin: 50px;
-        margin-left: 250px;
-    }
-    .tituloQH{
-        font-family: $letraSofre;
-        color: $letrazul;
-        margin-left: 150px;
-        margin-right: 250px;
-        margin-top: 10px;
-        font-size: 250%;
-    }
-    .textoQH{
-        font-family: $letraSofre;
-        color: $letrazul;
-        margin-left: 150px;
-        font-size: 120%;
-        margin-top: 50px;
-    }
-    .linkBotones{
-        text-decoration: none;
-    }
-    .btn-light{
-        width: 300px;
-        height: 180px;
-        border-radius: 15px;
-        box-shadow: 2px 2px 3px rgb(232, 228, 228);
-        padding-left: 35px;
-        margin-top: -70px;
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 30px;
-        background-color: white;
-    }
-    .imagenBotones{
-        width: 50px;
-        height: 50px;
-        margin-left: 5px;
-        margin-bottom: 10px;
-    }
-    .textoBotones{
-        font-size: 1.1rem;
-        color: $letrazul;
-        padding: 0px;
-        margin: 0;
-        margin-left: 5px;
-    }
-    .btn-light:hover{
-        transform: scale(1.1);
-    }
-    .AccClarito{
-        background-color: $fondoClarito;
-    }
-    .imagenesAccQH{
-        width: 950px;
-        height: 550px;
-        margin-top: 70px;
-        margin-bottom: 70px;
-    }
-    .AccQH{
-        padding-left: 170px;
-        padding-right: 170px;
-    }
-    .iconoAccQH{
-        width: 60px;
-        height: 60px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .tituloAccQH{
-        color: $rojo;
-        font-family: $letraSofre;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 200%;
-    }
-    .textoAccQH{
-        color: $letrazul;
-        font-family: $letraSofre;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .accordion{
-        margin-bottom: 50px;
-        font-family: $letraSofre;
-    }
-    .accordion-item{
-        border: transparent;
-        border-bottom: solid 1px $letrazul;
-        border-radius: 0px;
-    }
-    .accordion-item:focus{
-        border-bottom: solid 1px $blanco;
-    }
-    .accordion-header{
-        color: $letrazul;
-        border-radius: 0px;  
-    }
-    .accordion-button{
-        color: $letrazul; 
-        font-weight: 600;
-        border-radius: 0px;
-        background-color: none;  
-    }
-    .accordion-button:focus{
-        color: $rojo;
-        border-bottom: solid 1px $rojo;
-        border-radius: 0px;
-        box-shadow: none;
-        background-color: $blanco;
-    }
-    .accordion-body{
-        color: $letrazul;
-    }
-    .proyecto{
-        margin: 70px;
-        margin-left: 120px;
-        padding: 0;
-    }
-    .imagenProyecto{
-        height: 550px;
-        width: 500px;
-        margin: 0;
-        padding: 0;
-    }
-    .iconoProyecto{
-        height: 130px;
-        width: 130px;
-        margin: 0;
-        margin-top: 30px;
-        padding: 0;
-        z-index:10;
-    }
-    .tituloProyecto{
-        font-family: $letraSofre;
-        font-size: 180%;
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-    .formProyecto{
-        margin-top: 120px;
-        padding-right: 150px;
-        padding-left: 100px;
-        background-color: $fondoClarito;
-    }
-    .mb-3{
-        box-sizing: 10px;
-    }
-    .form-control{
-        border: solid $negro 0.5px;
-        border-radius: 0px;
-    }
-    .form-control:focus{
-        box-shadow: none;
-        border: solid $rojo 1px;
-    }
-    .btn-secondary{
-        background-color: $rojo;
-        border: solid $rojo 2px;
-        border-radius: 104px;
-        padding-left: 250px;
-        padding-right: 250px;
-        margin: 50px;
-    }
-    .btn-secondary:hover{
-        background-color: transparent;
-        color: $rojo;
-        border: solid $rojo 2px;
-    }
-} 
 .mainTCN{
     margin: 0;
     padding: 0;
@@ -1306,55 +1308,68 @@ main{
         margin: 0;
         padding: 0;
     }
+    .sectPrimTCN{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .sectImgTCN{
+        width: 50%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
     .imagenesTCN{
-        width: 950px;
-        height: 550px;
+        width: 100%;
+        height: auto;
     }
     .seccionTCN{
-        height: 550px;
+        width: 50%;
+        height: auto;
+        padding: 10px 100px 50px 100px;
+        margin: 0;
     }
     .iconoTCN{
         height: 90px;
         width: 90px;
-        margin: 50px;
-        margin-left: 150px;
     }
     .logoTCN{
         height: 90px;
         width: 120px;
-        margin: 50px;
-        margin-left: 250px;
+        margin-right: 50px;
     }
     .tituloTCN{
         font-family: $letraSofre;
         color: $letrazul;
-        margin-left: 150px;
-        margin-right: 250px;
-        margin-top: 10px;
+        padding: 15px 0px;
         font-size: 250%;
     }
     .textoTCN{
         font-family: $letraSofre;
         color: $letrazul;
-        margin-left: 150px;
         font-size: 110%;
-        margin-top: 50px;
-        margin-right: 250px;
+    }
+    .botones{
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
     }
     .linkBotones{
         text-decoration: none;
+        margin: 30px 0px 150px 0px;
+        padding: 30px 30px;
+        width: 100%;
     }
     .btn-light{
-        width: 300px;
-        height: 180px;
+        width: 100%;
+        height: auto;
         border-radius: 15px;
         box-shadow: 2px 2px 3px rgb(232, 228, 228);
-        padding-left: 35px;
-        margin-top: -70px;
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 30px;
+        padding: 0px 35px;
+        margin: -80px 0px 0px 0px;
         background-color: white;
+        text-align: left;
     }
     .imagenBotones{
         width: 50px;
@@ -1380,11 +1395,11 @@ main{
     }
     .sectOp{
         background-color: $fondoClarito;
-        height: 500px;
+        height: auto;
     }
     .headerOp{
-        margin-top: 50px;
-        margin-left: 150px;
+        padding: 50px 700px 50px 150px;
+        width: 100%;
     }
     .iconoOp{
         width: 60px;
@@ -1414,18 +1429,17 @@ main{
         font-size: 90%;
     }
     .cuadrosOp{
-        width: 600px;
-        height: 200px;
+        width: 50%;
+        height: auto;
         background-color: $blanco;
-        margin: 10px;
-        margin-top: -100px;
+        margin: 30px;
         border-radius: 15px;
         box-shadow: 2px 2px 3px rgb(232, 228, 228);
     }
     .imagenesCuadrosOp{
-        width: 550px;
-        height: 100px;
-        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px 80px;
     }
     .textoCuadrosOp{
         color: $violeta;
@@ -1437,10 +1451,10 @@ main{
     .sectBeneficios{
         background-color: $violeta;
         margin-top: 30px;
+        padding: 30px 100px;
     }
     .headerTCNBeneficios{
         margin: 50px;
-        padding-left: 250px;
     }
     .tituloylogoTCNBeneficios{
         margin-bottom: 30px;
@@ -1462,8 +1476,6 @@ main{
         padding-top: 10px;
     }
     .sectCircTCN{
-        padding-left: 250px;
-        padding-right: 250px;
         margin-bottom: 50px;
     }
     .casilleroTCN{
@@ -1482,13 +1494,25 @@ main{
         padding-top: 20px;
     }
     .CVTCN{
-        margin: 70px;
-        margin-left: 120px;
+        margin: 90px 0px 150px 0px;
         padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgCVTCN{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcCVTCN{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
     }
     .imagenformTCN{
-        height: 550px;
-        width: 500px;
+        height: auto;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
@@ -1496,40 +1520,60 @@ main{
         height: 130px;
         width: 130px;
         margin: 0;
-        margin-top: 30px;
         padding: 0;
-        z-index:10;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
     }
     .tituloformTCN{
         font-family: $letraSofre;
         font-size: 180%;
         font-weight: 500;
-        margin-bottom: 30px;
+        padding: 40px 170px;
     }
     .formTCN{
-        margin-top: 120px;
-        padding-right: 150px;
-        padding-left: 100px;
         background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
     }
-    .mb-3{
-        box-sizing: 10px;
+    form{
+        padding: 0px 100px 40px 100px;
     }
     .form-control{
         border: solid $negro 0.5px;
         border-radius: 0px;
+        width: 500px;
+        height: 50px;
     }
     .form-control:focus{
         box-shadow: none;
         border: solid $violeta 1px;
     }
+    #Mensaje{
+        height: 100px;
+    }
+    #Nombre{
+        width: 230px;
+        margin: 0px 40px 0px 0px;
+    }
+    #Apellido{
+        width: 230px;  
+    }
+    #CV{
+        height: auto;
+    }
     .btn-secondary{
         background-color: $violeta;
         border: solid $violeta 2px;
         border-radius: 104px;
-        padding-left: 250px;
-        padding-right: 250px;
-        margin: 50px;
+        padding-left: 220px;
+        padding-right: 220px;
     }
     .btn-secondary:hover{
         background-color: transparent;
@@ -1537,4 +1581,2325 @@ main{
         border: solid $violeta 2px;
     }
 }   
+.mainBlog{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+    .sectPrimBlog{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .sectImgBlog{
+        width: 50%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .imagenesBlog{
+        width: 100%;
+        height: auto;
+    }
+    .seccionBlog{
+        width: 50%;
+        height: auto;
+        padding: 50px 100px 50px 100px;
+        margin: 0;
+    }
+    .iconoBlog{
+        height: 90px;
+        width: 90px;
+    }
+    .logoBlog{
+        height: 90px;
+        width: 120px;
+        margin-right: 50px;
+    }
+    .tituloBlog{
+        font-family: $letraSofre;
+        color: $letrazul;
+        padding: 15px 0px;
+        font-size: 250%;
+    }
+    .textoBlog{
+        font-family: $letraSofre;
+        color: $letrazul;
+        font-size: 120%;
+    }
+    .linkBtn{
+        text-decoration: none;
+        width: auto;
+        margin: 50px 0px;
+    }
+    .btn-outline-secondary{
+        padding: 10px 25px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .btn-outline-secondary:hover{
+        border: solid 1px $azul;
+        color: $azul;
+        background-color: transparent;
+    }
+    .activeBtnBlog{
+        border: solid 1px $azul !important;
+        color: $azul !important;
+        background-color: transparent !important;
+    }
+    .sect_Blog{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        a{
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+        .notColor{
+            background-color: $fondoClarito;
+        }
+        .sectNotBlog{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+        .div_ImgNotBlog{
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            height: auto;
+        }
+        .imagenesBlog{
+            width: 100%;
+            margin: 20px 0px;
+        }
+        .notBlog{
+            height: auto;
+            width: 50%;
+            padding: 0px 120px;
+            margin: 0;
+            .tituloNotBlog{
+                font-family: $letraSofre;
+                color: $azul;
+                font-size: 180%;
+                font-weight: 600;
+            }
+            .textoNotBlog{   
+                color: $letrazul;
+            }
+            .textoNotBlogClarito{
+                color: $letraclarita;
+            }
+            .espaciado{
+                padding-left: 5px;
+            }
+            .btn-info{
+                background-color: $azul;
+                border: solid 2px $azul;
+                border-radius: 80px;
+                margin-top: 20px;
+                padding: 10px;
+                width: 200px;
+                color: $blanco;
+            }
+            .btn-info:hover{
+                background-color: transparent;
+                color: $azul;
+            }
+        }
+        
+    }
+    .proyecto{
+        margin: 90px 0px 150px 0px;
+        padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .imagenProyecto{
+        height: 550px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoProyecto{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
+    }
+    .tituloProyecto{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        padding: 40px 170px;
+    }
+    .formProyecto{
+        background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
+    }
+    form{
+        padding: 0px 170px 40px 170px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+        width: 500px;
+        height: 50px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $rojo 1px;
+    }
+    #Comentarios{
+        height: 100px;
+    }
+    .btn-secondary{
+        background-color: $rojo;
+        border: solid $rojo 2px;
+        border-radius: 104px;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $rojo;
+        border: solid $rojo 2px;
+    }
+} 
+.mainNoticia{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+    .notColor{
+        margin: 0;
+        padding: 0;
+        background-color: $fondoClarito;
+        .sectNot{
+            padding: 0px 100px;
+            width: 50%;
+        }
+        .imagenesBlog{
+            width: 100%;
+        }
+        .btnBack{
+            text-decoration: none;
+            color: $letrazul;
+            margin-bottom: 50px;
+        }
+        .btnBack:hover{
+            color: $azul;
+        }
+        .div_ImgNoticia{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        }
+        .tituloNotBlog{
+        font-family: $letraSofre;
+        color: $azul;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 210%;
+        }
+        .textoNotBlog{   
+            color: $letrazul;
+        }
+        .textoNotBlogClarito{
+            color: $letraclarita;
+        }
+        .textolinks{
+            color: $letrazul;
+            font-family: $letraSofre;
+            font-size: 90%;
+            margin: 0;
+        }
+        .espaciado{
+            padding-left: 5px;
+        }
+        .imgLinks{
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        .hr_lineagruesa{
+            border: solid 0,3px $letrazul;
+            opacity: 1;
+            width: 100%140px;
+        }
+    }
+    .sectionNoticia{
+        margin-top: 90px;
+        .parrafosNoticia{
+            padding: 0px 50px 0px 100px;
+            border-right: solid 1px $gris;
+            color: $letrazul;
+            .subLink{
+                color: $letraceleste;
+                font-weight: 700;
+                text-decoration: none;
+            }
+            .subLink:hover{
+                text-decoration: underline;
+            }
+            .separacion{
+                margin-top: 50px;
+            }
+        }
+        .titulosNoticias{
+            font-family: $letraSofre;
+            font-size: 120%;
+            font-weight: 600;
+            margin: 15px 0px;
+        }
+        .subtitulosNoticias{
+            font-family: $letraSofre;
+            font-weight: 600;
+            font-size: 110%;
+        }
+        .linkNoticias{
+            text-decoration: none;
+            color: $letraceleste;
+        }
+        .imgLinks{
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        .hr_lineafinita{
+            border: solid 0,3px $letrazul;
+            opacity: 0.3;
+        }
+    }
+    .sectionLinks{
+        padding: 0px 100px 0px 50px;
+        .linkBox{
+            border-bottom: solid 1px $letrazul;
+            margin-bottom: 70px;
+            padding-bottom: 30px;
+        }
+        .tituloLinks{
+            color: $azul;
+            font-family: $letraSofre;
+            font-weight: 600;
+            margin-bottom: 50px;
+        }
+        .hr_lineafinita{
+            border: solid 0,3px $letrazul;
+            opacity: 0.3;
+            margin-bottom: 7px;
+            margin-top: 7px;
+        }
+        .linkSectLink{
+            text-decoration: none;
+            color: $letrazul;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .linkSectLink:hover{
+            color: $azul;
+        }  
+    }
+    .relacionados{
+        background-color: $fondoClarito;
+        padding: 70px 120px;
+        margin-top: 50px;
+        .textoRel{
+            color: $letrazul;
+        }
+        .tituloRel{
+            color: $azul;
+            font-family: $letraSofre;
+            font-size: 200%;
+        }
+    }
+    .sectNoticias{
+        padding: 20px 80px;
+        .boxNoticiaRel{
+            height: 500px;
+            width: 400px;
+            margin: 20px;
+            border-bottom: solid $azul 2px;
+            box-shadow: 1px 2px 2px rgb(232, 228, 228);
+            a{
+                text-decoration: none;
+            }
+        }
+        .boxImgNoticiaRel{
+            margin-right: 50px;
+            width: 400px;
+            height: 200px;
+            overflow: hidden;
+        }
+        .imgNoticiaRel{
+            width: 400px;
+            height: 200px;
+        }
+        .textoNoticiaBoxRel{
+            padding: 20px;
+        }
+        .textoNoticiaRel{
+            color: $letrazul;
+            padding-top: 10px;
+        }
+        .tituloNoticiaRel{
+            color: $azul;
+            font-weight: 500;
+            font-family: $letraSofre;
+        }
+        .boxNoticiaRel:hover{
+            .imgNoticiaRel{
+                transform: scale(1.2);
+                transition-duration: 1s;
+            }
+            .textoNoticiaRel{
+                    color: rgb(53, 110, 185);
+            }
+        }
+    }
+    .proyecto{
+        margin: 90px 0px 150px 0px;
+        padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .imagenProyecto{
+        height: 550px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoProyecto{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
+    }
+    .tituloProyecto{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        padding: 40px 170px;
+    }
+    .formProyecto{
+        background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
+    }
+    form{
+        padding: 0px 170px 40px 170px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+        width: 500px;
+        height: 50px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $rojo 1px;
+    }
+    #Comentarios{
+        height: 100px;
+    }
+    .btn-secondary{
+        background-color: $rojo;
+        border: solid $rojo 2px;
+        border-radius: 104px;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $rojo;
+        border: solid $rojo 2px;
+    }
+}
+@media (max-width: 1330px){
+    .mainInicio{
+        .linkBotones{
+            padding: 0px 10px;
+            }
+        .btn-light{
+            padding: 15px;
+            padding-top: 20px;
+            height: 220px;
+        }
+        .imagenOportunidades{
+            height: 400px;
+            width: 400px;
+        }
+        .iconoOportunidades{
+            height: 120px;
+            width: 120px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+        }
+        .cuadroOportunidades{
+            width: 450px;
+            padding: 80px 40px 20px 40px;
+            margin: 0;
+            position: relative;
+            top: 70px;
+            left: -120px;
+        }
+    }
+    .mainQH{
+        .tituloQH{
+            font-size: 190%;
+        }
+        .textoQH{
+            font-size: 100%;
+        }
+        .linkBotones{
+            padding: 0px 10px;
+            }
+        .btn-light{
+            padding: 15px;
+            padding-top: 20px;
+            height: 220px;
+        }
+        .sect_Acc{
+            .AccQH{
+                padding: 50px;
+            }
+        }
+    }
+    .mainQS{
+        .tituloQS{
+            font-size: 190%;
+        }
+        .textoQS{
+            font-size: 100%;
+        }
+        .linkBotones{
+            padding: 0px 10px;
+            }
+        .btn-light{
+            padding: 15px;
+            padding-top: 20px;
+            height: 220px;
+        }
+    }
+    .mainTCN{
+        .linkBotones{
+            padding: 0px 10px;
+            }
+        .btn-light{
+            padding: 15px;
+            padding-top: 20px;
+            height: 220px;
+        }
+    }
+    
+}  
+@media (max-width: 1200px){
+    .mainInicio{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .beneficiosEncabezado{
+            padding: 0px 70px;
+        }
+        .imagenOportunidades{
+            height: 400px;
+            width: 400px;
+        }
+        .iconoOportunidades{
+            height: 120px;
+            width: 120px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+        }
+        .cuadroOportunidades{
+            width: 450px;
+            padding: 80px 40px 20px 40px;
+            margin: 0;
+            position: relative;
+            top: 70px;
+            left: -120px;
+        }
+        .textoOportunidadesNoColor{
+            font-size: 170%;
+            font-weight: 400;
+        }
+        .textoOportunidadesColor{
+            font-weight: 600;
+            font-size: 170%;
+        }
+        .btn-primary{
+            margin-left: 0px;
+        }
+        .proyecto{
+            padding: 40px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }
+    }
+    .mainQH{
+        .seccionQH{
+            padding: 20px;
+            margin: 40px 0px;
+        }
+        .tituloQH{
+            font-size: 180%;
+        }
+        .textoQH{
+            font-size: 100%;
+        }
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .sect_Acc{
+            .AccQH{
+                padding: 30px;
+            }
+            .AccClarito{
+                margin-bottom: 0;
+            }
+        }
+        .proyecto{
+            padding: 40px;
+            margin: 0;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }
+    }
+    .mainQS{
+        .seccionQS{
+            padding: 20px;
+            margin: 40px 0px;
+        }
+        .tituloQS{
+            font-size: 180%;
+        }
+        .textoQS{
+            font-size: 100%;
+        }
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .sectTreinta{
+            padding: 40px;
+        }
+        .tituloTreinta{
+            font-size: 190%;
+            padding: 0px;
+            margin: 0;
+        }
+        .textoTreinta{
+            padding: 0px;
+            font-size: 90%;
+        }
+        .sectMngt{
+            padding: 40px 70px;
+        }
+        .sectTextoMngt{
+            padding-right: 0px;
+            padding-top: 150px;
+            margin-top: 20px;
+        }
+        .headerCC{
+            padding-left: 70px;
+        }
+        .iconoMundo{
+            margin-left: 70px;
+        }
+        .tituloMundo{
+            padding-left: 70px;
+        }
+        .textoMundo{
+            padding-left: 70px;
+        }
+        .headerPartners{
+            padding-top: 70px;
+            padding-left: 70px;
+            width: 100%;
+        }
+        .headerClientes{
+            margin: 0;
+            padding: 30px 70px;
+        }
+        .sectionImgClientes{
+            margin: 30px 0px;
+            padding: 0px 10px;
+        }
+        .boxCliente{
+            width: 150px;
+            height: 70px;
+            margin: 0px;
+        }
+        .proyecto{
+            padding: 40px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }
+    }
+    .mainTCN{
+        .sectImgTCN{
+            margin-top: 60px;
+        }
+        .seccionTCN{
+            padding: 30px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+        .tituloTCN{
+            font-size: 200%;
+        }
+        .textoTCN{
+            font-size: 90%;
+        }
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .headerOp{
+            padding: 40px;
+            padding-right: 300px;
+        }
+        .cuadrosOp{
+            margin: 20px;
+        }
+        .imagenesCuadrosOp{
+            padding: 5px 20px;
+        }
+        .sectBeneficios{
+            padding: 0;
+            margin: 0;
+        }
+        .headerTCNBeneficios{
+            margin: 0px;
+            margin-top: 20px;
+            padding: 0px 40px;
+        }
+        .iconoTCNBeneficios{
+            margin: 20px 0px;
+        }
+        .tituloylogoTCNBeneficios{
+            margin-bottom: 20px;
+            padding: 0px 20px;
+        }
+        .tituloTCNBeneficios{
+            margin: 0;
+            padding: 0;
+            padding-left: 15px;
+        }
+        .textoTCNBeneficios{
+            margin: 0;
+            padding: 0px 20px;
+        }
+        .sectCircTCN{
+            margin: 20px 0px 0px 0px;
+            padding: 0;
+        }
+        .CVTCN{
+            padding: 40px;
+        }
+        .imagenformTCN{
+            height: auto;
+            width: 100%;
+        }
+        .iconoformTCN{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloformTCN{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formTCN{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        #Nombre{
+            width: 170px;
+            margin: 0px 20px 0px 0px;
+        }
+        #Apellido{
+            width: 150px;  
+        }
+        .btn-secondary{
+            padding: 15px 170px;
+        }
+    }
+    .mainBlog{
+        .imagenesBlog{
+            margin-top: 60px;
+        }
+        .seccionBlog{
+            padding: 0px 50px;
+            margin-top: 60px;
+        }
+        .tituloBlog{
+            font-size: 200%;
+        }
+        .textoBlog{
+            font-size: 100%;
+        }
+        .linkBtn{
+            margin: 10px;
+            padding: 0;
+        }
+        .sect_Blog{
+            .notBlog{
+                padding: 0px 30px;
+            }
+            .sectNotBlog{
+                margin: 20px 0px;
+            }
+        }
+        .proyecto{
+            padding: 40px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }  
+    }
+    .mainNoticia{
+        .notColor{
+            .noticia{
+                margin: 0;
+                padding: 0;
+            }
+            .sectNot{
+                padding: 20px 40px;
+                margin-top: 60px;
+            }
+            .btnBack{
+                margin-bottom: 20px;
+            }
+            .div_ImgNoticia{
+            margin: 0px;
+            padding: 0;
+            }
+            .imagenesBlog{
+                margin-top: 60px;
+            }
+            .tituloNotBlog{
+            margin-bottom: 10px;
+            font-size: 190%;
+            }
+        }
+        .sectionNoticia{
+            margin-top: 40px;
+            .parrafosNoticia{
+                padding: 0px 20px;
+                border-right: none;
+            }
+            .titulosNoticias{
+                font-size: 100%;
+            }
+        }
+        .sectionLinks{
+            padding: 0px 20px;
+            margin-top: 20px;
+            .linkBox{
+                margin-bottom: 50px;
+            }
+            .tituloLinks{
+                margin-bottom: 30px;
+            }
+        }
+        .relacionados{
+            padding: 30px;
+            margin-top: 0px;
+            .tituloRel{
+                font-size: 150%;
+            }
+        }
+        .sectNoticias{
+            padding: 20px;
+            .boxNoticiaRel{
+                height: auto;
+                width: 280px;
+                margin: 20px;
+            }
+            .boxImgNoticiaRel{
+                margin-right: 0px;
+                width: 280px;
+                height: 140px;
+            }
+            .imgNoticiaRel{
+                width: 100%;
+                height: auto;
+            }
+            .textoNoticiaBoxRel{
+                padding: 20px;
+            }
+            .textoNoticiaRel{
+                color: $letrazul;
+                padding-top: 10px;
+                font-size: 80%;
+            }
+            .tituloNoticiaRel{
+                color: $azul;
+                font-weight: 500;
+                font-family: $letraSofre;
+                font-size: 110%;
+            }
+        }
+        .proyecto{
+            padding: 40px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .mainInicio{
+        .solucionesHeader{
+            padding: 0px 20px;
+            margin: 0px;
+        }
+        .textoSolucionesNoColor{
+            font-size: 150%;
+            margin: 20px 0px 0px 20px;
+        }
+        .textoSolucionesColor{
+            font-size: 150%;
+            margin: 0px 20px;
+        }
+        .imagenOportunidades{
+            height: 250px;
+            width: 250px;
+        }
+        .iconoOportunidades{
+            height: 120px;
+            width: 120px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+        }
+        .cuadroOportunidades{
+            width: 400px;
+            padding: 80px 40px 20px 40px;
+            margin: 0;
+            position: relative;
+            top: 70px;
+            left: -120px;
+        }
+        .textoOportunidadesNoColor{
+            font-size: 170%;
+            font-weight: 400;
+        }
+        .textoOportunidadesColor{
+            font-weight: 600;
+            font-size: 170%;
+        }
+        .btn-primary{
+            margin-left: 0px;
+        }
+        .insights{
+            background-image: none;
+        }
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainQH{
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainQS{
+        .sectMngt{
+            padding: 40px 60px;
+        }
+        .iconoMngt{
+            width: 50px;
+            height: 50px;
+            margin: 10px 0px;
+        }
+        .tituloMngt{
+            font-size: 190%;
+        }
+        .sectTextoMngt{
+            padding-right: 0px;
+            padding-top: 0px;
+            margin-top: 20px;
+        }
+        .imagenMngt{
+            width: 200px;
+            height: 300px;
+        }
+        .nombreMngt{
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+        .textoMngt{
+            padding-left: 30px;
+        }
+        .sectMundo{
+            background-image: none;
+            background-color: $fondoVerde;
+            height: auto;
+            padding: 0;
+        }
+        .seccTextoMundo{
+            padding: 0;
+            margin: 0;
+        }
+        .iconoMundo{
+            width: 70px;
+            height: 70px;
+            margin-top: 70px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        .tituloMundo{
+            color: $letraverdeagua;
+            font-family: $letraSofre;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 200%;
+            padding-left: 20px;
+        }
+        .textoMundo{
+            background-image: url(../images/quienessomos/Sofre-mundo_pequeño.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+            color: $blanco;
+            font-family: $letraSofre;
+            padding-left: 20px;
+            margin: 0;
+            font-size: 150%;
+        }
+        .sectCompr{
+            margin: 30px 0px;
+            padding: 0;
+        }
+        .headerCompromisos{
+            background-color: transparent;
+            padding-top: 30px;
+        }
+        .sectImgCompromisos{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .sectTextoCompromisos{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            margin-top: 20px;
+            padding: 0px 30px;
+        }
+        .textoAccQS{
+            color: $letrazul;
+            font-family: $letraSofre;
+            margin: 10px 0px;
+        }
+        .accordion{
+            font-family: $letraSofre;
+            width: 100%;
+            padding: 20px 30px;
+        }
+        .accordion-body{
+            font-size: 80%;
+        }
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainTCN{
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        #Nombre{
+            width: 250px;
+            margin: 0px;
+        }
+        #Apellido{
+            width: 250px;  
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainBlog{
+        .sect_Blog{
+        .div_ImgNotBlog{
+            width: 100%;
+        }
+        .notBlog{
+            width: 100%;
+            padding: 0px 20px;
+            .tituloNotBlog{
+                font-size: 150%;
+            }
+            .textoNotBlog{   
+                font-size: 90%;
+            }
+            .textoNotBlogClarito{
+                font-size: 90%;
+            }
+        }
+    }
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainNoticia{
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .mainInicio{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+            width: 50%;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .soluciones{
+            background-size: 80%;
+        }
+        .solucionesHeader{
+            padding: 0px;
+            margin: 0px;
+        }
+        .imagenSoluciones{
+            height: 120px;
+            width: 120px;
+            margin-left: 20px;
+        }
+        .textoSolucionesNoColor{
+            font-size: 110%;
+        }
+        .textoSolucionesColor{
+            font-size: 110%;
+        }
+        .boxSoluciones{
+            height: 160px;
+            width: 130px;
+            margin: 20px 0px;
+        }
+        .iconoSoluciones{
+            height: 50px;
+            width: 60px;
+        }
+        .parrafoSoluciones{
+            margin: 10px;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+        .linkSoluciones{
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .beneficiosEncabezado{
+            padding: 0px 40px;
+        }
+        .imagenBeneficios{
+            height: 120px;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        .textoBeneficiosNoColor{
+            font-size: 120%;
+            margin: 0;
+        }
+        .textoBeneficiosColor{
+            font-size: 120%;
+            margin: 10px 0px;
+        }
+        .boxBeneficios{
+            height: 300px;
+            width: 150px;
+            padding-top: 50px;
+        }
+        .parrafoBeneficios{
+            font-size: 0.9rem;
+        }
+        .oportunidades{
+            padding: 0px 10px;
+            margin: 0;
+        }
+        .imagenOportunidades{
+            height: auto;
+            width: 100%;
+        }
+        .iconoOportunidades{
+            height: 110px;
+            width: 110px;
+            position: relative;
+            top: 10px;
+            left: 0px;
+            z-index: 10;
+            margin-left: 30px;
+        }
+        .cuadroOportunidades{
+            width: 100%;
+            height: auto;
+            padding: 180px 30px 20px 30px;
+            position: relative;
+            top: -150px;
+            left: 0px;
+        }
+        .textoOportunidadesNoColor{
+            font-size: 170%;
+        }
+        .textoOportunidadesColor{
+            font-weight: 600;
+            font-size: 170%;
+        }
+        .btn-primary{
+            margin-left: 0px;
+        }
+        .carousel-inner{
+            width: 80%;
+            overflow: hidden;
+            margin: 0px 20px;
+        }
+        .carousel-item{
+            width: 180px;
+            height: 60px;
+        }
+        .sectTituloPartners{
+            padding: 0px 20px;
+        }
+        .tituloPartners{
+            font-size: 180%;
+        }
+        .insightHeader{
+            padding: 0px 20px;
+        }
+        .tituloInsights{
+            margin: 20px 0px;
+        }
+        .sectBoxNot{
+            padding: 0px 10px;
+        }
+        .boxNoticia{
+            margin: 20px;
+            height: 370px;
+            width: 280px;
+            border-bottom: solid $azul 2px;
+            box-shadow: 1px 2px 2px rgb(232, 228, 228);
+            a{
+                text-decoration: none;
+            }
+        }
+        .boxImgNoticia{
+            width: 280px;
+            height: 140px;
+            overflow: hidden;
+        }
+        .imgNoticia{
+            width: 280px;
+            height: 140px;
+        }
+        .proyecto{
+            padding: 10px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 200px;
+            height: 30px;
+        }
+        .btn-secondary{
+            padding: 0px 50px;
+        }
+    }
+    .mainQH{
+        .sectImgSol{
+            width: 100%;
+            margin-top: 60px;
+        }
+        .seccionQH{
+            width: 100%;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+        }
+        .tituloQH{
+            font-size: 200%;
+            text-align: center;
+        }
+        .textoQH{
+            font-size: 110%;
+            text-align: center;
+        }
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: 0px 0px 50px 0px;
+            padding: 30px 15px;
+            width: 50%;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .sect_Acc{
+            .AccClarito{
+                margin: 0px;
+            }
+            .div_ImgAccQH{
+                width: 100%;
+            }
+            .AccQH{
+                width: 100%;
+                height: auto;
+                padding: 30px;
+            }
+            .iconoAccQH{
+                width: 50px;
+                height: 50px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .tituloAccQH{
+                color: $rojo;
+                font-family: $letraSofre;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 150%;
+            }
+            .textoAccQH{
+                font-size: 80%;
+            }
+        }  
+        .proyecto{
+            padding: 10px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 200px;
+            height: 30px;
+        }
+        .btn-secondary{
+            padding: 0px 50px;
+        }
+    }
+    .mainQS{
+        .sectImgQS{
+            width: 100%;
+            margin-top: 60px;
+        }
+        .seccionQS{
+            width: 100%;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+        }
+        .tituloQS{
+            font-size: 200%;
+            text-align: center;
+        }
+        .textoQS{
+            font-size: 110%;
+            text-align: center;
+        }
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+            width: 50%;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .sectTreinta{
+            background-color: $fondoClarito;
+            padding: 30px;
+            width: 100%;
+        }
+        .sectImgTreinta{
+            width: 100%;
+        }
+        .sectTextoTreinta{
+            width: 100%;
+        }
+        .iconoTreinta{
+            margin: 20px;
+        }
+        .tituloTreinta{
+            font-size: 190%;
+            padding: 0px 20px;
+        }
+        .textoTreinta{
+            padding: 0px 20px;
+            font-size: 90%;
+        }
+        .sectMngt{
+            padding: 30px;
+        }
+        .iconoMngt{
+            width: 50px;
+            height: 50px;
+            margin: 10px 0px;
+        }
+        .tituloMngt{
+            font-size: 190%;
+        }
+        .sectTextoMngt{
+            padding-right: 0px;
+            padding-top: 0px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .imagenMngt{
+            width: 200px;
+            height: 300px;
+        }
+        .nombreMngt{
+            padding-left: 0px;
+            margin-top: 20px;
+        }
+        .textoMngt{
+            padding-left: 0px;
+        }
+        .headerCC{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-left: 10px;
+        }
+        .sectCircCC{
+            padding: 0px 10px;
+        }
+        .casilleroCC{
+            width: 120px;
+            height: auto;
+        }
+        .circuloCC{
+            width: 100px;
+            height: 100px;
+            border-radius: 150px;
+        }
+        .tituloCircCC{
+            font-size: 180%;
+            font-weight: 500;
+        }
+        .textoCircCC{
+            font-size: 90%;
+        }
+        .headerPartners{
+            padding-top: 70px;
+            padding-left: 10px;
+            width: 100%;
+        }
+        .carousel-inner{
+            width: 80%;
+            overflow: hidden;
+            margin: 0px 20px;
+        }
+        .carousel-item{
+            width: 180px;
+            height: 60px;
+        }
+        .headerClientes{
+            padding: 20px;
+            margin: 0;
+            width: 100%;
+        }
+        .proyecto{
+            padding: 10px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 200px;
+            height: 30px;
+        }
+        .btn-secondary{
+            padding: 0px 50px;
+        }
+    }
+    .mainTCN{
+        .sectImgTCN{
+            width: 100%;
+            margin-top: 60px;
+        }
+        .seccionTCN{
+            width: 100%;
+            padding: 10px 30px;
+            margin-bottom: 40px;
+        }
+        .logoTCN{
+            margin-right: 0px;
+        }
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+            width: 50%;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 1rem;
+        }
+        .headerOp{
+            padding: 20px;
+        }
+        .cuadrosOp{
+            width: 100%;
+            height: auto;
+            background-color: $blanco;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 3px rgb(232, 228, 228);
+        }
+        .imagenesCuadrosOp{
+            padding: 5px 20px;
+        }
+        .sectBeneficios{
+            padding: 0;
+            margin: 0;
+        }
+        .headerTCNBeneficios{
+            margin: 0px;
+        }
+        .iconoTCNBeneficios{
+            margin: 20px 0px;
+        }
+        .tituloylogoTCNBeneficios{
+            margin-bottom: 20px;
+            padding: 0px 20px;
+        }
+        .tituloTCNBeneficios{
+            margin: 0;
+            padding: 0;
+        }
+        .textoTCNBeneficios{
+            margin: 0;
+            padding: 0px 20px;
+        }
+        .sectCircTCN{
+            margin: 20px 0px 0px 0px;
+            padding: 0;
+        }
+        .casilleroTCN{
+            width: 150px;
+            height: auto;  
+        }
+        .imagenCircTCN{
+            width: 100px;
+            height: 100px;
+        }
+        .textoCircTCN{
+            font-size: 80%;
+        }
+        .CVTCN{
+            padding: 10px;
+        }
+        .imagenformTCN{
+            height: auto;
+            width: 100%;
+        }
+        .iconoformTCN{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloformTCN{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formTCN{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 200px;
+            height: 30px;
+        }
+        #Nombre{
+            width: 200px;
+            margin: 0px;
+        }
+        #Apellido{
+            width: 200px;  
+        }
+        .btn-secondary{
+            padding: 0px 50px;
+        }
+    }
+    .mainBlog{
+        .sectImgBlog{
+            width: 100%;
+        }
+        .imagenesBlog{
+            margin-top: 60px;
+        }
+        .seccionBlog{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            margin: 0;
+        }
+        .logoBlog{
+            margin-right: 0px;
+        }
+        .proyecto{
+            padding: 10px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 200px;
+            height: 30px;
+        }
+        .btn-secondary{
+            padding: 0px 50px;
+        }
+    }
+    .mainNoticia{
+        .notColor{
+            .noticia{
+                margin: 0;
+                padding: 0;
+            }
+            .sectNot{
+                padding: 0px 20px;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .btnBack{
+                margin-bottom: 20px;
+            }
+            .btnBack:hover{
+                color: $azul;
+            }
+            .div_ImgNoticia{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            }
+            .imagenesBlog{
+                margin-top: 60px;
+            }
+            .tituloNotBlog{
+            margin-bottom: 10px;
+            font-size: 190%;
+            }
+        }
+        .sectionNoticia{
+            margin-top: 40px;
+            .parrafosNoticia{
+                padding: 0px 20px;
+                border-right: none;
+            }
+            .titulosNoticias{
+                font-size: 100%;
+            }
+        }
+        .sectionLinks{
+            padding: 0px 20px;
+            margin-top: 20px;
+            .linkBox{
+                margin-bottom: 50px;
+            }
+            .tituloLinks{
+                margin-bottom: 30px;
+            }
+        }
+        .relacionados{
+            padding: 30px;
+            margin-top: 0px;
+            .tituloRel{
+                font-size: 150%;
+            }
+        }
+        .sectNoticias{
+            padding: 0px;
+            .boxNoticiaRel{
+                height: auto;
+                width: 280px;
+                margin: 10px;
+            }
+            .boxImgNoticiaRel{
+                margin-right: 0px;
+                width: 280px;
+                height: 140px;
+            }
+            .imgNoticiaRel{
+                width: 100%;
+                height: auto;
+            }
+            .textoNoticiaBoxRel{
+                padding: 20px;
+            }
+            .textoNoticiaRel{
+                color: $letrazul;
+                padding-top: 10px;
+                font-size: 80%;
+            }
+            .tituloNoticiaRel{
+                color: $azul;
+                font-weight: 500;
+                font-family: $letraSofre;
+                font-size: 110%;
+            }
+        }
+        .proyecto{
+            padding: 10px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 200px;
+            height: 30px;
+        }
+        .btn-secondary{
+            padding: 0px 50px;
+        }
+    }
+}
+@media (max-width: 576px){
+    .mainInicio{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+        .textoOportunidadesNoColor{
+            font-size: 150%;
+        }
+        .textoOportunidadesColor{
+            font-weight: 600;
+            font-size: 150%;
+        }
+        .textoOportunidadesDescrip{
+            font-size: 90%;
+        }
+    }
+    .mainQH{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+    }
+    .mainQS{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+    }
+    .mainTCN{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+    }
+    
+}
+@media (max-width: 392px){
+    .mainInicio{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+        .textoOportunidadesNoColor{
+            font-size: 110%;
+        }
+        .textoOportunidadesColor{
+            font-weight: 600;
+            font-size: 110%;
+        }
+        .textoOportunidadesDescrip{
+            font-size: 90%;
+        }
+    }
+    .mainQH{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+    }
+    .mainQS{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+    }
+    .mainTCN{
+        .botones{
+            padding: 0px 5px;
+        }
+        .linkBotones{
+            margin: -20px 0px 50px 0px;
+            padding: 30px 15px;
+        }
+        .btn-light{
+            padding: 10px 5px;
+            margin: -50px 0px 0px 0px;
+        }
+        .textoBotones{
+            font-size: 0.9rem;
+        }
+    }
+    
+}
 

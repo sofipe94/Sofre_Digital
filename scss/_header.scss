@@ -35,6 +35,9 @@ header{
         .icono_redes{
             width: 18px;
             height: 18px;
+            position: relative;
+            top: -2px;
+            left: 1px;
         }
         .btn-outline-light{
             border: solid $blanco 1px;
@@ -261,6 +264,9 @@ header{
         .icono_redes_pages{
             width: 18px;
             height: 18px;
+            position: relative;
+            top: -2px;
+            left: 1px;
         }
         .btn-outline-light{
             border: solid $letrazul 1px;
@@ -274,10 +280,10 @@ header{
             color: $blanco;
             border: solid $blanco 1px;
             .icono_mail_pages{
-                filter: invert(100%);
+                filter: invert(100%) saturate(0);
             }
             a .icono_redes_pages{
-                filter: invert(100%);
+                filter: invert(100%) saturate(0);
             }
         }
         .link_header_pages{
@@ -381,13 +387,40 @@ header{
             display: none;
         }.nav-item-7{
             display: none;
-        }      
+        }
+        .activeQH_nav{
+            border-bottom: solid $rojo 4px !important;
+        }
+        .activeQH_item{
+            color: $rojo !important;
+            font-weight: 400 !important;
+        } 
+        .activeQS_nav{
+            border-bottom: solid $verdeagua 4px !important;
+        }
+        .activeQS_item{
+            color: $verdeagua !important;
+            font-weight: 400 !important;
+        }    
+        .activeTCN_nav{
+            border-bottom: solid $violeta 4px !important;
+        }
+        .activeTCN_item{
+            color: $violeta !important;
+            font-weight: 400 !important;
+        }    
+        .activeBlog_nav{
+            border-bottom: solid $azul 4px !important;
+        }
+        .activeBlog_item{
+            color: $azul !important;
+            font-weight: 400 !important;
+        }              
     }    
-    .scrolling_inicio{
+    .scrolling{
         position: fixed;
         top: 0;
         left: 0;
-        background-image: none;
         background-color: $blanco;
         height: 100px;
         width: 100%;
@@ -403,120 +436,12 @@ header{
             height: 70px;
         }
         .logo_inicio{
-            display: none;
-        }
-        .logo_reducido_color{
-            display: none;
-        }
-        .arriba{
-            visibility: hidden;
-            height: 0px;
-        }
-        .nav-item-1{
-            border-bottom: solid transparent 4px;
-            .nav-link{
-                color: $letrazul;
-                padding-right: 15px;
-                padding-left: 15px;
-            }
-        }
-        .nav-item-2{
-            border-bottom: solid transparent 4px;
-            .nav-link{
-                color: $letrazul;
-                padding-right: 15px;
-                padding-left: 15px;
-            }
-        }
-        .nav-item-3{
-            border-bottom: solid transparent 4px;
-            .nav-link{
-                color: $letrazul;
-                padding-right: 15px;
-                padding-left: 15px;
-            }
-        }
-        .nav-item-4{
-            border-bottom: solid transparent 4px;
-            .nav-link{
-                color: $letrazul;
-                padding-right: 15px;
-                padding-left: 15px;
-            }
-        }
-        .item-1:hover{
-            color: $rojo;
-            font-weight: 400;
-        }
-        .nav-item-1:hover{
-            border-bottom: solid $rojo 4px;
-        }
-        .item-2:hover{
-            color: $verdeagua;
-            font-weight: 400;
-        }
-        .nav-item-2:hover{
-            border-bottom: solid $verdeagua 4px;
-        }
-        .item-3:hover{
-            color: $violeta;
-            font-weight: 400;
-        }
-        .nav-item-3:hover{
-            border-bottom: solid $violeta 4px;
-        }
-        .item-4:hover{
-            color: $azul;
-            font-weight: 400;
-        }
-        .nav-item-4:hover{
-            border-bottom: solid $azul 4px;
-        }
-        .btn-danger{
-            border: solid $rojo 2px;
-            border-radius: 104px;
-        }
-        .btn-danger a{
-            text-decoration: none;
-            color: $blanco;
-        }
-        .btn-danger:hover{
-            background-color: transparent;
-            border: solid $rojo 2px;
-        }
-        .btn-danger a:hover{
-            color: $rojo;
-        }
-        .texto{
-            visibility: hidden;
-        }
-    }
-    .scrolling_headerPages{
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-image: none;
-        background-color: $blanco;
-        height: 100px;
-        width: 100%;
-        padding-top: 20px;
-        padding-left: 80px;
-        padding-right: 80px;
-        margin: 0;
-        box-shadow: 1px 1px 1px rgb(232, 228, 228);
-        z-index: 20;
-        .logo_scrolling{
-            display: block;
-            width: 110px;
-            height: 70px;
-        }
-        .logo_inicio{
-            display: none;
-        }
-        .logo_reducido_color{
             display: none;
         }
         .logo_pages{
+            display: none;
+        }
+        .logo_reducido_color{
             display: none;
         }
         .arriba{
@@ -604,59 +529,72 @@ header{
     }
     @media (max-width:1200px){
         .inicio{
-            background-image: none;
-            background-color: $blanco;
+            padding: 20px;
+            height: auto;
             width: 100%;
-            height: 80px;
-            margin: 0;
-            padding: 0;
-            position: fixed;
-            top: 0;
-            left: 0;
-            box-shadow: 1px 1px 1px rgb(232, 228, 228);
-            .header_fixed{
-                padding: 0;
-                margin: 0;
-                width: 100%;
-            }
-            .logo_inicio{
-                display: none;
-            }
-            .logo_reducido_color{
-                display: block;
-                height: 70px;
-                width: 110px;
-            }
+            background-size: cover;
+            background-position: 0% 10%;
             .navegador{
-                margin-top: 0px;
+                margin: 0;
                 padding: 0;
-                width: 100%;
+                .logo_inicio{
+                    display: none;
+                }
+                .logo_reducido_color{
+                    display: block;
+                    height: 60px;
+                    width: auto;
+                    padding: 10px 0px;
+                    margin: 0;
+                }
             }
             .arriba{
                 visibility: hidden;
                 height: 0px;
                 overflow: hidden;
             }
+            .header_fixed{
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                position: fixed;
+                top: 0;
+                left: 0;
+                box-shadow: 1px 1px 1px rgb(232, 228, 228);
+            }
+            .header_nav{
+                background-color: $blanco;
+                width: 100%;
+                height: 60px;
+                margin: 0;
+                padding: 0;
+            }
             .navbar{
                 width: 100%;
-                background-color: $blanco;
                 padding: 0;
                 margin: 0;
             }
             .navbar-brand{
                 margin: 0;
-                padding: 20px 80px;
+                padding: 0px 0px 0px 40px;
+                width: 50%;
+                height: 60px;
             }
             .navbar-toggler{
                 visibility: visible;
-                padding: 0;
+                padding: 15px 0px;
+                width: 50%;
+                height: auto;
+                margin: 0;
             }
             .navbar-toggler:focus{
                 box-shadow: none;
             }
             .navbar-toggler-icon{
                 display: block;
-                margin-right: 80px;
+                margin: 0px 20px;
+                padding: 0px 10px;
             }
             .nav-item-1{
                 border-bottom: solid transparent 4px;
@@ -734,14 +672,26 @@ header{
                 }
             }
             .texto{
-                visibility: hidden;
-                height: 0px;
-                overflow: hidden;
-            }      
+                margin: 100px 0px;
+                h2{
+                    font-family: $letraSofre;
+                    color: $blanco;
+                    padding: 10px 0px;
+                    font-size: 200%;           
+                }
+                p{
+                    color: $blanco;
+                    margin: 15px 0px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-weight: 600;
+                    font-size: 95%;
+                }
+            }     
         }
         .headerPages{
             width: 100%;
-            height: 80px;
+            height: 60px;
             margin: 0;
             padding: 0;
             position: fixed;
@@ -754,18 +704,32 @@ header{
             }
             .logo_reducido_color{
                 display: block;
-                height: 70px;
-                width: 110px;
+                height: 100%;
+                width: auto;
+                padding: 10px 0px;
+                margin: 0;
+            }
+            .header_fixed{
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                position: fixed;
+                top: 0;
+                left: 0;
+                box-shadow: 1px 1px 1px rgb(232, 228, 228);
+            }
+            .header_nav{
+                background-color: $blanco;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
             }
             .navegador{
                 margin-top: 0px;
                 padding: 0;
-                width: 100%;
-            }
-            .arriba{
-                visibility: hidden;
-                height: 0px;
-                overflow: hidden;
+                width: 0%;
             }
             .navbar{
                 width: 100%;
@@ -775,18 +739,24 @@ header{
             }
             .navbar-brand{
                 margin: 0;
-                padding: 20px 80px;
+                padding: 0px 0px 0px 40px;
+                width: 50%;
+                height: 60px;
             }
             .navbar-toggler{
                 visibility: visible;
                 padding: 0;
+                width: 50%;
+                height: auto;
+                margin: 0;
             }
             .navbar-toggler:focus{
                 box-shadow: none;
             }
             .navbar-toggler-icon{
                 display: block;
-                margin-right: 80px;
+                margin: 0px 20px;
+                padding: 0px 10px;
             }
             .nav-item-1{
                 border-bottom: solid transparent 4px;
@@ -864,37 +834,41 @@ header{
                 }
             }
         }
-        .scrolling_inicio{
+        .scrolling{
             background-image: none;
-            background-color: $blanco;
             width: 100%;
-            height: 80px;
+            height: 60px;
             margin: 0;
             padding: 0;
-            position: fixed;
-            top: 0;
-            left: 0;
-            box-shadow: 1px 1px 1px rgb(232, 228, 228);
             .header_fixed{
                 padding: 0;
                 margin: 0;
                 width: 100%;
+                background-color: $blanco;
+                position: fixed;
+                top: 0;
+                left: 0;
+                box-shadow: 1px 1px 1px rgb(232, 228, 228);
+            }
+            .header_nav{
+                background-color: $blanco;
+                width: 100%;
+                height: 60px;
+                margin: 0;
+                padding: 0;
             }
             .logo_inicio{
                 display: none;
             }
             .logo_reducido_color{
                 display: block;
-                height: 70px;
-                width: 110px;
+                height: 60px;
+                width: auto;
+                padding: 10px 0px;
+                margin: 0;
             }
             .logo_scrolling{
                 display: none;
-            }
-            .navegador{
-                margin-top: 0px;
-                padding: 0;
-                width: 100%;
             }
             .arriba{
                 visibility: hidden;
@@ -903,24 +877,30 @@ header{
             }
             .navbar{
                 width: 100%;
-                background-color: $blanco;
                 padding: 0;
                 margin: 0;
             }
             .navbar-brand{
                 margin: 0;
-                padding: 20px 80px;
+                padding: 0px 0px 0px 40px;
+                width: 50%;
+                height: 100px;
             }
             .navbar-toggler{
                 visibility: visible;
-                padding: 0;
+                padding: 0px;
+                width: 50%;
+                height: auto;
+                margin: 0px;
+                margin-bottom: 40px;
             }
             .navbar-toggler:focus{
                 box-shadow: none;
             }
             .navbar-toggler-icon{
                 display: block;
-                margin-right: 80px;
+                margin: 0px 20px;
+                padding: 0px 10px;
             }
             .nav-item-1{
                 border-bottom: solid transparent 4px;
@@ -1003,131 +983,78 @@ header{
                 overflow: hidden;
             }      
         }
-        .scrolling_headerPages{
+    }
+    @media (max-width:992px){
+        .inicio{
+            background-image: url(../images/header/home-mediano.jpg);
+            padding: 0px;
+            height: auto;
             width: 100%;
-            height: 80px;
+            background-size: cover;
+            .texto{
+                margin: 180px 0px;
+                padding: 0px 120px 0px 20px;
+                h2{
+                    font-family: $letraSofre;
+                    color: $blanco;
+                    font-size: 170%;
+                    margin: 0px 10px 10px 10px;           
+                }
+                p{
+                    color: $blanco;
+                    font-weight: 400;
+                    font-size: 85%;
+                    padding: 0px 10px;
+                }
+            }
+        }
+    }
+    @media (max-width:576px){
+        .inicio{
+            background-image: url(../images/header/home-mediano.jpg);
+            padding: 0px;
+            height: auto;
+            width: 100%;
+            background-size: cover;
+            .texto{
+                margin: 100px 0px;
+                h2{
+                    font-family: $letraSofre;
+                    color: $blanco;
+                    font-size: 200%;
+                    margin: 0px 10px 10px 10px;           
+                }
+                p{
+                    color: $blanco;
+                    font-weight: 400;
+                    font-size: 95%;
+                    padding: 0px 10px;
+                }
+            }
+        }
+    }
+    @media (max-width:376px){
+        .inicio{
+            background-image: url(../images/header/home-pequeño.jpg);
+            padding: 0px;
             margin: 0;
-            padding: 0;
-            position: fixed;
-            top: 0;
-            left: 0;
-            box-shadow: 1px 1px 1px rgb(232, 228, 228);
-            z-index: 20;
-            .logo_pages{
-                display: none;
-            }
-            .logo_reducido_color{
-                display: block;
-                height: 70px;
-                width: 110px;
-            }
-            .logo_scrolling{
-                display: none;
-            }
-            .navegador{
-                margin-top: 0px;
-                padding: 0;
-                width: 100%;
-            }
-            .arriba{
-                visibility: hidden;
-                height: 0px;
-                overflow: hidden;
-            }
-            .navbar{
-                width: 100%;
-                background-color: $blanco;
-                padding: 0;
-                margin: 0;
-            }
-            .navbar-brand{
-                margin: 0;
-                padding: 20px 80px;
-            }
-            .navbar-toggler{
-                visibility: visible;
-                padding: 0;
-            }
-            .navbar-toggler:focus{
-                box-shadow: none;
-            }
-            .navbar-toggler-icon{
-                display: block;
-                margin-right: 80px;
-            }
-            .nav-item-1{
-                border-bottom: solid transparent 4px;
-                width: 100%;
-                background-color: $blanco;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
+            height: auto;
+            width: 100%;
+            background-size: 100%;
+            .texto{
+                margin: 90px 0px;
+                padding: 0px 20px;
+                h2{
+                    font-family: $letraSofre;
+                    color: $blanco;
+                    font-size: 170%;
+                    margin: 0px 10px 10px 10px;           
                 }
-            }
-            .nav-item-2{
-                border-bottom: solid transparent 4px;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                }
-            }
-            .nav-item-3{
-                border-bottom: solid transparent 4px;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                }
-            }
-            .nav-item-4{
-                border-bottom: solid transparent 4px;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                }
-            }
-            .btn-danger{
-                border: solid $rojo 2px;
-                border-radius: 104px;
-            }
-            .btn-danger a{
-                text-decoration: none;
-                color: $blanco;
-            }
-            .btn-danger:hover{
-                background-color: transparent;
-                border: solid $rojo 2px;
-            }
-            .btn-danger a:hover{
-                color: $rojo;
-            }
-            .nav-item-5{
-                display: block;
-                border-bottom: solid transparent 4px;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                }
-            }
-            .nav-item-6{
-                display: block;
-                border-bottom: solid transparent 4px;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                }
-            }.nav-item-7{
-                display: block;
-                border-bottom: solid transparent 4px;
-                .nav-link{
-                    color: $letrazul;
-                    padding-right: 15px;
-                    padding-left: 15px;
+                p{
+                    color: $blanco;
+                    font-weight: 400;
+                    font-size: 85%;
+                    padding: 0px 10px;
                 }
             }
         }

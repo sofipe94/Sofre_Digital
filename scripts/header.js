@@ -42,13 +42,11 @@
 //     })
 
 
-const header = document.querySelector(".inicio");
+const header = document.querySelector(".navegador");
 const headerPages = document.querySelector(".headerPages")
 
 window.addEventListener("scroll", function(){
-  header.classList.toggle('scrolling_inicio', window.scrollY>300)  
+  header.classList.toggle('scrolling', window.scrollY>200)  
 })
 
-window.addEventListener("scroll", function(){
-  headerPages.classList.toggle('scrolling_headerPages', window.scrollY>300)  
-})
+
