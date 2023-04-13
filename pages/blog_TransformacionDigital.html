@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1;100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="../css/style.css"/>
   <link rel="shortcut icon" href="../images/logos/logo_browser.ico">
   <title>Transformación Digital - Blog - Sofre Digital</title>
@@ -88,19 +89,19 @@
       <div class="mainBlog">
 
         <div class="row sectPrimBlog">
-          <div class="col-6 sectImgBlog"><img src="../images/blog/primera-seccion.jpg" alt="Blog" class="imagenesBlog"></div>
-          <div class="col-6 seccionBlog">
+          <div class="col-6 sectImgBlog"><img src="../images/blog/primera-seccion.jpg" alt="Blog" class="imagenesBlog" data-aos="slide-right"></div>
+          <div class="col-6 seccionBlog" data-aos="fade-in">
             <div class="d-flex flex-inline justify-content-between">
               <img src="../images/blog/icono-primera-seccion.jpg" alt="" class="iconoBlog">
               <img src="../images/blog/logo.png" alt="" class="logoBlog">
             </div>              
             <h3 class="tituloBlog">Insights</h3>
             <p class="textoBlog">Conoce más acerca de Sofre Digital y las últimas tendencias y novedades.</p>
-            <a href="./blog.html#botonesBlog"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down"></a>
+            <a href="./blog.html#botonesBlog"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down bounce-top"></a>
           </div>
       </div>
 
-        <div class="row col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center" id="botonesBlog">
+        <div class="row col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center fade-in" id="botonesBlog">
           <a href="./blog_Ciberseguridad.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">Ciberseguridad</button></a>
           <a href="./blog_IoT.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">IoT</button></a>
           <a href="./blog_MujeresIT.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">Mujeres IT</button></a>
@@ -115,10 +116,10 @@
           <div class="row">
             <a href="./blog/Industria-4.0-nuevas-oportunidades.html">
                 <div class="d-flex flex-column flex-lg-row sectNotBlog">
-                    <div class="div_ImgNotBlog">
+                    <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/Ind4.0.jpg" alt="Industria 4.0: nuevas oportunidades" class="imagenesBlog">
                     </div>
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center">
+                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">ENE 11, 2023 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
                         <h5 class="tituloNotBlog">Industria 4.0: nuevas oportunidades</h5>
                         <p class="textoNotBlogClarito">Los descubrimientos de la electrónica y la informática permitieron que muchas tareas se hicieran de manera automática, pero en la...</p>
@@ -131,13 +132,13 @@
           <div class="row">
             <a class="notColor" href="./blog/Ejemplos-de-automatizacion-para-optimizar-operaciones.html">
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center">
+                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">FEB 10, 2022 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
                         <h5 class="tituloNotBlog">Ejemplos de automatización para optimizar operaciones</h5>
                         <p class="textoNotBlogClarito">Si bien la digitalización ya lleva años sumándose a las operaciones de gran cantidad de empresas a lo largo del...</p>
                         <button type="button" class="btn btn-info">Ver más</button>
                     </div>
-                    <div class="div_ImgNotBlog">
+                    <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/Ejautooptoperaciones.png" alt="Ejemplos de automatización para optimizar operaciones" class="imagenesBlog">
                     </div>
                 </div>
@@ -147,10 +148,10 @@
           <div class="row">
             <a href="./blog/La-automatizacion-aplicada-a-documentos.html">
                 <div class="d-flex flex-column flex-lg-row sectNotBlog">
-                    <div class="div_ImgNotBlog">
+                    <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/Autodocs.png" alt="La automatización aplicada a documentos" class="imagenesBlog">
                     </div>
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center">
+                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">ENE 03, 2022 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
                         <h5 class="tituloNotBlog">La automatización aplicada a documentos</h5>
                         <p class="textoNotBlogClarito">Uno de los elementos más desafiantes a la hora de la transformación digital es la información. ¿Cómo hacer para administrar...</p>
@@ -163,13 +164,13 @@
           <div class="row">
             <a class="notColor" href="./blog/Gestion-de-cuadrillas-una-solucion-diseñada-para-optimizar-los-procesos-de-trabajo-e-incrementar-la-productividad-en-un-25.html">
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center">
+                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">DIC 07, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
                         <h5 class="tituloNotBlog">Gestión de cuadrillas: una solución diseñada para optimizar los procesos de trabajo e incrementar la productividad en un 25%</h5>
                         <p class="textoNotBlogClarito">Independientemente del tipo de servicio que provean, las organizaciones que envían técnicos a efectuar trabajos de campo saben a la...</p>
                         <button type="button" class="btn btn-info">Ver más</button>
                     </div>
-                    <div class="div_ImgNotBlog">
+                    <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/Gestioncuadrillas.png" alt="Gestión de cuadrillas: una solución diseñada para optimizar los procesos de trabajo e incrementar la productividad en un 25%" class="imagenesBlog">
                     </div>
                 </div>
@@ -179,10 +180,10 @@
           <div class="row">
             <a href="./blog/Como-la-IA-potencia-la-Gestion-documental.html">
                 <div class="d-flex flex-column flex-lg-row sectNotBlog">
-                    <div class="div_ImgNotBlog">
+                    <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/IAGestiondoc.png" alt="¿Cómo la IA potencia la Gestión documental?" class="imagenesBlog">
                     </div>
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center">
+                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">NOV 17, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
                         <h5 class="tituloNotBlog">¿Cómo la IA potencia la Gestión documental?</h5>
                         <p class="textoNotBlogClarito">acturas, remitos, liquidaciones, presupuestos, balances, informes, listas de precios, legajos. En la actualidad, la mayoría de las empresas maneja grandes...</p>
@@ -195,13 +196,13 @@
           <div class="row">
             <a class="notColor" href="./blog/Solucion-de-cifrado-optico-para-todos-los-sectores.html">
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center">
+                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">AGO 10, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 5 MINS DE LECTURA</small></p></div>
                         <h5 class="tituloNotBlog">Solución de cifrado óptico para todos los sectores</h5>
                         <p class="textoNotBlogClarito">La transformación digital es un fenómeno que abarca todos los sectores. Gracias a los avances de la tecnología y a...</p>
                         <button type="button" class="btn btn-info">Ver más</button>
                     </div>
-                    <div class="div_ImgNotBlog">
+                    <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/cifradooptico.jpg" alt="Solución de cifrado óptico para todos los sectores" class="imagenesBlog">
                     </div>
                 </div>
@@ -211,35 +212,33 @@
           
         </div>
         
-        <div class="proyecto">
-          <div class="row col-12 d-flex flex-inline align-items-center justify-content-center" id="proyecto">
-            <div class="d-flex flex-column flex-md-row align-items-start justify-content-center">
-              <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto"></div>
-              <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
-              <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                <form class="d-flex flex-column align-items-center justify-content-center">
-                  <div class="mb-3">
-                    <label for="Email" class="form-label">Email *</label>
-                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3">
-                    <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                    <input type="text" class="form-control" id="ServicioDeInteres">
-                  </div>
-                  <div class="mb-3">
-                    <label for="Comentarios" class="form-label">Comentarios</label>
-                    <input type="text" class="form-control" id="Comentarios">
-                  </div>
-                  <button type="submit" class="btn btn-secondary">Enviar</button>
-                </form>
-              </div>
+        <div class="row" id="proyecto">
+          <div class="d-flex flex-column flex-md-row align-items-start justify-content-center proyecto">
+            <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
+            <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
+            <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
+              <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
+              <form class="d-flex flex-column align-items-center justify-content-center">
+                <div class="mb-3">
+                  <label for="Email" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                  <input type="text" class="form-control" id="ServicioDeInteres">
+                </div>
+                <div class="mb-3">
+                  <label for="Comentarios" class="form-label">Comentarios</label>
+                  <input type="text" class="form-control" id="Comentarios">
+                </div>
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+              </form>
             </div>
-          </div>          
-        </div>
+          </div>         
+      </div>
   </main>
 
-  <footer class="container-fluid">
+  <footer class="container-fluid" data-aos="fade-in">
     <div class="footer">
       <hr class="linea_gruesa">
       <div class="row direccion">
@@ -301,6 +300,12 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1500,
+    });
+  </script>
   <script src="../scripts/header.js"></script>
   <script src="../scripts/main.js"></script>
 </body>
