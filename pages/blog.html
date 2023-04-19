@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4 activeBlog_nav">
                     <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./blog.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./blog.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -83,6 +78,50 @@
       </div>  
       </div>     
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -95,19 +134,19 @@
                 <img src="../images/blog/icono-primera-seccion.jpg" alt="" class="iconoBlog">
                 <img src="../images/blog/logo.png" alt="" class="logoBlog">
               </div>              
-              <h3 class="tituloBlog">Insights</h3>
+              <h1 class="tituloBlog">Insights</h1>
               <p class="textoBlog">Conoce más acerca de Sofre Digital y las últimas tendencias y novedades.</p>
               <a href="./blog.html#botonesBlog"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down bounce-top"></a>
             </div>
         </div>
 
         <div class="row col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center fade-in" id="botonesBlog">
-          <a href="./blog_Ciberseguridad.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">Ciberseguridad</button></a>
-          <a href="./blog_IoT.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">IoT</button></a>
-          <a href="./blog_MujeresIT.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">Mujeres IT</button></a>
-          <a href="./blog_RPA.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">RPA</button></a>
-          <a href="./blog_TalentoIT.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">Talento IT</button></a>
-          <a href="./blog_TransformacionDigital.html" class="linkBtn"><button type="button" class="btn btn-outline-secondary">Transformación digital</button></a>
+          <a href="./blog_Ciberseguridad.html" class="linkBtn">Ciberseguridad</a>
+          <a href="./blog_IoT.html" class="linkBtn">IoT</a>
+          <a href="./blog_MujeresIT.html" class="linkBtn">Mujeres IT</a>
+          <a href="./blog_RPA.html" class="linkBtn">RPA</a>
+          <a href="./blog_TalentoIT.html" class="linkBtn">Talento IT</a>
+          <a href="./blog_TransformacionDigital.html" class="linkBtn">Transformación digital</a>
         </div>
 
         <div class="sect_Blog">
@@ -120,9 +159,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">MAR 07, 2023 | </p><p class="textoNotBlogClarito espaciado"> <small> 1 MIN DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Mujeres en tecnología</h5>
+                        <h2 class="tituloNotBlog">Mujeres en tecnología</h2>
                         <p class="textoNotBlogClarito">Las mujeres han ocupado un rol importante en el progreso de la tecnología a lo largo de los años, siendo...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -133,9 +172,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">FEB 10, 2023 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Radios y redes inteligentes</h5>
+                        <h2 class="tituloNotBlog">Radios y redes inteligentes</h2>
                         <p class="textoNotBlogClarito">Las primeras tecnologías con inteligencia existen desde hace más de cincuenta años, pero los avances en la informática han permitido...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/RyRI.jpg" alt="Radios y redes inteligentes" class="imagenesBlog">
@@ -152,9 +191,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">ENE 11, 2023 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Industria 4.0: nuevas oportunidades</h5>
+                        <h2 class="tituloNotBlog">Industria 4.0: nuevas oportunidades</h2>
                         <p class="textoNotBlogClarito">Los descubrimientos de la electrónica y la informática permitieron que muchas tareas se hicieran de manera automática, pero en la...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -165,9 +204,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">FEB 10, 2022 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Ejemplos de automatización para optimizar operaciones</h5>
+                        <h2 class="tituloNotBlog">Ejemplos de automatización para optimizar operaciones</h2>
                         <p class="textoNotBlogClarito">Si bien la digitalización ya lleva años sumándose a las operaciones de gran cantidad de empresas a lo largo del...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/Ejautooptoperaciones.png" alt="Ejemplos de automatización para optimizar operaciones" class="imagenesBlog">
@@ -184,9 +223,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">ENE 03, 2022 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">La automatización aplicada a documentos</h5>
+                        <h2 class="tituloNotBlog">La automatización aplicada a documentos</h2>
                         <p class="textoNotBlogClarito">Uno de los elementos más desafiantes a la hora de la transformación digital es la información. ¿Cómo hacer para administrar...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -197,9 +236,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">DIC 07, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Gestión de cuadrillas: una solución diseñada para optimizar los procesos de trabajo e incrementar la productividad en un 25%</h5>
+                        <h2 class="tituloNotBlog">Gestión de cuadrillas: una solución diseñada para optimizar los procesos de trabajo e incrementar la productividad en un 25%</h2>
                         <p class="textoNotBlogClarito">Independientemente del tipo de servicio que provean, las organizaciones que envían técnicos a efectuar trabajos de campo saben a la...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/Gestioncuadrillas.png" alt="Gestión de cuadrillas: una solución diseñada para optimizar los procesos de trabajo e incrementar la productividad en un 25%" class="imagenesBlog">
@@ -216,9 +255,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">NOV 17, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">¿Cómo la IA potencia la Gestión documental?</h5>
+                        <h2 class="tituloNotBlog">¿Cómo la IA potencia la Gestión documental?</h2>
                         <p class="textoNotBlogClarito">acturas, remitos, liquidaciones, presupuestos, balances, informes, listas de precios, legajos. En la actualidad, la mayoría de las empresas maneja grandes...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -229,9 +268,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">OCT 14, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 3 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">La escasez de talento IT pone un freno a la digitalización de las empresas</h5>
+                        <h2 class="tituloNotBlog">La escasez de talento IT pone un freno a la digitalización de las empresas</h2>
                         <p class="textoNotBlogClarito">La pandemia del COVID-19 aceleró el proceso de digitalización de las empresas, obligando a la mayoría de las organizaciones a ...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/EscaseztalentoIT.png" alt="La escasez de talento IT pone un freno a la digitalización de las empresas" class="imagenesBlog">
@@ -248,9 +287,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">SEP 10, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 6 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">¿Cómo hacer frente a la escasez de talento IT?</h5>
+                        <h2 class="tituloNotBlog">¿Cómo hacer frente a la escasez de talento IT?</h2>
                         <p class="textoNotBlogClarito">De acuerdo al Instituto Nacional de Estadísticas y Censos (INDEC), durante el primer trimestre del 2021 la tasa de desocupación...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -261,9 +300,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">AGO 10, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 5 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Solución de cifrado óptico para todos los sectores</h5>
+                        <h2 class="tituloNotBlog">Solución de cifrado óptico para todos los sectores</h2>
                         <p class="textoNotBlogClarito">La transformación digital es un fenómeno que abarca todos los sectores. Gracias a los avances de la tecnología y a...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/cifradooptico.jpg" alt="Solución de cifrado óptico para todos los sectores" class="imagenesBlog">
@@ -280,9 +319,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">JUL 22, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 5 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Ciberdelitos: un desafío constante para las entidades bancarias y financieras</h5>
+                        <h2 class="tituloNotBlog">Ciberdelitos: un desafío constante para las entidades bancarias y financieras</h2>
                         <p class="textoNotBlogClarito">Para los bancos y entidades de crédito, el mundo digital es una gran oportunidad para afianzar la identidad de la...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -293,9 +332,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">JUN 11, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 3 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Los desafíos en ciberseguridad para el sector PyME</h5>
+                        <h2 class="tituloNotBlog">Los desafíos en ciberseguridad para el sector PyME</h2>
                         <p class="textoNotBlogClarito">No es noticia que la digitalización se aceleró a raíz de la pandemia. Muchas grandes empresas ya venían recorriendo un...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/PyME.png" alt="Los desafíos en ciberseguridad para el sector PyME" class="imagenesBlog">
@@ -312,9 +351,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">MAY 14, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">RPA, al rescate del comercio minorista</h5>
+                        <h2 class="tituloNotBlog">RPA, al rescate del comercio minorista</h2>
                         <p class="textoNotBlogClarito">En tiempos donde la tecnología y hacer un buen uso de ella parecen serlo todo, adaptarla a nuestras necesidades y...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -325,9 +364,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">APR 23, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 3 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">¿Por qué cada vez más empresas invierten en RPA?</h5>
+                        <h2 class="tituloNotBlog">¿Por qué cada vez más empresas invierten en RPA?</h2>
                         <p class="textoNotBlogClarito">Cada vez son más las empresas que implementan soluciones de RPA para reducir sus costos, disminuir el tiempo en completar...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/RPA2.png" alt="¿Por qué cada vez más empresas invierten en RPA?" class="imagenesBlog">
@@ -344,9 +383,9 @@
                     </div>
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
                         <div class="d-flex flex-inline"><p class="textoNotBlog">MAR 01, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 3 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA</h5>
+                        <h2 class="tituloNotBlog">10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA</h2>
                         <p class="textoNotBlogClarito">Los desafíos que el caos de información proveniente de distintos canales plantea en el mundo actual y la creciente demanda...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                 </div>
             </a>
@@ -357,9 +396,9 @@
                 <div class="d-flex flex-column-reverse flex-lg-row sectNotBlog">
                     <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up"> 
                         <div class="d-flex flex-inline"><p class="textoNotBlog">FEB 16, 2021 | </p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">RPA: una solución confiable y escalable para el crecimiento de su organización</h5>
+                        <h2 class="tituloNotBlog">RPA: una solución confiable y escalable para el crecimiento de su organización</h2>
                         <p class="textoNotBlogClarito">ngresar datos, copiar y pegar valores, completar un formulario, realizar cálculos, pasar de una app a otra… podemos quedarnos un...</p>
-                        <button type="button" class="btn btn-info">Ver más</button>
+                        <div class="btn-info">Ver más</div>
                     </div>
                     <div class="div_ImgNotBlog" data-aos="slide-up">
                         <img src="../images/blog/RPA3.jpg" alt="RPA: una solución confiable y escalable para el crecimiento de su organización" class="imagenesBlog">
@@ -374,21 +413,23 @@
             <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
             <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
             <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-              <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-              <form class="d-flex flex-column align-items-center justify-content-center">
-                <div class="mb-3">
-                  <label for="Email" class="form-label">Email *</label>
-                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                  <input type="text" class="form-control" id="ServicioDeInteres">
-                </div>
-                <div class="mb-3">
-                  <label for="Comentarios" class="form-label">Comentarios</label>
-                  <input type="text" class="form-control" id="Comentarios">
-                </div>
-                <button type="submit" class="btn btn-secondary">Enviar</button>
+              <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+              <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                <fieldset>
+                  <div class="mb-3">
+                    <label for="Email" class="form-label">Email *</label>
+                    <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                    <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Comentarios" class="form-label">Comentarios</label>
+                    <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                  </div>
+                  <button type="submit" class="btn btn-secondary">Enviar</button>
+                </fieldset>
               </form>
             </div>
           </div>         

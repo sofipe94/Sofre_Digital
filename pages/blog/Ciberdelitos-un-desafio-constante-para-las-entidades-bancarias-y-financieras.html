@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4 activeBlog_nav">
                     <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./Ciberdelitos-un-desafio-constante-para-las-entidades-bancarias-y-financieras.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./Solucion-de-cifrado-optico-para-todos-los-sectores.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -83,6 +78,50 @@
       </div>  
       </div>     
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -93,7 +132,7 @@
                     <div class="d-flex flex-column align-items-start justify-content-center sectNot" data-aos="fade-in">
                         <a href="../blog_Ciberseguridad.html" class="btnBack">< Ciberseguridad</a>
                         <div class="d-flex flex-inline"><p class="textoNotBlog">JUL 22, 2021 |</p><p class="textoNotBlogClarito espaciado"> <small> 5 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">Ciberdelitos: un desafío constante para las entidades bancarias y financieras</h5>
+                        <h1 class="tituloNotBlog">Ciberdelitos: un desafío constante para las entidades bancarias y financieras</h1>
                         <hr class="hr_lineagruesa">
                         <div class="d-flex flex-inline">
                             <p class="textolinks d-flex align-items-center justify-content-center">Compartir</p>
@@ -123,7 +162,7 @@
             <div class="col-12 col-md-7 d-flex flex-column parrafosNoticia">
                 <p>Para los bancos y entidades de crédito, el mundo digital es una gran oportunidad para afianzar la identidad de la marca, así como también para ofrecerles a sus clientes vías de atención adicionales. Sin embargo, la ampliación del uso de los canales virtuales impulsada por la pandemia del COVID-19, puso de manifiesto los riesgos que acarrea la digitalización masiva para la industria financiera.</p>
                 <p>Durante los últimos meses proliferaron los fraudes a los usuarios a través de plataformas en línea, así como también surgieron nuevas modalidades de engaño. Llamadas telefónicas, mensajes de texto y de chat de supuestas instituciones bancarias, correos electrónicos apócrifos y perfiles falsos en redes sociales son las formas más habituales de estafar a los clientes. Si bien adquieren diversas características de acuerdo al perfil de las víctimas y sus formas de ejecución se modifican con el tiempo, todos los ciberdelitos comparten una característica: los usuarios proporcionan de manera voluntaria sus datos. Y cada vez estas amenazas son más sofisticadas y más difíciles de detectar pues los estafadores están usando inteligencia artificial y otras herramientas para no ser detectados.</p>
-                <h5 class="titulosNoticias">El accionar de las entidades bancarias y financieras frente a las estafas</h5>
+                <h2 class="titulosNoticias">El accionar de las entidades bancarias y financieras frente a las estafas</h2>
                 <p>Sea a través de un comentario en una red social, de una respuesta a un chat de una cuenta que nada tiene que ver con la entidad financiera, de un clic en un enlace fraudulento o de una confirmación verbal de contraseñas o claves de acceso, las víctimas actúan de esta forma por desconocimiento.</p>
                 <p>Por este motivo, los bancos han tomado una serie de medidas que apuntan a visibilizar la problemática, explicar sus diferentes modalidades y brindar información que ayude a sus clientes a detectar posibles fraudes.</p>
                 <p>Entre las acciones que han llevado a cabo las entidades bancarias, pero que aun son insuficientes, se encuentran:</p>
@@ -134,11 +173,11 @@
                 <li>Publicaciones y correos electrónicos informando en qué consiste el phishing y el smishing y cómo hacer para no ser víctima de estos mecanismos fraudulentos</li></ul></p>
                 <p>Además de las campañas de información y concientización sobre el uso correcto de los canales de comunicación, algunas entidades bancarias tomaron medidas adicionales, como dar de baja temporalmente sus perfiles en redes sociales o bien bloquear los comentarios públicos de los usuarios.</p>
                 <p>De esta forma evitan que su clientela revele públicamente información confidencial, como nombres completos, números de cuenta, claves o identificaciones personales, y ponga en riesgo su seguridad financiera.</p>
-                <h5 class="titulosNoticias">Los peligros de no proveer los estándares correctos de seguridad</h5>
+                <h2 class="titulosNoticias">Los peligros de no proveer los estándares correctos de seguridad</h2>
                 <p>Por otro lado, tomar medidas con respecto a la seguridad de los datos de los usuarios no solamente ayuda a proteger el patrimonio de los clientes y la reputación institucional, sino que también evita que las entidades bancarias enfrenten multas por parte de organismos gubernamentales.</p>
                 <p>En los últimos días, la Secretaría de Comercio Interior de la Nación, a través de la Subsecretaría de Acciones para la Defensa de las y los Consumidores (SSDAC), sancionó por 10 millones de pesos a dos reconocidos bancos que operan en territorio nacional por su falta de responsabilidad en la protección de los usuarios frente a delitos financieros.</p>
                 <p>De acuerdo a este órgano de Gobierno, las instituciones bancarias incumplieron con su obligación de garantizar la seguridad de los datos personales, cuentas e intereses económicos de sus clientes frente a situaciones de vulnerabilidad y fraudes, ya que no brindaron mecanismos que les permitieran comunicarse, reclamar y/o consultar respecto de los productos y servicios que tienen contratados.</p>
-                <h5 class="titulosNoticias">Cómo incrementar la seguridad: el desafío de las industrias bancaria y financiera</h5>
+                <h2 class="titulosNoticias">Cómo incrementar la seguridad: el desafío de las industrias bancaria y financiera</h2>
                 <p>Ante este panorama, es imprescindible que los bancos e instituciones crediticias busquen aliados que les ofrezcan alternativas concretas para aumentar la seguridad de los datos de sus clientes y, al mismo tiempo, garanticen el correcto funcionamiento de su operatoria.</p>
                 <p>En #SofreDigital junto a nuestro partner #CYAN, líder en soluciones de seguridad en el territorio europeo, ponemos a disposición de estas entidades la solución EndPoint Security, una herramienta efectiva para aumentar la ciberseguridad de sus clientes y, de esta forma, prevenir delitos.</p>
                 <p>Se trata de una aplicación que ofrece un nivel de seguridad integral, ya que brinda protección no solamente a los datos de los clientes, sino también a sus dispositivos.</p>
@@ -146,7 +185,7 @@
                 <p>EndPoint Security no sustituye otros instrumentos de seguridad, como anti spam o firewalls, sino que trabaja en conjunto con estas herramientas. A diferencia de los métodos tradicionales de protección, la aplicación trabaja desde la perspectiva del usuario, reduciendo los riesgos de ataques no solamente para los clientes, sino también para la red de la institución financiera.</p>
                 <p>Además, la solución EndPoint Security que ofrecemos es una plataforma de marca blanca que permite un look and feel personalizado, ya que se integra a la interfaz de cada entidad, reforzando el branding y respetando la identidad corporativa.</p>
                 <p>En #SofreDigital somos especialistas en #transformacióndigital, junto a nuestro partner #Cyan trabajamos para construir una estrategia de seguridad y protección cibernética que se adapte al perfil y a los requerimientos de cada empresa.</p>
-                <p><a href="" class="linkNoticias">Contáctanos </a>para recibir más información o una coordinar charla de asesoramiento o escríbenos al mail<a href="" class="linkNoticias"> ciberseguridad@sofredigital.com.ar</a></p>  
+                <p>Contáctanos para recibir más información o una coordinar charla de asesoramiento o escríbenos al mail<a href="mailto:contacto@sofredigital.com.ar" class="linkNoticias"> ciberseguridad@sofredigital.com.ar</a></p>  
                 <hr class="hr_lineafinita">
                 <div class="d-flex flex-inline">
                     <p class="textolinks d-flex align-items-center justify-content-center">Compartir</p>
@@ -166,7 +205,7 @@
             </div>
             <div class="col-12 col-md-5 d-flex flex-column sectionLinks">
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Entradas Recientes</h5>
+                    <h2 class="tituloLinks">Entradas Recientes</h2>
                     <a href="./Mujeres-en-tecnologa.html" class="linkSectLink">Mujeres en tecnología</a>
                     <hr class="hr_lineafinita">
                     <a href="./Radios-y-redes-inteligentes.html" class="linkSectLink">Radios y redes inteligentes</a>
@@ -174,7 +213,7 @@
                     <a href="./Industria-4.0-nuevas-oportunidades.html" class="linkSectLink">Industria 4.0: nuevas oportunidades</a>
                 </div>
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Categorías</h5>
+                    <h2 class="tituloLinks">Categorías</h2>
                     <a href="../blog_Ciberseguridad.html" class="linkSectLink">Ciberseguridad</a>
                     <hr class="hr_lineafinita">
                     <a href="../blog_IoT.html" class="linkSectLink">IoT</a>
@@ -193,14 +232,14 @@
             <div class="row d-flex flex-column">
                 <div class="col-12 relacionados" data-aos="fade-in">
                     <p class="textoRel">BLOG</p>
-                    <h4 class="tituloRel">Relacionados</h4>
+                    <h2 class="tituloRel">Relacionados</h2>
                 </div>
                 <div class="col-12 d-flex flex-inline flex-wrap align-items-center justify-content-start sectNoticias">
                     <div class="boxNoticiaRel" data-aos="slide-up"><a href="./Los-desafios-en-ciberseguridad-para-el-sector-PyME.html">
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/PyME.png" alt="Los desafíos en ciberseguridad para el sector PyME" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">JUN 11, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">Los desafíos en ciberseguridad para el sector PyME</h5>
+                          <h3 class="tituloNoticiaRel">Los desafíos en ciberseguridad para el sector PyME</h3>
                           <p class="textoNoticiaRel">No es noticia que la digitalización se aceleró a raíz de la pandemia. Muchas grandes empresas ya venían recorriendo un...</p>
                         </div>
                       </a></div>
@@ -212,21 +251,23 @@
                 <div class="sectImgForm"><img src="../../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
                 <div class="sectIcForm"><img src="../../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
                 <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                  <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                  <form class="d-flex flex-column align-items-center justify-content-center">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email *</label>
-                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                      <input type="text" class="form-control" id="ServicioDeInteres">
-                    </div>
-                    <div class="mb-3">
-                      <label for="Comentarios" class="form-label">Comentarios</label>
-                      <input type="text" class="form-control" id="Comentarios">
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+                  <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                    <fieldset>
+                      <div class="mb-3">
+                        <label for="Email" class="form-label">Email *</label>
+                        <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                        <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Comentarios" class="form-label">Comentarios</label>
+                        <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </fieldset>
                   </form>
                 </div>
               </div>         

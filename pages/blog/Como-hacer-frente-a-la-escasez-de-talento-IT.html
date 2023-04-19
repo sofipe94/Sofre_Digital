@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4 activeBlog_nav">
                     <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./Como-hacer-frente-a-la-escasez-de-talento-IT.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./Solucion-de-cifrado-optico-para-todos-los-sectores.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -83,6 +78,50 @@
       </div>  
       </div>     
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -92,8 +131,8 @@
                 <div class="d-flex flex-column-reverse flex-md-row noticia">
                     <div class="d-flex flex-column align-items-start justify-content-center sectNot" data-aos="fade-in">
                         <a href="../blog_TalentoIT.html" class="btnBack">< Talento IT</a>
-                        <div class="d-flex flex-inline"><p class="textoNotBlog">sEP 10, 2021 |</p><p class="textoNotBlogClarito espaciado"> <small> 6 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">¿Cómo hacer frente a la escasez de talento IT?</h5>
+                        <div class="d-flex flex-inline"><p class="textoNotBlog">SEP 10, 2021 |</p><p class="textoNotBlogClarito espaciado"> <small> 6 MINS DE LECTURA</small></p></div>
+                        <h1 class="tituloNotBlog">¿Cómo hacer frente a la escasez de talento IT?</h1>
                         <hr class="hr_lineagruesa">
                         <div class="d-flex flex-inline">
                             <p class="textolinks d-flex align-items-center justify-content-center">Compartir</p>
@@ -129,7 +168,7 @@
                 <p>El Córdoba Technology Cluster (CTC) puso de manifiesto esta tendencia en su último Monitor Estadístico TIC, instrumento que reveló que <a href="https://puntoapunto.com.ar/industria-del-software-cerca-del-65-de-las-empresas-asegura-que-hay-escasez-de-personal/" target="_blank" class="subLink">el 64,8% de los empresarios del software de esta provincia tiene inconvenientes para encontrar recursos disponibles en el mercado laboral</a>.</p>
                 <p>La demanda insatisfecha de talento se acentuó en los últimos meses haciendo más difícil la incorporación de nuevos colaboradores e incluso la retención de los trabajadores contratados debido a la creciente brecha cambiaria con las empresas del exterior.</p>
                 <p>Los servicios tradicionales de manpower IT tampoco pueden sortear estas dificultades y la rotación de personal está afectando el delivery de los proyectos de desarrollo y en muchos casos frenando los planes de expansión de las empresas. </p>
-                <h5 class="titulosNoticias">Células de trabajo: un enfoque ágil apuntado a la optimización</h5>
+                <h2 class="titulosNoticias">Células de trabajo: un enfoque ágil apuntado a la optimización</h2>
                 <p>La adopción de una Metodología Agile basada en células/squads de trabajo es una de las claves que deben implementar las áreas de IT para hacer frente al panorama complejo en cuanto a la contratación y retención del personal.</p>
                 <p><strong>El enfoque de squads agiles consiste en la creación de equipos multidisciplinarios de entre 5 y 10 personas que combinan sus diferentes cualidades.</strong> </p>
                 <p>Es una forma de abordar las tareas que se basa en una metodología ágil en la cual cada miembro del equipo es autónomo y tiene su propio rol, pero a la vez se relaciona con los demás de manera constante.</p>
@@ -137,26 +176,26 @@
                 <p>En las células de trabajo la totalidad del equipo debe entender el negocio para poder crear soluciones que atiendan las necesidades y los objetivos del proyecto, a fin de desarrollar y entregar un producto que cumpla con las expectativas.</p>
                 <p>Esta metodología deja de lado el modelo estándar basado en jerarquías fijas y estáticas, modificando el papel del gerente de proyecto, quien en vez de gestionar las comunicaciones y la transferencia de responsabilidades entre equipos funcionales, debe asegurarse que cada célula entregue sus módulos en tiempo y forma.</p>
                 <p><strong>Las células de trabajo cambiaron el paradigma de la construcción de software y de los proyectos tecnológicos,</strong> transformándose en una de las formas de modalidades más elegidas por las compañías.</p>
-                <h5 class="titulosNoticias">Los beneficios de trabajar con células de trabajo</h5>
+                <h2 class="titulosNoticias">Los beneficios de trabajar con células de trabajo</h2>
                 <p>¿Por qué decimos que las células de trabajo se revelan como un enfoque ágil que optimiza la operatoria de las áreas de desarrollo de software? Debido a que su implementación reporta numerosas ventajas para las organizaciones. </p>
                 <p>En Sofre Digital somos especialistas en conformarlas e implementarlas con estos beneficios:</p>
-                <h6 class="subtitulosNoticias">Mejora los niveles de calidad y cumplimiento de plazos</h6>
+                <h3 class="subtitulosNoticias">Mejora los niveles de calidad y cumplimiento de plazos</h3>
                 <p>Basado en el soporte metodológico propuesto por Sofre Digital que se adapta a las características y objetivos del cliente.</p>
                 <p>Esta modalidad permite adecuar la configuración de equipos de trabajo teniendo en cuenta los recursos de los clientes o de otros proveedores a la vez que brinda la posibilidad de dimensionar el servicio alineándolo a las necesidades del negocio.</p>
-                <h6 class="subtitulosNoticias">Establece acuerdos a nivel servicio para medir la prestación</h6>
+                <h3 class="subtitulosNoticias">Establece acuerdos a nivel servicio para medir la prestación</h3>
                 <p>Las células de trabajo permiten medir y controlar la prestación y potencian la toma de decisiones en base a indicadores de la gestión definidos en conjunto, apuntando a la mejora continua del servicio.</p>
-                <h6 class="subtitulosNoticias">Optimiza las tareas del sector de RRHH y mejora la gestión del talento</h6>
+                <h3 class="subtitulosNoticias">Optimiza las tareas del sector de RRHH y mejora la gestión del talento</h3>
                 <p>Facilita las tareas de <i>recruiting</i>, capacitación <i>multiskilling</i>, coaching, desarrollo de nuevos talentos a partir del Centro de Especialización Profesional apuntando a la generación de recursos capacitados específicamente para el servicio, sin que esto genere para el cliente ningún tipo de gastos de entrenamiento.</p>
-                <h6 class="subtitulosNoticias">Fomenta el desarrollo de responsabilidades individuales y colectivas</h6>
+                <h3 class="subtitulosNoticias">Fomenta el desarrollo de responsabilidades individuales y colectivas</h3>
                 <p>Al interior de una célula de trabajo cada miembro se desempeña en su particularidad pero asume la responsabilidad de todo el proceso.</p>
                 <p>En consecuencia, se ejecutan acciones coordinadas en cada estadio y se alienta el crecimiento del compromiso individual y colectivo de manera simultánea.</p>
-                <h6 class="subtitulosNoticias">Mejora la comunicación</h6>
+                <h3 class="subtitulosNoticias">Mejora la comunicación</h3>
                 <p>Las células de trabajo facilitan la intercomunicación entre los miembros y reducen los retrasos derivados de la falta de coordinación.</p>
                 <p>Cada uno de los integrantes de una célula puede comunicarse y recibir feedback de manera directa. De este modo se hace más sencillo lidiar con cambios de requisitos, actualizaciones, errores y acomodar el trabajo actual y tomar decisiones a futuro.</p>
-                <h6 class="subtitulosNoticias">Acorta las interacciones</h6>
+                <h3 class="subtitulosNoticias">Acorta las interacciones</h3>
                 <p>Trabajar con células de trabajo ayuda a implementar ciclos más cortos para las pruebas y testeos, ya que la coordinación se simplifica cuando las interacciones se mantienen dentro de un grupo pequeño de personas.</p>
                 <p>Debido a que cada célula trabaja de extremo a extremo los módulos de aplicación es posible impulsar la coordinación, acortar las interacciones y mejorar el costo, la calidad y la velocidad de los proyectos.</p>
-                <h5 class="titulosNoticias">Sofre Digital, un aliado clave para las áreas de IT</h5>
+                <h3 class="titulosNoticias">Sofre Digital, un aliado clave para las áreas de IT</h3>
                 <p>En Sofre Digital trabajamos con un enfoque de desarrollo ágil que se adapta a los cambios y evoluciones del mercado, adecuando los requisitos y las soluciones de acuerdo a las necesidades del cliente.</p>
                 <p>El diferencial de nuestro servicio de células de trabajo está dado por:  </p>
                 <p><ul>
@@ -183,7 +222,7 @@
             </div>
             <div class="col-12 col-md-5 d-flex flex-column sectionLinks">
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Entradas Recientes</h5>
+                    <h2 class="tituloLinks">Entradas Recientes</h2>
                     <a href="./Mujeres-en-tecnologa.html" class="linkSectLink">Mujeres en tecnología</a>
                     <hr class="hr_lineafinita">
                     <a href="./Radios-y-redes-inteligentes.html" class="linkSectLink">Radios y redes inteligentes</a>
@@ -191,7 +230,7 @@
                     <a href="./Industria-4.0-nuevas-oportunidades.html" class="linkSectLink">Industria 4.0: nuevas oportunidades</a>
                 </div>
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Categorías</h5>
+                    <h2 class="tituloLinks">Categorías</h2>
                     <a href="../blog_Ciberseguridad.html" class="linkSectLink">Ciberseguridad</a>
                     <hr class="hr_lineafinita">
                     <a href="../blog_IoT.html" class="linkSectLink">IoT</a>
@@ -210,14 +249,14 @@
             <div class="row d-flex flex-column">
                 <div class="col-12 relacionados" data-aos="fade-in">
                     <p class="textoRel">BLOG</p>
-                    <h4 class="tituloRel">Relacionados</h4>
+                    <h2 class="tituloRel">Relacionados</h2>
                 </div>
                 <div class="col-12 d-flex flex-inline flex-wrap align-items-center justify-content-start sectNoticias">
                     <div class="boxNoticiaRel" data-aos="slide-up"><a href="./La-escasez-de-talento-IT-pone-un-freno-a-la-digitalizacion-de-las-empresas.html">
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/EscaseztalentoIT.png" alt="La escasez de talento IT pone un freno a la digitalización de las empresas" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">OCT 14, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">La escasez de talento IT pone un freno a la digitalización de las empresas</h5>
+                          <h3 class="tituloNoticiaRel">La escasez de talento IT pone un freno a la digitalización de las empresas</h3>
                           <p class="textoNoticiaRel">La pandemia del COVID-19 aceleró el proceso de digitalización de las empresas, obligando a la mayoría de las organizaciones a...</p>
                         </div>
                       </a></div>
@@ -229,21 +268,23 @@
                 <div class="sectImgForm"><img src="../../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
                 <div class="sectIcForm"><img src="../../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
                 <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                  <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                  <form class="d-flex flex-column align-items-center justify-content-center">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email *</label>
-                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                      <input type="text" class="form-control" id="ServicioDeInteres">
-                    </div>
-                    <div class="mb-3">
-                      <label for="Comentarios" class="form-label">Comentarios</label>
-                      <input type="text" class="form-control" id="Comentarios">
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+                  <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                    <fieldset>
+                      <div class="mb-3">
+                        <label for="Email" class="form-label">Email *</label>
+                        <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                        <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Comentarios" class="form-label">Comentarios</label>
+                        <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </fieldset>
                   </form>
                 </div>
               </div>         

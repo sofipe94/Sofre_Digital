@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4 activeBlog_nav">
                     <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./Por-que-cada-vez-mas-empresas-invierten-en-RPA.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./Solucion-de-cifrado-optico-para-todos-los-sectores.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -83,6 +78,50 @@
       </div>  
       </div>     
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -93,7 +132,7 @@
                     <div class="d-flex flex-column align-items-start justify-content-center sectNot" data-aos="fade-in">
                         <a href="../blog_RPA.html" class="btnBack">< RPA</a>
                         <div class="d-flex flex-inline"><p class="textoNotBlog">APR 23, 2021 |</p><p class="textoNotBlogClarito espaciado"> <small> 3 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">¿Por qué cada vez más empresas invierten en RPA?</h5>
+                        <h1 class="tituloNotBlog">¿Por qué cada vez más empresas invierten en RPA?</h1>
                         <hr class="hr_lineagruesa">
                         <div class="d-flex flex-inline">
                             <p class="textolinks d-flex align-items-center justify-content-center">Compartir</p>
@@ -124,7 +163,7 @@
                 <p>Cada vez son más las empresas que implementan soluciones de RPA para reducir sus costos, disminuir el tiempo en completar actividades concretas y la probabilidad de cometer errores en más de un área o sector.</p>
                 <p>¿Cuáles son las razones que las motivan a hacerlo?</p>
                 <p>En esta nota te lo contamos.</p>
-                <h5 class="titulosNoticias">La implementación de robots en distintas industrias</h5>
+                <h2 class="titulosNoticias">La implementación de robots en distintas industrias</h2>
                 <p>Contar con robots capaces de facilitar procesos se consideraba, hasta no hace mucho tiempo, una alternativa exclusiva de las grandes compañías.</p>
                 <p>La industria automotriz ha sido pionera en el uso de robots físicos, reduciendo  notablemente las horas de trabajo dedicadas a la producción de componentes de automóviles, minimizando riesgos operativos y costos laborales. Los laboratorios farmaceúticos llevan tiempo también optimizando la logística en planta y el transporte de materiales mediante robots móviles autónomos. Y la industria alimenticia y de bebidas, más allá de la robotización en el proceso de producción, ha extendido la automatización a la gestión de calidad, el control y trazabilidad de lotes e incluso al control de inventarios.</p>
                 <p>Para la automatización de procesos que realiza una persona por medio de un sistema o aplicación, surgieron los robots de software -Robots Process Automation o RPA-.  Se trata de verdaderos asistentes digitales que llevan a cabo procesos rutinarios, repetitivos y estandarizados con un alto beneficio para la organización en cuanto a costos, rapidez en las tareas y disponibilidad 7 x 24.</p>
@@ -139,7 +178,7 @@
                 <p>Contar con menos de 5 decisiones y acceso a aplicaciones por robot es esencial para lograr estabilizar su funcionamiento de manera sencilla y gestionar cualquier cambio en la automatización. Esto es necesario ya que es altamente sensible a los cambios de otras aplicaciones.</p>
                 <p>Por otro lado, mantener una automatización eficiente de tareas cortas que puedan ser monitoreadas por analistas, requiere limitar los clics a no más de 500. En caso contrario, será necesario considerar otro tipo de herramienta para las operaciones particulares que exijan más de este número.</p>
                 <p>En la implementación de soluciones de RPA lo recomendable es avanzar por los procesos de mayor importancia o más urgentes para el negocio. </p>
-                <h5 class="titulosNoticias">¿Qué tener en cuenta para evaluar la inversión en RPA?</h5>
+                <h2 class="titulosNoticias">¿Qué tener en cuenta para evaluar la inversión en RPA?</h2>
                 <p>Una vez definidos qué procesos son automatizables, hay que considerar las oportunidades que representa invertir en uno u otro proceso en términos de: reducción de costos, mejora en la calidad del proceso, disminución del tiempo necesario para completar actividades, reducción de errores y facilidad para automatizar.</p>
                 <p>Luego, los beneficios encontrados se comparan con los costos asociados a la instalación del RPA y al mantenimiento: adquisición del software, número de bots, implementación vinculado al desarrollo y configuración de los robots, licencia del software y actualizaciones.</p>
                 <p>De este modo, se tendrá una estimación del presupuesto necesario para la ejecución del proyecto.</p>
@@ -164,7 +203,7 @@
             </div>
             <div class="col-12 col-md-5 d-flex flex-column sectionLinks">
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Entradas Recientes</h5>
+                    <h2 class="tituloLinks">Entradas Recientes</h2>
                     <a href="./Mujeres-en-tecnologa.html" class="linkSectLink">Mujeres en tecnología</a>
                     <hr class="hr_lineafinita">
                     <a href="./Radios-y-redes-inteligentes.html" class="linkSectLink">Radios y redes inteligentes</a>
@@ -172,7 +211,7 @@
                     <a href="./Industria-4.0-nuevas-oportunidades.html" class="linkSectLink">Industria 4.0: nuevas oportunidades</a>
                 </div>
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Categorías</h5>
+                    <h2 class="tituloLinks">Categorías</h2>
                     <a href="../blog_Ciberseguridad.html" class="linkSectLink">Ciberseguridad</a>
                     <hr class="hr_lineafinita">
                     <a href="../blog_IoT.html" class="linkSectLink">IoT</a>
@@ -191,14 +230,14 @@
             <div class="row d-flex flex-column">
                 <div class="col-12 relacionados" data-aos="fade-in">
                     <p class="textoRel">BLOG</p>
-                    <h4 class="tituloRel">Relacionados</h4>
+                    <h2 class="tituloRel">Relacionados</h2>
                 </div>
                 <div class="col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center sectNoticias">
                     <div class="boxNoticiaRel" data-aos="slide-up"><a href="./Como-la-IA-potencia-la-Gestion-documental.html">
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/IAGestiondoc.png" alt="¿Cómo la IA potencia la Gestión documental?" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">NOV 17, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">¿Cómo la IA potencia la Gestión documental?</h5>
+                          <h3 class="tituloNoticiaRel">¿Cómo la IA potencia la Gestión documental?</h3>
                           <p class="textoNoticiaRel">Facturas, remitos, liquidaciones, presupuestos, balances, informes, listas de precios, legajos. En la actualidad, la mayoría de las empresas maneja grandes...</p>
                         </div>
                       </a></div>
@@ -206,7 +245,7 @@
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/RPA.png" alt="RPA, al rescate del comercio minorista" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">MAY 14, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">RPA, al rescate del comercio minorista</h5>
+                          <h3 class="tituloNoticiaRel">RPA, al rescate del comercio minorista</h3>
                           <p class="textoNoticiaRel">En tiempos donde la tecnología y hacer un buen uso de ella parecen serlo todo, adaptarla a nuestras necesidades y...</p>
                         </div>
                       </a></div>
@@ -214,7 +253,7 @@
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/10cosasRPA.png" alt="10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">MAR 01, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA</h5>
+                          <h3 class="tituloNoticiaRel">10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA</h3>
                           <p class="textoNoticiaRel">Los desafíos que el caos de información proveniente de distintos canales plantea en el mundo actual y la creciente demanda ...</p>
                         </div>
                       </a></div>
@@ -226,21 +265,23 @@
                 <div class="sectImgForm"><img src="../../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
                 <div class="sectIcForm"><img src="../../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
                 <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                  <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                  <form class="d-flex flex-column align-items-center justify-content-center">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email *</label>
-                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                      <input type="text" class="form-control" id="ServicioDeInteres">
-                    </div>
-                    <div class="mb-3">
-                      <label for="Comentarios" class="form-label">Comentarios</label>
-                      <input type="text" class="form-control" id="Comentarios">
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+                  <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                    <fieldset>
+                      <div class="mb-3">
+                        <label for="Email" class="form-label">Email *</label>
+                        <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                        <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Comentarios" class="form-label">Comentarios</label>
+                        <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </fieldset>
                   </form>
                 </div>
               </div>         

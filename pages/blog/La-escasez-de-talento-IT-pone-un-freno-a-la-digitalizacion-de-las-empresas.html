@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4 activeBlog_nav">
                     <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./La-escasez-de-talento-IT-pone-un-freno-a-la-digitalizacion-de-las-empresas.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./Solucion-de-cifrado-optico-para-todos-los-sectores.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -83,6 +78,50 @@
       </div>  
       </div>     
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -93,7 +132,7 @@
                     <div class="d-flex flex-column align-items-start justify-content-center sectNot" data-aos="fade-in">
                         <a href="../blog_TalentoIT.html" class="btnBack">< Talento IT</a>
                         <div class="d-flex flex-inline"><p class="textoNotBlog">OCT 14, 2021 |</p><p class="textoNotBlogClarito espaciado"> <small> 3 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">La escasez de talento IT pone un freno a la digitalización de las empresas</h5>
+                        <h1 class="tituloNotBlog">La escasez de talento IT pone un freno a la digitalización de las empresas</h1>
                         <hr class="hr_lineagruesa">
                         <div class="d-flex flex-inline">
                             <p class="textolinks d-flex align-items-center justify-content-center">Compartir</p>
@@ -123,7 +162,7 @@
             <div class="col-12 col-md-7 d-flex flex-column parrafosNoticia">
                 <p>La pandemia del COVID-19 aceleró el proceso de digitalización de las empresas, obligando a la mayoría de las organizaciones a modificar sus esquemas de trabajo y a incorporar el teletrabajo como una herramienta fundamental para la operatoria. Sin embargo, el desarrollo digital de las compañías se ve amenazado por un fenómeno que crece cada vez más: la escasez de talento IT.</p>
                 <p>La dificultad que tienen los sectores de Recursos Humanos para encontrar en el mercado laboral personas que puedan asumir puestos claves dentro de las áreas de tecnología de las comunicaciones pone a las firmas en una encrucijada que pone varios proyectos y negocios en stand-by y que solo puede resolverse cambiando el enfoque de trabajo al interior de cada organización.</p>
-                <h5 class="titulosNoticias">Falta de talento IT: un escollo para la digitalización</h5>
+                <h2 class="titulosNoticias">Falta de talento IT: un escollo para la digitalización</h2>
                 <p>La escasez de personas con las habilidades técnicas necesarias para impulsar la transformación digital es una problemática que enfrentan las empresas en la actualidad.</p>
                 <p>El <a href="https://www.salesforce.com/es/company/news-press/press-releases/2021/07/20210713/" target="_blank" class="subLink">estudio Digital Skills Research realizado por la investigadora de mercado RAND Europe para Salesforce</a> reveló que el 87% de los directivos de las firmas está preocupado por la creciente brecha digital que se registra entre los skills de sus empleados y los requerimientos de la digitalización.</p>
                 <p>Según esta investigación, el desequilibrio está causado por diferentes factores:</p>
@@ -139,11 +178,11 @@
                 <p><ul><li><strong>Inversiones poco efectivas</strong></li></ul></p>
                 <p>En relación con los puntos anteriores, aquellas organizaciones que poseen niveles bajos de seguridad en sus sistemas e infraestructuras digitales endebles dejan de invertir en digitalización ya que les resulta poco operativo.</p>
                 <p>Frente a este panorama es imprescindible que las empresas no solamente ofrezcan oportunidades digitales y promuevan carreras tecnológicas que reporten un aprendizaje significativo, sino también adopten metodologías de trabajo ágiles al interior de las organizaciones que les permitan enfrentar la escasez de talento IT.</p>
-                <h5 class="titulosNoticias">Células de trabajo: un enfoque para paliar la escasez de talento</h5>
+                <h2 class="titulosNoticias">Células de trabajo: un enfoque para paliar la escasez de talento</h2>
                 <p>La implementación de células ágiles de trabajo se revela como una estrategia efectiva para superar los inconvenientes que atraviesan las compañías ante la falta de profesionales debidamente calificados en el área IT.</p>
                 <p>Se trata de una metodología que consiste en la creación de equipos multidisciplinarios de trabajo de 5 a 10 personas en los cuales, si bien cada miembro es autónomo y posee determinadas tareas asignadas, se relaciona con los demás de forma constante, combinando y potenciando sus propias cualidades.</p>
                 <p>La <a href="https://www.linkedin.com/pulse/c%C3%B3mo-hacer-frente-la-escasez-de-talento-sofrecom-argentina-sau/" target="_blank" class="subLink">implementación de las células de trabajo reporta numerosos beneficios para las organizaciones</a>, facilitando las tareas de reclutamiento y capacitación de múltiples skills.</p>
-                <h5 class="titulosNoticias">Sofre Digital, una solución concreta para hacer frente a la escasez de talento en las áreas IT empresariales</h5>
+                <h2 class="titulosNoticias">Sofre Digital, una solución concreta para hacer frente a la escasez de talento en las áreas IT empresariales</h2>
                 <p>En Sofre Digital somos especialistas en implementar enfoques de desarrollo ágiles que se adaptan a los requerimientos de digitalización del mercado, <i>customizando</i> cada propuesta en función de las necesidades del cliente.</p>
                 <p>Al margen de las ventajas habituales de implementar esta metodología, nuestro servicio de células de trabajo se caracteriza por contar con los siguientes diferenciales:</p>
                 <p><ul>
@@ -170,7 +209,7 @@
             </div>
             <div class="col-12 col-md-5 d-flex flex-column sectionLinks">
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Entradas Recientes</h5>
+                    <h2 class="tituloLinks">Entradas Recientes</h2>
                     <a href="./Mujeres-en-tecnologa.html" class="linkSectLink">Mujeres en tecnología</a>
                     <hr class="hr_lineafinita">
                     <a href="./Radios-y-redes-inteligentes.html" class="linkSectLink">Radios y redes inteligentes</a>
@@ -178,7 +217,7 @@
                     <a href="./Industria-4.0-nuevas-oportunidades.html" class="linkSectLink">Industria 4.0: nuevas oportunidades</a>
                 </div>
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Categorías</h5>
+                    <h2 class="tituloLinks">Categorías</h2>
                     <a href="../blog_Ciberseguridad.html" class="linkSectLink">Ciberseguridad</a>
                     <hr class="hr_lineafinita">
                     <a href="../blog_IoT.html" class="linkSectLink">IoT</a>
@@ -197,14 +236,14 @@
             <div class="row d-flex flex-column">
                 <div class="col-12 relacionados" data-aos="fade-in">
                     <p class="textoRel">BLOG</p>
-                    <h4 class="tituloRel">Relacionados</h4>
+                    <h2 class="tituloRel">Relacionados</h2>
                 </div>
                 <div class="col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center sectNoticias">
                     <div class="boxNoticiaRel" data-aos="slide-up"><a href="./Como-hacer-frente-a-la-escasez-de-talento-IT.html">
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/EscaseztalentoIT2.png" alt="¿Cómo hacer frente a la escasez de talento IT?" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">SEP 10, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">¿Cómo hacer frente a la escasez de talento IT?</h5>
+                          <h3 class="tituloNoticiaRel">¿Cómo hacer frente a la escasez de talento IT?</h3>
                           <p class="textoNoticiaRel">De acuerdo al Instituto Nacional de Estadísticas y Censos (INDEC), durante el primer trimestre del 2021 la tasa de desocupación...</p>
                         </div>
                       </a></div>
@@ -216,21 +255,23 @@
                 <div class="sectImgForm"><img src="../../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
                 <div class="sectIcForm"><img src="../../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
                 <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                  <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                  <form class="d-flex flex-column align-items-center justify-content-center">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email *</label>
-                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                      <input type="text" class="form-control" id="ServicioDeInteres">
-                    </div>
-                    <div class="mb-3">
-                      <label for="Comentarios" class="form-label">Comentarios</label>
-                      <input type="text" class="form-control" id="Comentarios">
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+                  <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                    <fieldset>
+                      <div class="mb-3">
+                        <label for="Email" class="form-label">Email *</label>
+                        <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                        <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Comentarios" class="form-label">Comentarios</label>
+                        <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </fieldset>
                   </form>
                 </div>
               </div>         

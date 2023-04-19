@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4 activeBlog_nav">
                     <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./Como-la-IA-potencia-la-Gestion-documental.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./Solucion-de-cifrado-optico-para-todos-los-sectores.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -83,6 +78,50 @@
       </div>  
       </div>     
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -93,7 +132,7 @@
                     <div class="d-flex flex-column align-items-start justify-content-center sectNot" data-aos="fade-in">
                         <a href="../blog_RPA.html" class="btnBack">< RPA</a>
                         <div class="d-flex flex-inline"><p class="textoNotBlog">NOV 17, 2021 |</p><p class="textoNotBlogClarito espaciado"> <small> 4 MINS DE LECTURA</small></p></div>
-                        <h5 class="tituloNotBlog">¿Cómo la IA potencia la Gestión documental?</h5>
+                        <h1 class="tituloNotBlog">¿Cómo la IA potencia la Gestión documental?</h1>
                         <hr class="hr_lineagruesa">
                         <div class="d-flex flex-inline">
                             <p class="textolinks d-flex align-items-center justify-content-center">Compartir</p>
@@ -123,19 +162,19 @@
             <div class="col-12 col-md-7 d-flex flex-column parrafosNoticia">
                 <p>Facturas, remitos, liquidaciones, presupuestos, balances, informes, listas de precios, legajos. En la actualidad, la mayoría de las empresas maneja grandes flujos de información distribuida en documentos o archivos de distinto tipo que deben ser organizados, actualizados y ordenados de acuerdo a los requerimientos internos de cada organización.</p>
                 <p>¿Cómo hacer frente al crecimiento exponencial de la información, administrar los datos de forma eficiente y optimizar la operatoria sin incrementar los gastos? Una vez más, la tecnología tiene la respuesta a esta pregunta: sumando Inteligencia Artificial a la gestión documental digital.</p>
-                <h5 class="titulosNoticias">Por qué la inteligencia artificial es una herramienta clave para la  gestión documental de las organizaciones</h5>
+                <h2 class="titulosNoticias">Por qué la inteligencia artificial es una herramienta clave para la  gestión documental de las organizaciones</h2>
                 <p>La implementación de tecnologías de inteligencia artificial (IA) es una tendencia creciente al interior de las organizaciones. De acuerdo al <a href="https://www.idc.com/getdoc.jsp?containerId=prUS46794720" target="_blank" class="subLink">informe Worldwide Artificial Intelligence Systems Spending Guide</a> realizado por la consultora IDC en agosto del año pasado, el gasto mundial en IA se duplicará en los próximos 4 años, pasando de USD 50.100 millones en 2020 a más de USD 110.000 millones en 2024.</p>
                 <p>La gestión documental digital es uno de los sectores más beneficiados por la implementación de IA. Al integrarse con las tecnologías de Machine Learning (ML), o aprendizaje automático, se crean entornos automatizados que permiten gestionar grandes volúmenes de datos y llevar a cabo tareas de almacenamiento, clasificación y extracción de información de manera eficaz y eficiente, impactando positivamente en los flujos de trabajo. Todo ello porque <strong>la IA permite el aprendizaje a partir de la interpretación del contenido de cada documento y analizar los datos en tiempos mucho más cortos.</strong></p>
                 <p>El ML reduce la intervención humana en la gestión documental ya que no solamente se encarga de capturar archivos, sino que, gracias a la confluencia de la tecnología de Comprensión del Lenguaje Natural (NLP), puede comprender la información sin necesidad de una constante intervención manual.</p>
                 <p>Las ventajas que aporta la implementación de IA aplicada a la gestión documental son numerosas:</p> 
-                <h6 class="subtitulosNoticias">Análisis y organización inteligente de los documentos</h6>
+                <h3 class="subtitulosNoticias">Análisis y organización inteligente de los documentos</h3>
                 <p>Las tecnologías de IA tienen la capacidad de escanear, interpretar y clasificar archivos de acuerdo a su contenido de una manera precisa, independientemente de la cantidad de datos o el idioma. La automatización ayuda a agilizar la gestión documental, a la vez que minimiza los errores.</p>
-                <h6 class="subtitulosNoticias">Mejora en los niveles de seguridad</h6>
+                <h3 class="subtitulosNoticias">Mejora en los niveles de seguridad</h3>
                 <p>Gracias a su alto grado de precisión y especificidad, las tecnologías de IA tienen la capacidad de detectar palabras como “confidencial” para asignarle a esos documentos mayores niveles de seguridad, sea restringiendo su acceso o haciendo una encriptación de los archivos.</p>
                 <p>De esta forma permiten establecer diferentes tipos de permisos para que ciertos documentos solo puedan ser abiertos o impresos por usuarios autorizados. Las tecnologías de reconocimiento facial y datos biométricos también pueden aplicarse a la protección documental de registros confidenciales.</p>
-                <h6 class="subtitulosNoticias">Optimización de la gestión documental</h6>
+                <h3 class="subtitulosNoticias">Optimización de la gestión documental</h3>
                 <p>Al ser capaces de obtener información documental de manera inmediata y precisa con el objetivo de integrarla a sistemas de gestión internos, las tecnologías de IA agilizan los flujos de trabajo y ayudan a obtener mejores resultados.</p>
-                <h5 class="titulosNoticias">Sofre Digital, una solución concreta para la gestión documental digital de tu empresa</h5>
+                <h2 class="titulosNoticias">Sofre Digital, una solución concreta para la gestión documental digital de tu empresa</h2>
                 <p>En Sofre Digital trabajamos incansablemente para proveerles a nuestros clientes soluciones que los acompañen en el camino a la transformación digital.</p>
                 <p>Nuestras soluciones en gestión documental incluyen:</p>
                 <p><ul>
@@ -166,7 +205,7 @@
             </div>
             <div class="col-12 col-md-5 d-flex flex-column sectionLinks">
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Entradas Recientes</h5>
+                    <h2 class="tituloLinks">Entradas Recientes</h2>
                     <a href="./Mujeres-en-tecnologa.html" class="linkSectLink">Mujeres en tecnología</a>
                     <hr class="hr_lineafinita">
                     <a href="./Radios-y-redes-inteligentes.html" class="linkSectLink">Radios y redes inteligentes</a>
@@ -174,7 +213,7 @@
                     <a href="./Industria-4.0-nuevas-oportunidades.html" class="linkSectLink">Industria 4.0: nuevas oportunidades</a>
                 </div>
                 <div class="linkBox d-flex flex-column">
-                    <h5 class="tituloLinks">Categorías</h5>
+                    <h2 class="tituloLinks">Categorías</h2>
                     <a href="../blog_Ciberseguridad.html" class="linkSectLink">Ciberseguridad</a>
                     <hr class="hr_lineafinita">
                     <a href="../blog_IoT.html" class="linkSectLink">IoT</a>
@@ -193,14 +232,14 @@
             <div class="row d-flex flex-column">
                 <div class="col-12 relacionados" data-aos="fade-in">
                     <p class="textoRel">BLOG</p>
-                    <h4 class="tituloRel">Relacionados</h4>
+                    <h2 class="tituloRel">Relacionados</h2>
                 </div>
                 <div class="col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center sectNoticias">
                     <div class="boxNoticiaRel" data-aos="slide-up"><a href="./RPA-al-rescate-del-comercio-minorista.html">
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/RPA.png" alt="RPA, al rescate del comercio minorista" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">MAY 14, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">RPA, al rescate del comercio minorista</h5>
+                          <h3 class="tituloNoticiaRel">RPA, al rescate del comercio minorista</h3>
                           <p class="textoNoticiaRel">En tiempos donde la tecnología y hacer un buen uso de ella parecen serlo todo, adaptarla a nuestras necesidades y...</p>
                         </div>
                       </a></div>
@@ -208,7 +247,7 @@
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/RPA2.png" alt="¿Por qué cada vez más empresas invierten en RPA?" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">APR 23, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">¿Por qué cada vez más empresas invierten en RPA?</h5>
+                          <h3 class="tituloNoticiaRel">¿Por qué cada vez más empresas invierten en RPA?</h3>
                           <p class="textoNoticiaRel">Cada vez son más las empresas que implementan soluciones de RPA para reducir sus costos, disminuir el tiempo en completar...</p>
                         </div>
                       </a></div>
@@ -216,7 +255,7 @@
                         <div class="boxImgNoticiaRel"><img src="../../images/blog/10cosasRPA.png" alt="10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA" class="imgNoticiaRel"></div>
                         <div class="d-flex flex-column justify-content-center align-items-start textoNoticiaBoxRel">
                           <p class="textoNoticiaRel">MAR 01, 2021 |</p>
-                          <h5 class="tituloNoticiaRel">10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA</h5>
+                          <h3 class="tituloNoticiaRel">10 cosas que necesita saber sobre la automatización de procesos con tecnología RPA</h3>
                           <p class="textoNoticiaRel">Los desafíos que el caos de información proveniente de distintos canales plantea en el mundo actual y la creciente demanda ...</p>
                         </div>
                       </a></div>
@@ -228,21 +267,23 @@
                 <div class="sectImgForm"><img src="../../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
                 <div class="sectIcForm"><img src="../../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
                 <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                  <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                  <form class="d-flex flex-column align-items-center justify-content-center">
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email *</label>
-                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                      <input type="text" class="form-control" id="ServicioDeInteres">
-                    </div>
-                    <div class="mb-3">
-                      <label for="Comentarios" class="form-label">Comentarios</label>
-                      <input type="text" class="form-control" id="Comentarios">
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+                  <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                    <fieldset>
+                      <div class="mb-3">
+                        <label for="Email" class="form-label">Email *</label>
+                        <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                        <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Comentarios" class="form-label">Comentarios</label>
+                        <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </fieldset>
                   </form>
                 </div>
               </div>         

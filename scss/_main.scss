@@ -231,6 +231,7 @@ main{
         padding-left: 30px;
         padding-right: 30px;
         margin-top: 20px;
+        text-decoration: none;
     }
     .btn-primary:hover{
         background-color: $violeta;
@@ -397,9 +398,10 @@ main{
         p{
             color: $letrazul;
         }
-        h5{
+        h3{
             color: $azul;
             font-weight: 500;
+            font-size: 150%;
         }
     }
     .boxNoticia:hover{
@@ -907,8 +909,11 @@ main{
         padding: 10px;
         box-shadow: 2px 2px 3px rgb(232, 228, 228);
         width: 200px;
-        height: 70px;
+        height: 50px;
         border-radius: 50px;
+        color: $blanco;
+        font-size: 110%;
+        text-align: center;
     }
     .sectTextoMngt{
         padding-right: 30px;
@@ -1126,15 +1131,12 @@ main{
         text-decoration: none;
         width: 300px;
         width: auto;
-    }
-    .btn-outline-secondary{
         padding: 10px 25px;
         border-radius: 30px;
         margin: 10px;
-    }
-    .btn-outline-secondary:hover{
         background-color: transparent;
         color: $gris;
+        border: solid 1px $gris;
     }
     .sectionImgClientes{
         margin: 70px 0px;
@@ -1660,14 +1662,13 @@ main{
     .linkBtn{
         text-decoration: none;
         width: auto;
-        margin: 50px 0px;
-    }
-    .btn-outline-secondary{
+        margin: 50px 10px;
         padding: 10px 25px;
         border-radius: 30px;
-        margin: 10px;
+        border: solid 1px $gris;
+        color: $gris;
     }
-    .btn-outline-secondary:hover{
+    .linkBtn:hover{
         border: solid 1px $azul;
         color: $azul;
         background-color: transparent;
@@ -1733,6 +1734,7 @@ main{
                 padding: 10px;
                 width: 200px;
                 color: $blanco;
+                text-align: center;
             }
             .btn-info:hover{
                 background-color: transparent;
@@ -1942,6 +1944,7 @@ main{
             font-family: $letraSofre;
             font-weight: 600;
             margin-bottom: 50px;
+            font-size: 130%;
         }
         .hr_lineafinita{
             border: solid 0,3px $letrazul;
@@ -2006,6 +2009,7 @@ main{
             color: $azul;
             font-weight: 500;
             font-family: $letraSofre;
+            font-size: 140%;
         }
         .boxNoticiaRel:hover{
             .imgNoticiaRel{

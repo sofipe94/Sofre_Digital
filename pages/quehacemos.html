@@ -28,14 +28,11 @@
         </div>
         <div class=" row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -59,13 +56,11 @@
                   <li class="nav-item-4">
                     <a class="nav-link item-4" aria-current="page" href="../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./quehacemos.html#proyecto">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn-danger" href="./quehacemos.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -86,6 +81,50 @@
       
            
     </div>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -99,7 +138,7 @@
                 <img src="../images/quehacemos/icono-primera-seccion.png" alt="" class="iconoQH">
                 <img src="../images/quehacemos/logo.png" alt="" class="logoQH">
               </div>              
-              <h3 class="tituloQH">Impulse la innovación dentro de su organización</h3>
+              <h1 class="tituloQH">Impulse la innovación dentro de su organización</h1>
               <p class="textoQH">Con un servicio de alta calidad para sus clientes.</p>
               <a href="./quehacemos.html#botonesQH"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down bounce-top"></a>
             </div>
@@ -109,32 +148,32 @@
         <div class="row" id="botonesQH">
           <div class="d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center botones">
               <a href="../pages/quehacemos.html#sectOne" class="linkBotones fade-in">
-                <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start" >
+                <div class="btn-light d-flex flex-column justify-content-center align-items-start" >
                   <img src="../images/quehacemos/iconos botones/boton1.png" alt="Soluciones de transformación Digital" class="imagenBotones">
                   <p class="textoBotones">Soluciones de</p>
                   <p class="textoBotones"><strong>Transformación Digital</strong></p>
-                </button>
+                </div>
               </a>
             <a href="../pages/quehacemos.html#sectTwo" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="../images/quehacemos/iconos botones/boton2.png" alt="Soluciones de software delivery" class="imagenBotones">
                 <p class="textoBotones">Soluciones de <strong>software</strong></p>
                 <p class="textoBotones"><strong>delivery</strong></p>
-              </button>
+              </div>
             </a>
             <a href="../pages/quehacemos.html#sectThree" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="../images/quehacemos/iconos botones/boton3.png" alt="Servicio de infraestructura de redes" class="imagenBotones">
                 <p class="textoBotones">Servicio de </p>
                 <p class="textoBotones"><strong>infraestructura de redes</strong></p>
-              </button>
+              </div>
             </a>
             <a href="../pages/quehacemos.html#sectFour" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="../images/quehacemos/iconos botones/boton4.png" alt="servicio de desarrollo gerenciado" class="imagenBotones">
                 <p class="textoBotones">Soluciones de <strong>desarrollo</strong></p>
                 <p class="textoBotones"><strong>gerenciado</strong></p>
-              </button>
+              </div>
             </a>
           </div>
         </div>
@@ -143,15 +182,15 @@
           <div class="row AccSinFondo flex-column-reverse flex-md-row" id="sectOne">
             <div class="AccQH" data-aos="slide-up">
               <img src="../images/quehacemos/iconos botones/boton1.png" alt="" class="iconoAccQH">
-              <h4 class="tituloAccQH">Soluciones de Transformación Digital</h4>
+              <h2 class="tituloAccQH">Soluciones de Transformación Digital</h2>
               <p class="textoAccQH">Co-creamos soluciones digitales basadas en la automatización y robotización de procesos claves de negocio.</p>
               <div class="accordion" id="accordionOne">
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Digital Solutions Design 
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>Acompañamos a nuestros clientes en su viaje hacia la transformación digital de sus negocios, mediante un proceso de venta consultiva, identificando puntos de ayuda y colaborando con sus necesidades.</p>
@@ -160,11 +199,11 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Robotic Process Automation
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>Acompañamos a nuestros clientes en sus procesos de transformación tecnológica, brindando soluciones de punta que permiten mejorar la eficiencia de sus compañías, su ROI, y la reducción de costos operativos de los más diversos procesos y sectores.</p>
@@ -193,11 +232,11 @@
                 </div>
               </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Coaching Metodologia Agile
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>Nuestros servicios permiten alinear bajo un marco metodológico basado en Agile, la tecnología, con el negocio y las comunidades usuarias para lograr junto con nuestros clientes la co-ideación y co-creación de soluciones de valor agregado.</p>
@@ -207,11 +246,11 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                       MVPS Design "Minimun Viable Products"
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>Con un equipo de profesionales multidisciplinario, entre ellos, arquitectos, analistas funcionales y consultores, colaboramos con la evaluación de adopción de soluciones de digitalización, automatización y robotización de procesos de negocio.</p>
@@ -222,11 +261,11 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                       Content Services Platforms
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>El uso de Gestores de Contenidos Empresariales permiten que las organizaciones maximizar su información, al proporcionar nuevo valor a los datos que usualmente no se encuentran estructurados ni disponibles; mediante una gestión eficaz, la automatización de la carga, el reconocimiento digital, el almacenamiento y análisis automatizado de documentos.</p>
@@ -238,11 +277,11 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                       Business Process Management
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>Mediante herramientas de modelado de procesos de negocio se logra obtener una gran visión, entendimiento y control de todas las actividades de la empresa; permitiendo gestionar la forma en que los procesos interactúan y evolucionan, en un marco de mejora y adaptación continua.</p>
@@ -262,11 +301,11 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <h3 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                       Cybersecurity Solutions
                     </button>
-                  </h2>
+                  </h3>
                   <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
                     <div class="accordion-body">
                       <p>Co-diseñamos soluciones de ciberseguridad para ayudar a nuestros clientes y protegerlos de ciberataques con soluciones B2B y B2C específicas para cada industria ayudando a proteger sus activos de información y digitales. Junto con nuestros partners proveemos el producto y los servicios para su customización y puesta en marcha. Tenemos una solución para cada amenaza sea phishing, ransomware, malware o virus.</p>
@@ -286,15 +325,15 @@
           </div>
           <div class="AccQH" data-aos="slide-up">
             <img src="../images/quehacemos/iconos botones/boton2.png" alt="" class="iconoAccQH">
-            <h4 class="tituloAccQH">Servicio de software delivery</h4>
+            <h2 class="tituloAccQH">Servicio de software delivery</h2>
             <p class="textoAccQH">Creamos aplicaciones y soluciones de software utilizando las capacidades y el expertise en cada una de sus etapas.</p>
             <div class="accordion" id="accordionTwo">
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                     Mobile Solutions
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseEight" class="accordion-collapse collapse show" data-bs-parent="#accordionTwo">
                   <div class="accordion-body">
                     <p>Sofre Digital simplifica el acceso a los múltiples dispositivos con los que puede contar un usuario en la actualidad, integrando y diseñando soluciones móviles complementando y potenciando los procesos de transformación digital de nuestros clientes, capturando información,interpretando documentación o agregándole inteligencia y agilidad a sus procesos de negocio.</p>
@@ -303,11 +342,11 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                     User & Customer Experience
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
                   <div class="accordion-body">
                     <p>Con la agilidad necesaria que se requiere en un mundo cambiante, cada vez más exigente y digitalmente inteligente, es vital que quien quiere a su negocio busque la lealtad a su marca.</p>
@@ -318,11 +357,11 @@
               </div>
             </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                     B2C Portals
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
                   <div class="accordion-body">
                     <p>Servicios de desarrollos de portales multipropósito de autogestión de clientes o proveedores en empresas líderes de distintas industrias genero una experiencia metodológica y funcional que permitirán adecuar o rediseñar distintos portales web multipropósito.</p>
@@ -330,11 +369,11 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                     Collaboration Solutions
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
                   <div class="accordion-body">
                     <p>Sofre Digital te acerca plataformas de colaboración empresarial que agilizan el trabajo en equipo y aceleran la productividad. Desde almacenamiento de información y comunicación dinámica entre los integrantes de una empresa, hasta herramientas que administran la digitalización de los procesos, llevando su empresa a la última modernización tecnológica.</p>
@@ -343,11 +382,11 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                     Consultoría e Integración de Aplicaciones
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
                   <div class="accordion-body">
                     <p>La capacidad de adaptación pasó a ser la de mayor valoración en la vida empresarial actual, para ello contamos con expertos en distintas tecnologías de vanguardia que permitirán solucionar problemas tediosos de una manera ingeniosa y productiva, la digitalización, robotización de procesos y automatización llegaron para eliminar tareas repetitivas complejas y tediosas. En nuestro proceso consultivo co-diseñamos un MVP o producto mínimo viable para luego escalarlo a un producto o solución definitiva. Resolvemos integraciones y migraciones de aplicaciones de negocio utilizando tecnología RPA.</p>
@@ -355,11 +394,11 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                     Front&Back-end-Engineering 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
                   <div class="accordion-body">
                     <p>Valiéndonos de nuestros servicios de UX y nuestro conocimiento en distintas arquitecturas de aplicaciones y en procesos de negocio de distintas industrias, realizamos una reingeniería completa de soluciones de manera gradual ágil y eficiente.</p>
@@ -373,15 +412,15 @@
         <div class="row AccSinFondo flex-column-reverse flex-md-row" id="sectThree">
           <div class="AccQH" data-aos="slide-up">
             <img src="../images/quehacemos/iconos botones/boton3.png" alt="" class="iconoAccQH">
-            <h4 class="tituloAccQH">Servicio de infraestructura de redes</h4>
+            <h2 class="tituloAccQH">Servicio de infraestructura de redes</h2>
             <p class="textoAccQH">La introducción de nuevas tecnologías en las redes requiere de un asesoramiento altamente calificado. En Sofre Digital contamos con equipos técnicos entrenados y con experiencia en el despliegue en campo, soporte posterior a la operación y mantenimiento.</p>
             <div class="accordion" id="accordionThree">
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
                     Servicio de Ingeniería y Despliegue de Redes
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseFourteen" class="accordion-collapse collapse show" data-bs-parent="#accordionThree">
                   <div class="accordion-body">
                     <p>Brindamos servicios integrales de provisión de equipamiento y construcción de redes de alta tecnología implementando redes ópticas multiservicio y multi-protocolo, con capacidades de transmisión de hasta 800 G, bajo tecnología DWDM, en áreas metropolitanas e interurbanas. Nos hemos especializado también en enlaces de interconexión de Data Centers. Nuestra oferta abarca también redes IP, paquetes, routing y switching. En los casos específicos, en que las redes ópticas no sean una opción, complementamos nuestra oferta con soluciones de radioenlaces de largo alcance y punto multipunto para automatización y control</p>
@@ -392,11 +431,11 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                     Servicios de Soporte y Asistencia Técnica
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionThree">
                   <div class="accordion-body">
                     <p>Nuestros servicios de asistencia técnica para redes de alta tecnología, le brindan a nuestros clientes el respaldo operativo que exigen redes en permanente evolución.</p>
@@ -406,11 +445,11 @@
               </div>
             </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
                     Coaching Metodologia Agile
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionThree">
                   <div class="accordion-body">
                     <p>Nuestros servicios permiten alinear bajo un marco metodológico basado en Agile, la tecnología, con el negocio y las comunidades usuarias para lograr junto con nuestros clientes la co-ideación y co-creación de soluciones de valor agregado.</p>
@@ -420,11 +459,11 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
                     Ciberseguridad
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionThree">
                   <div class="accordion-body">
                     <p>Abordamos la cybersegurdad desde diferentes planos, asegurando la inviolabilidad de la información en la replicación entre Data Centers, brindando seguridad corporativa flexible en las comunicaciones entre sucursales y con empleados en modalidad de teletrabajo, y con soluciones de seguridad para dispositivos terminales de empresas con clientes masivos.</p>
@@ -448,15 +487,15 @@
         </div>
         <div class="AccQH" data-aos="slide-up">
           <img src="../images/quehacemos/iconos botones/boton4.png" alt="" class="iconoAccQH">
-          <h4 class="tituloAccQH">Servicio de desarrollo gerenciado</h4>
+          <h2 class="tituloAccQH">Servicio de desarrollo gerenciado</h2>
           <p class="textoAccQH">Nuestros servicios de desarrollo gerenciado ayudan a nuestros clientes a cubrir necesidades de desarrollo con profesionales altamente capacitados y formados en procesos de negocio de su industria.</p>
           <div class="accordion" id="accordionFour">
             <div class="accordion-item">
-              <h2 class="accordion-header">
+              <h3 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
                   Software Maintenance
                 </button>
-              </h2>
+              </h3>
               <div id="collapseEighteen" class="accordion-collapse collapse show" data-bs-parent="#accordionFour">
                 <div class="accordion-body">
                   <p>Nuestra experiencia acumulada en el desarrollo y mantenimiento de soluciones IT, en empresas líderes en su industria nos permite tener bases metodológicas y conocimiento experto en la definición de SLA´s para el mantenimiento de software. Con fuerte orientación en empresas de telecomunicaciones, banca, seguros, servicios, etc.</p>
@@ -464,11 +503,11 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header">
+              <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
                   Cash Management
                 </button>
-              </h2>
+              </h3>
               <div id="collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#accordionFour">
                 <div class="accordion-body">
                   <p>Optimizar los recursos en el mantenimiento de aplicaciones permitió desarrollar una metodología propia de manera de definir indicadores y procesos óptimos para la administración de sistemas y procesos complejos.</p>
@@ -485,21 +524,23 @@
             <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
             <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
             <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-              <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-              <form class="d-flex flex-column align-items-center justify-content-center">
-                <div class="mb-3">
-                  <label for="Email" class="form-label">Email *</label>
-                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                  <input type="text" class="form-control" id="ServicioDeInteres">
-                </div>
-                <div class="mb-3">
-                  <label for="Comentarios" class="form-label">Comentarios</label>
-                  <input type="text" class="form-control" id="Comentarios">
-                </div>
-                <button type="submit" class="btn btn-secondary">Enviar</button>
+              <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+              <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                <fieldset>
+                  <div class="mb-3">
+                    <label for="Email" class="form-label">Email *</label>
+                    <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                    <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Comentarios" class="form-label">Comentarios</label>
+                    <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                  </div>
+                  <button type="submit" class="btn btn-secondary">Enviar</button>
+                </fieldset>
               </form>
             </div>
           </div>         

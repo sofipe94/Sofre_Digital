@@ -27,14 +27,11 @@
       </div>
       <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
         <div class="arriba d-flex align-items-center justify-content-end">
-          <button type="button" class="btn btn-outline-light">
-            <a href=""></a>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img class="icono_mail_pages" src="../images/iconos/mail azul.png" alt="Mail">
             Suscribete al newsletter
           </button>          
-          <button type="button" class="btn btn-outline-light">
-            <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
-          </button>
+          <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes_pages" src="../images/iconos/linkedin azul_header.png" alt="Linkedin"></a>
           <a class="link_header_pages" href="../index.html">Español</a>
         </div>
         <div class="d-flex align-items-xl-center justify-content-xl-end header_nav">
@@ -58,13 +55,11 @@
                   <li class="nav-item-4">
                     <a class="nav-link item-4" aria-current="page" href="../pages/blog.html">Blog</a>
                   </li>
-                  <li>
-                    <button type="button" class="btn btn-danger">
-                      <a href="./trabajaconnosotros.html#formCV">Contactanos</a>
-                    </button>
+                  <li class="d-flex align-items-center justify-content-start">
+                    <a class="btn btn-danger" href="./trabajaconnosotros.html#formCV">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
-                      <a class="nav-link item-5" aria-current="page" href="">
+                      <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="icono_mail" src="../images/iconos/mail azul.png" alt="Mail">
                         Suscribete al newsletter
                       </a>
@@ -86,7 +81,50 @@
             
     </div>
 
-    
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="../images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="container-fluid">
@@ -100,7 +138,7 @@
                 <img src="../images/trabajaconnosotros/icono-primera-seccion.png" alt="" class="iconoTCN">
                 <img src="../images/trabajaconnosotros/logo.png" alt="" class="logoTCN">
               </div>
-                <h3 class="tituloTCN">Trabaja con nosotros</h3>
+                <h1 class="tituloTCN">Trabaja con nosotros</h1>
                 <p class="textoTCN">Uno de los pilares más importantes de Sofre Digital en la prestación exitosa de nuestros servicios son los Recursos Humanos.</p>
                 <a href="./trabajaconnosotros.html#botones"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down bounce-top"></a>
             </div>
@@ -110,28 +148,28 @@
         <div id="botones" class="row">
           <div class="d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center botones">
               <a href="../pages/trabajaconnosotros.html#Oportunidades" class="linkBotones fade-in">
-                <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start" >
+                <div class="btn-light d-flex flex-column justify-content-center align-items-start" >
                   <img src="../images/trabajaconnosotros/botones/boton1.png" alt="Oportunidades globales" class="imagenBotones">
                   <p class="textoBotones">Oportunidades <strong>globales</strong></p>
-                </button>
+                </div>
               </a>
             <a href="../pages/trabajaconnosotros.html#Beneficios" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="../images/trabajaconnosotros/botones/boton2.png" alt="Beneficios" class="imagenBotones">
                 <p class="textoBotones"><strong>Beneficios</strong></p>
-              </button>
+              </div>
             </a>
             <a href="" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="../images/trabajaconnosotros/botones/boton3.png" alt="Búsquedas abiertas" class="imagenBotonesEsp">
                 <p class="textoBotones"><strong>Búsquedas</strong> abiertas</p>
-              </button>
+              </div>
             </a>
             <a href="../pages/trabajaconnosotros.html#formCV" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="../images/trabajaconnosotros/botones/boton4.png" alt="Sumate a Sofre Digital" class="imagenBotones">
                 <p class="textoBotones"><strong>Sumate a Sofre Digital</strong></p>
-              </button>
+              </div>
             </a>
           </div>
         </div>
@@ -139,7 +177,7 @@
         <div class="row sectOp" id="Oportunidades" data-aos="fade-in">
           <div class="col-4 d-flex flex-column justify-content-start justify-content-start headerOp">
             <img src="../images/trabajaconnosotros/botones/boton1.png" alt="" class="iconoOp">
-            <h4 class="tituloOp">Oportunidad global</h4>
+            <h2 class="tituloOp">Oportunidad global</h2>
             <p class="textoOp">Somos un equipo experimentado y con visión de futuro, damos forma a una nueva realidad con ideas apasionantes y tecnología de vanguardia.</p>
             <p class="textoOpEsp">Trabajamos en un ambiente dinámico en pleno crecimiento donde todos podemos intercambiar, proponer e impulsar ideas para que sucedan.</p>
             <p class="textoOpEsp">Por eso, #WeAreSofreDigital</p>
@@ -163,7 +201,7 @@
         <div class="d-flex flex-column align-items-start justify-content-start headerTCNBeneficios" data-aos="fade-in">
             <div class="d-flex flex-md-row flex-column align-items-md-center justify-content-md-center align-items-start justify-content-start tituloylogoTCNBeneficios">
                 <img src="../images/trabajaconnosotros/beneficios/header.png" alt="" class="iconoTCNBeneficios">
-                <h4 class="tituloTCNBeneficios">Beneficios para nuestros colaboradores</h4>
+                <h2 class="tituloTCNBeneficios">Beneficios para nuestros colaboradores</h2>
             </div>
             <div>
                 <p class="textoTCNBeneficios">Desde Sofre Digital trabajamos constantemente en el desarrollo de nuevas y mejores condiciones laborales que respondan a sus expectativas profesionales.</p>
@@ -236,31 +274,33 @@
               <div class="sectImgCVTCN"><img src="../images/trabajaconnosotros/trabajaconnosotros.jpg" alt="Mujer trabajando" class="imagenformTCN" data-aos="slide-right"></div>
               <div class="sectIcCVTCN"><img src="../images/trabajaconnosotros/icono-primera-seccion.png" alt="personas" class="iconoformTCN"></div>
               <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center justify-content-center formTCN">
-                <h4 class="tituloformTCN">Trabaja con nosotros</h4>
-                <form class="d-flex flex-column align-items-center justify-content-center">
-                  <div class="d-flex flex-lg-row flex-column nomApForm">
-                    <div class="mb-3">
-                      <label for="Nombre" class="form-label">Nombre *</label>
-                      <input type="text" class="form-control" id="Nombre">
+                <h2 class="tituloformTCN">Trabaja con nosotros</h2>
+                <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                  <fieldset>
+                    <div class="d-flex flex-lg-row flex-column nomApForm">
+                      <div class="mb-3">
+                        <label for="Nombre" class="form-label">Nombre *</label>
+                        <input name="name" type="text" class="form-control" id="Nombre">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Apellido" class="form-label">Apellido *</label>
+                        <input name="family-name" type="text" class="form-control" id="Apellido">
+                      </div>
                     </div>
                     <div class="mb-3">
-                      <label for="Apellido" class="form-label">Apellido *</label>
-                      <input type="text" class="form-control" id="Apellido">
+                      <label for="Email" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
                     </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="Email" class="form-label">Email *</label>
-                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3">
-                    <label for="CV" class="form-label">Adjuntar CV</label>
-                    <input type="file" class="form-control" id="CV">
-                  </div>
-                  <div class="mb-3">
-                    <label for="Mensaje" class="form-label">Mensaje</label>
-                    <input type="text" class="form-control" id="Mensaje">
-                  </div>
-                  <button type="submit" class="btn btn-secondary">Enviar</button>
+                    <div class="mb-3">
+                      <label for="CV" class="form-label">Adjuntar CV</label>
+                      <input name="file" type="file" class="form-control" id="CV">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Mensaje" class="form-label">Mensaje</label>
+                      <input name="mensaje" type="text" class="form-control" id="Mensaje">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  </fieldset>
                 </form>
               </div>
       

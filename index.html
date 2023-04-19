@@ -27,14 +27,11 @@
         </div>
         <div class="row col-10 d-flex align-items-xl-end justify-content-xl-center flex-xl-column align-items-center justify-content-center">
           <div class="arriba d-flex align-items-center justify-content-end">
-            <button type="button" class="btn btn-outline-light" id="newsletter">
-              <a href=""></a>
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <img class="icono_mail" src="./images/iconos/mail blanco.png" alt="Mail">
               Suscribete al newsletter
             </button>          
-            <button type="button" class="btn btn-outline-light">
-              <a href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes" src="./images/iconos/linkedin blanco_header.png" alt="Linkedin"></a>
-            </button>
+              <a class="btn-outline-light" href="https://ar.linkedin.com/company/sofre-digital-sa" target="_blank"><img class="icono_redes" src="./images/iconos/linkedin blanco_header.png" alt="Linkedin"></a>
             <a class="link_header" href="./index.html">Español</a>
           </div>
           <div class="d-flex align-items-xl-center justify-content-xl-end header_fixed">
@@ -58,13 +55,11 @@
                     <li class="nav-item-4">
                       <a class="nav-link item-4" aria-current="page" href="./pages/blog.html">Blog</a>
                     </li>
-                    <li>
-                      <button type="button" class="btn btn-danger">
-                        <a href="./index.html#proyecto">Contactanos</a>
-                      </button>
+                    <li class="d-flex align-items-center justify-content-start">
+                      <a class="btn-danger" href="./index.html#proyecto">Contactanos</a>
                     </li>
                     <li class="nav-item-5">
-                        <a class="nav-link item-5" aria-current="page" href="">
+                        <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           <img class="icono_mail" src="./images/iconos/mail azul.png" alt="Mail">
                           Suscribete al newsletter
                         </a>
@@ -83,45 +78,57 @@
         </div> 
       </div>
       <div class="texto col-12 col-lg-7 d-flex flex-column justify-content-end align-items-start">
-        <h2 data-aos="fade-in">Mejoramos la experiencia de sus clientes, controlamos sus costos.</h2>
+        <h1 data-aos="fade-in">Mejoramos la experiencia de sus clientes, controlamos sus costos.</h1>
         <p data-aos="fade-in">Creamos valor para su organización a través de la Transformación Digital Corporativa.</p>
         <a href="./index.html#botones"><img src="./images/iconos/icon-arrow-down-light.svg" alt="arrow down" class="arrow_down_light bounce-top"></a>
       </div>
     </div>
-    <div class="newsletter">
-      <div class="d-flex align-items-end justify-content-end">
-        <button type="button" class="btn-close" aria-label="Close"></button>
-      </div>
-      <div class="d-flex flex-column">
-        <img src="./images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
-        <h4 class="d-flex align-items-start justify-content-start newsletter_title">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h4>
-      </div>
-      <div class="newsletter_formulario">
-        <form>
-          <div class="d-flex flex-inline">
-            <div class="mb-3">
-              <label for="Nombre" class="form-label"></label>
-              <input type="email" class="form-control" id="Nombre" placeholder="Nombre *">
+
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex flex-column">
+              <img src="./images/header/newsletter/icon-newsletter.png" class="d-flex align-items-start justify-content-start newsletter_icon" alt="Newsletter">
+              <h1 class="d-flex align-items-start justify-content-start newsletter_title" id="exampleModalLabel">Suscribete a nuestra Newsletter y recibe oportunidades laborales, metodologías y tips.</h1>
             </div>
-            <div class="mb-3">
-              <label for="Apellido" class="form-label"></label>
-              <input type="email" class="form-control" id="Apellido" placeholder="Apellido *">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="newsletter_formulario d-flex align-items-center justify-content-center">
+              <form autocomplete="on" method="post" action="">
+                <fieldset>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3">
+                      <label for="Nombre_newsletter" class="form-label"></label>
+                      <input name="name" type="text" class="form-control" id="Nombre_newsletter" placeholder="Nombre *">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Apellido_newsletter" class="form-label"></label>
+                      <input name="family-name" type="text" class="form-control" id="Apellido_newsletter" placeholder="Apellido *">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-lg-row flex-column">
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Email_newsletter" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email_newsletter">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                      <label for="Interes_newsletter" class="form-label">Servicio de Interés *</label>
+                      <input name="servicio-interes" type="text" class="form-control" id="Interes_newsletter">
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
             </div>
           </div>
-          <div class="d-flex flex-inline">
-            <div class="mb-3 d-flex flex-column">
-              <label for="Email" class="form-label">Email *</label>
-              <input type="email" class="form-control" id="Email">
-            </div>
-            <div class="mb-3 d-flex flex-column">
-              <label for="Servicio" class="form-label">Servicio de Interés *</label>
-              <input type="email" class="form-control" id="Email">
-            </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+        </div>
       </div>
     </div>
+
   </header>
   <main class="container-fluid">
       <div class="mainInicio">
@@ -129,31 +136,31 @@
         <div id="botones" class="row botones">
           <div class="d-flex flex-md-nowrap flex-wrap justify-content-center align-items-center botones">
               <a href="./index.html#botones" class="linkBotones fade-in">
-                <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start" >
+                <div class="btn-light d-flex flex-column justify-content-center align-items-start" >
                   <img src="./images/botones/home-links-01.png" alt="empiece aquí" class="imagenBotones">
                   <p class="textoBotones">Empiece aquí</p>
-                </button>
+                </div>
               </a>
             <a href="./pages/quehacemos.html" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="./images/botones/home-links-02.png" alt="qué hacemos" class="imagenBotones">
                 <p class="textoBotones">Soluciones de</p>
                 <p class="textoBotones"><strong>Transformación Digital</strong></p>
-              </button>
+              </div>
             </a>
             <a href="./pages/quienessomos.html" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="./images/botones/home-links-03.png" alt="quiénes somos" class="imagenBotones">
                 <p class="textoBotones"><strong>+150 Compañías Líderes </strong></p>
                 <p class="textoBotones">confían en Sofre Digital</p>
-              </button>
+              </div>
             </a>
             <a href="./pages/trabajaconnosotros.html" class="linkBotones fade-in">
-              <button type="button" class="btn btn-light d-flex flex-column justify-content-center align-items-start">
+              <div class="btn-light d-flex flex-column justify-content-center align-items-start">
                 <img src="./images/botones/home-links-04.png" alt="trabaja con nosotros" class="imagenBotonesTrabajo">
                 <p class="textoBotones">Trabajo Remoto &</p>
                 <p class="textoBotones"><strong>Oportunidades Globales</strong></p>
-              </button>
+              </div>
             </a>
           </div>
         </div>
@@ -164,8 +171,8 @@
               <img src="./images/iconos/home-services-title.jpg" alt="Link" class="imagenSoluciones">
             </div>
             <div class="col-10 d-flex flex-column align-items-start justify-content-start align-items-md-start justify-content-md-center">
-              <p class="textoSolucionesNoColor">Llevamos soluciones tecnológicas a más de</p>
-              <p class="textoSolucionesColor">150 Compañías líderes de Argentina y Latam</p>
+              <h2 class="textoSolucionesNoColor">Llevamos soluciones tecnológicas a más de</h2>
+              <h2 class="textoSolucionesColor">150 Compañías líderes de Argentina y Latam</h2>
             </div>
           </div>
           <div class="d-flex flex-wrap align-items-evenly justify-content-evenly flex-wrap">
@@ -196,8 +203,8 @@
           <div class="d-flex flex-md-row flex-column beneficiosEncabezado" data-aos="fade-in">
             <div class="col-md-2 col-12 d-flex align-items-start justify-content-start align-items-md-center justify-content-md-end"><img src="./images/iconos/home-benefits-title.jpg" alt="Beneficios" class="imagenBeneficios"></div>
             <div class="col-md-10 col-12 d-flex flex-column flex-wrap align-items-start justify-content-start align-items-md-start justify-content-md-center">
-              <p class="textoBeneficiosColor">Un espacio de oportunidades:</p>
-              <p class="textoBeneficiosNoColor">Capacitación, crecimiento y proyección global</p>
+              <h2 class="textoBeneficiosColor">Un espacio de oportunidades:</h2>
+              <h2 class="textoBeneficiosNoColor">Capacitación, crecimiento y proyección global</h2>
             </div>
           </div>
           <div class="d-flex align-items-around justify-content-evenly flex-wrap">
@@ -230,17 +237,17 @@
             <div class="sectIcOp"><img src="./images/iconos/work-banner-icon.png" alt="Oportunidades" class="iconoOportunidades" data-aos="slide-left"></div>
             <div class="d-flex flex-column align-items-start justify-content-center cuadroOportunidades" data-aos="slide-left">
               <div class="d-flex flex-inline">
-              <p class="textoOportunidadesColor">Oportunidades</p>
-              <p class="textoOportunidadesNoColor">laborales</p>
+              <h2 class="textoOportunidadesColor">Oportunidades</h2>
+              <h2 class="textoOportunidadesNoColor">laborales</h2>
               </div>
               <p class="textoOportunidadesDescrip">Conoce todas las oportunidades profesionales abiertas en Sofre Digital. Visita nuestra página de ofertas y postúlate.</p>
-              <a href="./pages/trabajaconnosotros.html"><button type="button" class="btn btn-primary">Ver Oportunidades</button></a>
+              <a class="btn-primary" href="./pages/trabajaconnosotros.html">Ver Oportunidades</a>
             </div>
           </div>
 
         <div class="partners">
           <div class="sectTituloPartners">
-            <h4 class="tituloPartners">Nuestros Partners</h4>
+            <h2 class="tituloPartners">Nuestros Partners</h2>
           </div>
           <div class="col-12 sectCarousel">
             <div id="carousel-partners" class="carousel d-flex flex-inline justify-content-center align-items-center" data-bs-ride="carousel" data-aos="fade-in">
@@ -265,7 +272,13 @@
                 </div>  
                 <div class="carousel-item">
                   <img src="./images/partners/microsoft.png" class="img-carousel-esp" alt="Microsoft">
-                </div>                  
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/partners/packetlight.png" class="img-carousel" alt="Packetlight">
+                </div> 
+                <div class="carousel-item">
+                  <img src="./images/partners/ui-path.png" class="img-carousel" alt="UiPath">
+                </div>                   
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-partners" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -285,7 +298,7 @@
                 <img src="./images/iconos/icon-related.png" alt="hoja" class="imagenInsights">
               </div>
               <div>
-                <h4 class="tituloInsights">Insights</h4>
+                <h2 class="tituloInsights">Insights</h2>
               </div>
             </div>
               <div class="col-12 d-flex flex-wrap align-items-center justify-content-center sectBoxNot">
@@ -293,7 +306,7 @@
                   <div class="boxImgNoticia"><img src="./images/insights/MujEnTec.png" alt="Mujeres en tecnología" class="imgNoticia"></div>
                   <div class="d-flex flex-column justify-content-center align-items-start textoNoticia">
                     <p>MAR 07, 2023 |</p>
-                    <h5>Mujeres en tecnología</h5>
+                    <h3>Mujeres en tecnología</h3>
                     <p>Las mujeres han ocupado un rol importante en el progreso de la tecnología a lo largo de los años, siendo...</p>
                   </div>
                 </a></div>
@@ -301,7 +314,7 @@
                   <div class="boxImgNoticia"><img src="./images/insights/RyRI.jpg" alt="Radios y redes inteligentes" class="imgNoticia"></div>
                   <div class="d-flex flex-column justify-content-center align-items-start textoNoticia">
                     <p>FEB 10, 2023 |</p>
-                    <h5>Radios y redes inteligentes</h5>
+                    <h3>Radios y redes inteligentes</h3>
                     <p>Las primeras tecnologías con inteligencia existen desde hace más de cincuenta años, pero los avances en la informática han permitido...</p>
                   </div>
                 </a></div>
@@ -309,7 +322,7 @@
                   <div class="boxImgNoticia"><img src="./images/insights/Ind4.0.jpg" alt="Industria 4.0: nuevas oportunidades" class="imgNoticia"></div>
                   <div class="d-flex flex-column justify-content-center align-items-start textoNoticia">
                     <p>ENE 11, 2023 |</p>
-                    <h5>Industria 4.0: nuevas oportunidades</h5>
+                    <h3>Industria 4.0: nuevas oportunidades</h3>
                     <p>Los descubrimientos de la electrónica y la informática permitieron que muchas tareas se hicieran de manera automática, pero en la...</p>
                   </div>
                 </a></div>
@@ -321,21 +334,23 @@
               <div class="sectImgForm"><img src="./images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
               <div class="sectIcForm"><img src="./images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
               <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                <h4 class="tituloProyecto">¿Tienes algún proyecto en mente?</h4>
-                <form class="d-flex flex-column align-items-center justify-content-center">
-                  <div class="mb-3">
-                    <label for="Email" class="form-label">Email *</label>
-                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3">
-                    <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                    <input type="text" class="form-control" id="ServicioDeInteres">
-                  </div>
-                  <div class="mb-3">
-                    <label for="Comentarios" class="form-label">Comentarios</label>
-                    <input type="text" class="form-control" id="Comentarios">
-                  </div>
-                  <button type="submit" class="btn btn-secondary">Enviar</button>
+                <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+                <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                  <fieldset>
+                    <div class="mb-3">
+                      <label for="Email" class="form-label">Email *</label>
+                      <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                      <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Comentarios" class="form-label">Comentarios</label>
+                      <input name="comentarios" type="text" class="form-control" id="Comentarios">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  </fieldset>
                 </form>
               </div>
             </div>         
