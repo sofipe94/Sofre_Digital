@@ -10281,7 +10281,8 @@ footer {
 
 main {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
 .mainInicio .row {
   margin: 0;
@@ -12459,6 +12460,8 @@ main {
     margin: 0;
     padding: 0;
     padding-left: 15px; }
+  .mainTCN .casilleroTCN {
+    height: auto; }
   .mainTCN .textoTCNBeneficios {
     margin: 0;
     padding: 0px 20px; }
@@ -12513,7 +12516,7 @@ main {
     font-size: 100%; }
   .mainBlog .linkBtn {
     margin: 10px;
-    padding: 0; }
+    padding: 10px 25px; }
   .mainBlog .sect_Blog .notBlog {
     padding: 0px 30px; }
   .mainBlog .sect_Blog .sectNotBlog {
@@ -12862,7 +12865,9 @@ main {
   .mainInicio .oportunidades {
     padding: 0px 10px;
     margin: 20px 0px;
-    height: auto; }
+    height: auto;
+    width: 100%;
+    overflow-x: hidden; }
   .mainInicio .imagenOportunidades {
     height: auto;
     width: 100%; }
@@ -12907,7 +12912,7 @@ main {
     padding: 0px 10px; }
   .mainInicio .boxNoticia {
     margin: 20px;
-    height: 370px;
+    height: 400px;
     width: 280px;
     border-bottom: solid #1785de 2px;
     box-shadow: 1px 2px 2px #e8e4e4; }
@@ -12953,11 +12958,14 @@ main {
     padding: 40px 20px;
     width: 100%;
     height: auto; }
+  .mainInicio fieldset {
+    width: 100%;
+    height: auto; }
   .mainInicio .form-control {
     border: solid black 0.5px;
     border-radius: 0px;
     width: 100%;
-    height: auto; }
+    height: 30px; }
   .mainInicio .btn-secondary {
     padding: 10px 50px; }
   .mainQH .sectImgSol {
@@ -13036,6 +13044,9 @@ main {
     width: 100%; }
   .mainQH form {
     padding: 40px 20px;
+    width: 100%;
+    height: auto; }
+  .mainQH fieldset {
     width: 100%;
     height: auto; }
   .mainQH .form-control {
@@ -13170,6 +13181,9 @@ main {
     width: 100%; }
   .mainQS form {
     padding: 40px 20px;
+    width: 100%;
+    height: auto; }
+  .mainQS fieldset {
     width: 100%;
     height: auto; }
   .mainQS .form-control {
@@ -13326,6 +13340,9 @@ main {
     padding: 40px 20px;
     width: 100%;
     height: auto; }
+  .mainBlog fieldset {
+    width: 100%;
+    height: auto; }
   .mainBlog .form-control {
     border: solid black 0.5px;
     border-radius: 0px;
@@ -13427,6 +13444,9 @@ main {
     width: 100%; }
   .mainNoticia form {
     padding: 40px 20px;
+    width: 100%;
+    height: auto; }
+  .mainNoticia fieldset {
     width: 100%;
     height: auto; }
   .mainNoticia .form-control {

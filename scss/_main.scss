@@ -1,6 +1,7 @@
 main{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 .mainInicio{
     .row{
@@ -2518,6 +2519,9 @@ main{
             padding: 0;
             padding-left: 15px;
         }
+        .casilleroTCN{
+            height: auto;  
+        }
         .textoTCNBeneficios{
             margin: 0;
             padding: 0px 20px;
@@ -2590,7 +2594,7 @@ main{
         }
         .linkBtn{
             margin: 10px;
-            padding: 0;
+            padding: 10px 25px;
         }
         .sect_Blog{
             .notBlog{
@@ -3069,6 +3073,8 @@ main{
             padding: 0px 10px;
             margin: 20px 0px;
             height: auto;
+            width: 100%;
+            overflow-x: hidden;
         }
         .imagenOportunidades{
             height: auto;
@@ -3127,7 +3133,7 @@ main{
         }
         .boxNoticia{
             margin: 20px;
-            height: 370px;
+            height: 400px;
             width: 280px;
             border-bottom: solid $azul 2px;
             box-shadow: 1px 2px 2px rgb(232, 228, 228);
@@ -3184,11 +3190,15 @@ main{
             width: 100%;
             height: auto;
         }
+        fieldset{
+            width: 100%;
+            height: auto;
+        }
         .form-control{
             border: solid $negro 0.5px;
             border-radius: 0px;
             width: 100%;
-            height: auto;
+            height: 30px;
         }
         .btn-secondary{
             padding: 10px 50px;
@@ -3293,6 +3303,10 @@ main{
         }
         form{
             padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        fieldset{
             width: 100%;
             height: auto;
         }
@@ -3469,6 +3483,10 @@ main{
         }
         form{
             padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        fieldset{
             width: 100%;
             height: auto;
         }
@@ -3674,6 +3692,10 @@ main{
             width: 100%;
             height: auto;
         }
+        fieldset{
+            width: 100%;
+            height: auto;
+        }
         .form-control{
             border: solid $negro 0.5px;
             border-radius: 0px;
@@ -3809,6 +3831,10 @@ main{
         }
         form{
             padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        fieldset{
             width: 100%;
             height: auto;
         }
@@ -4111,94 +4137,4 @@ main{
       opacity: 1;
     }
   }
-  
-  
-//   .slide-in-right {
-// 	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-// 	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-// }
-// @-webkit-keyframes slide-in-right {
-//     0% {
-//       -webkit-transform: translateX(1000px);
-//               transform: translateX(1000px);
-//       opacity: 0;
-//     }
-//     100% {
-//       -webkit-transform: translateX(0);
-//               transform: translateX(0);
-//       opacity: 1;
-//     }
-//   }
-//   @keyframes slide-in-right {
-//     0% {
-//       -webkit-transform: translateX(1000px);
-//               transform: translateX(1000px);
-//       opacity: 0;
-//     }
-//     100% {
-//       -webkit-transform: translateX(0);
-//               transform: translateX(0);
-//       opacity: 1;
-//     }
-//   }
-
-  
-//   .slide-in-left {
-// 	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-// 	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-// }
-// @-webkit-keyframes slide-in-left {
-//     0% {
-//       -webkit-transform: translateX(-1000px);
-//               transform: translateX(-1000px);
-//       opacity: 0;
-//     }
-//     100% {
-//       -webkit-transform: translateX(0);
-//               transform: translateX(0);
-//       opacity: 1;
-//     }
-//   }
-//   @keyframes slide-in-left {
-//     0% {
-//       -webkit-transform: translateX(-1000px);
-//               transform: translateX(-1000px);
-//       opacity: 0;
-//     }
-//     100% {
-//       -webkit-transform: translateX(0);
-//               transform: translateX(0);
-//       opacity: 1;
-//     }
-//   }
-  
-
-//   .slide-in-bottom {
-// 	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-// 	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-// }
-// @-webkit-keyframes slide-in-bottom {
-//     0% {
-//       -webkit-transform: translateY(1000px);
-//               transform: translateY(1000px);
-//       opacity: 0;
-//     }
-//     100% {
-//       -webkit-transform: translateY(0);
-//               transform: translateY(0);
-//       opacity: 1;
-//     }
-//   }
-//   @keyframes slide-in-bottom {
-//     0% {
-//       -webkit-transform: translateY(1000px);
-//               transform: translateY(1000px);
-//       opacity: 0;
-//     }
-//     100% {
-//       -webkit-transform: translateY(0);
-//               transform: translateY(0);
-//       opacity: 1;
-//     }
-//   }
-  
+ 
