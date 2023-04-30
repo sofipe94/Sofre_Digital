@@ -588,6 +588,7 @@ main{
     }
     .sect_Acc{
         width: 100%;
+        height: auto;
         margin: -50px 0px 0px 0px;
         padding: 0px;
         .AccSinFondo{
@@ -1516,6 +1517,55 @@ main{
         text-align: center;
         padding-top: 20px;
     }
+    .seccBusquedas{
+        width: 100%;
+        height: auto;
+        background-color: $fondoClarito;
+        margin: 0;
+        padding: 20px 100px;
+    }
+    .headerBuesquedas{
+        margin: 50px;
+        padding: 20px 0px;
+    }
+    .iconoBusquedas{
+        width: 90px;
+        height: 90px;
+    }
+    .tituloBusquedas{
+        color: $violeta;
+        font-family: $letraSofre;
+        font-size: 180%;
+        margin-left: 20px;
+    }
+    .boxBusquedas{
+        width: 300px;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 2px 2px 3px rgb(232, 228, 228);
+        padding: 35px;
+        margin:  10px;
+        background-color: white;
+        text-align: left;
+        border: solid 1px rgb(230, 228, 228);
+        color: $letrazul;
+        a{
+            text-decoration: none;
+            color: $letrazul;
+        }
+    }
+    .tituloBoxBusquedas{
+        font-weight: 500;
+        font-size: 130%;
+        color: $violeta;
+    }
+    .textoBoxBusquedas{
+        color: $letraclarita;
+        font-size: 90%;
+    }
+    .textoReducido{
+        font-size: 90%;
+    }
     .CVTCN{
         margin: 90px 0px 150px 0px;
         padding: 0;
@@ -2099,6 +2149,220 @@ main{
         color: $rojo;
         border: solid $rojo 2px;
     }
+}
+.mainEmpleos{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+    .empleoColor{
+        margin: 0;
+        padding: 0;
+        background-color: $fondoClarito;
+        .empleo{
+            padding: 0;
+        }
+        .sectEmpleos{
+            padding: 0px 100px 0px 150px;
+            width: 50%;
+        }
+        .imagenesEmpleo{
+            width: 100%;
+        }
+        .btnBackEmpleos{
+            text-decoration: none;
+            color: $letrazul;
+            margin-bottom: 50px;
+        }
+        .btnBackEmpleos:hover{
+            color: $violeta;
+        }
+        .div_ImgEmpleo{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        }
+        .tituloEmpleos{
+        font-family: $letraSofre;
+        color: $violeta;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 210%;
+        }
+        .textoEmpleos{   
+            color: $letrazul;
+        }
+        .textolinks{
+            color: $letrazul;
+            font-size: 90%;
+            margin: 0;
+        }
+        .imgLinks{
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        .hr_lineagruesa{
+            border: solid 0,3px $letrazul;
+            opacity: 1;
+            width: 100%140px;
+        }
+        .arrow_down{
+            margin-top: 50px;
+        }
+    }
+    .sectionEmpleo{
+        margin-top: 90px;
+        .parrafosEmpleo{
+            padding: 0px 50px 0px 100px;
+            border-right: solid 1px $gris;
+            color: $letrazul;
+        }
+        .titulosEmpleos{
+            font-family: $letraSofre;
+            font-size: 120%;
+            font-weight: 600;
+            margin: 15px 0px;
+        }
+        .subtitulosEmpleos{
+            font-family: $letraSofre;
+            font-weight: 700;
+            font-size: 100%;
+        }
+        mark{
+            background-color: transparent;
+            color: $letrazul;
+            text-decoration: underline;
+        }
+        .imgLinks{
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        .hr_lineafinita{
+            border: solid 0,3px $letrazul;
+            opacity: 0.3;
+        }
+    }
+    .sectionLinks{
+        padding: 0px 100px 0px 50px;
+        .linkBox{
+            border-bottom: solid 1px $letrazul;
+            margin-bottom: 70px;
+            padding-bottom: 30px;
+        }
+        .tituloLinksEmpleos{
+            color: $violeta;
+            font-family: $letraSofre;
+            font-weight: 600;
+            margin-bottom: 50px;
+            font-size: 130%;
+        }
+        .linkSectLink{
+            text-decoration: none;
+            color: $letrazul;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .linkSectLink:hover{
+            color: $violeta;
+        }  
+    }
+    .CVTCN{
+        margin: 90px 0px 150px 0px;
+        padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgCVTCN{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcCVTCN{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .imagenformTCN{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoformTCN{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
+    }
+    .tituloformTCN{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        padding: 40px 170px;
+    }
+    .formTCN{
+        background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
+    }
+    .nomApForm{
+        width: 100%;
+    }
+    form{
+        padding: 0px 100px 40px 100px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+        width: 500px;
+        height: 50px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $violeta 1px;
+    }
+    #Mensaje{
+        height: 100px;
+    }
+    #Nombre{
+        width: 230px;
+        margin: 0px 40px 0px 0px;
+    }
+    #Apellido{
+        width: 230px;  
+    }
+    #CV{
+        height: auto;
+    }
+    .btn-secondary{
+        background-color: $violeta;
+        border: solid $violeta 2px;
+        border-radius: 104px;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $violeta;
+        border: solid $violeta 2px;
+    }
+    
 }
 @media (max-width: 1330px){
     .mainInicio{
@@ -2769,6 +3033,99 @@ main{
             padding: 15px 150px;
         }
     }
+    .mainEmpleos{
+        .empleoColor{
+            .empleo{
+                margin: 0;
+                padding: 0;
+            }
+            .sectEmpleos{
+                padding: 20px 40px;
+                margin-top: 60px;
+            }
+            .btnBackEmpleos{
+                margin-bottom: 20px;
+            }
+            .div_ImgEmpleo{
+            margin: 0px;
+            padding: 0;
+            }
+            .imagenesEmpleo{
+                margin-top: 60px;
+            }
+            .tituloEmpleos{
+            margin-bottom: 10px;
+            font-size: 190%;
+            }
+        }
+        .sectionEmpleo{
+            margin-top: 40px;
+            .parrafosEmpleo{
+                padding: 0px 20px;
+                border-right: none;
+            }
+            .titulosEmpleos{
+                font-size: 100%;
+            }
+        }
+        .sectionLinks{
+            padding: 0px 20px;
+            margin-top: 20px;
+            .linkBox{
+                margin-bottom: 50px;
+            }
+            .tituloLinksEmpleos{
+                margin-bottom: 30px;
+            }
+        }
+        .CVTCN{
+            padding: 40px;
+            margin: 30px 0px;
+        }
+        .imagenformTCN{
+            height: auto;
+            width: 100%;
+        }
+        .iconoformTCN{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloformTCN{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formTCN{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        #Nombre{
+            width: 170px;
+            margin: 0px 20px 0px 0px;
+        }
+        #Apellido{
+            width: 150px;  
+        }
+        .btn-secondary{
+            padding: 15px 170px;
+        }        
+    }
 }
 @media (max-width: 992px) {
     .mainInicio{
@@ -2977,6 +3334,22 @@ main{
         .form-control{
             width: 250px;
             height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainEmpleos{
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        #Nombre{
+            width: 250px;
+            margin: 0px;
+        }
+        #Apellido{
+            width: 250px;  
         }
         .btn-secondary{
             padding: 10px 100px;
@@ -3240,6 +3613,10 @@ main{
         .sect_Acc{
             .AccClarito{
                 margin: 0px;
+                overflow-x: hidden;
+            }
+            .AccSinFondo{
+                overflow-x: hidden;
             }
             .div_ImgAccQH{
                 width: 100%;
@@ -3579,6 +3956,40 @@ main{
         .textoCircTCN{
             font-size: 80%;
         }
+        .seccBusquedas{
+            width: 100%;
+            height: auto;
+            background-color: $fondoClarito;
+            margin: 0;
+            padding: 20px 20px;
+        }
+        .headerBuesquedas{
+            margin: 0px;
+            padding: 20px;
+        }
+        .iconoBusquedas{
+            width: 80px;
+            height: 80px;
+        }
+        .tituloBusquedas{
+            font-size: 170%;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        .boxBusquedas{
+            width: 250px;
+            padding: 15px;
+            margin:  10px;
+        }
+        .tituloBoxBusquedas{
+            font-size: 110%;
+        }
+        .textoBoxBusquedas{
+            font-size: 80%;
+        }
+        .textoReducido{
+            font-size: 80%;
+        }
         .CVTCN{
             padding: 0px;
             margin: 0px;
@@ -3847,6 +4258,114 @@ main{
         .btn-secondary{
             padding: 10px 50px;
         }
+    }
+    .mainEmpleos{
+        .empleoColor{
+            .empleo{
+                margin: 0;
+                padding: 0;
+            }
+            .sectEmpleos{
+                padding: 0px 20px;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .btnBackEmpleos{
+                margin-bottom: 20px;
+            }
+            .btnBackEmpleos:hover{
+                color: $azul;
+            }
+            .div_ImgEmpleo{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            }
+            .imagenesEmpleo{
+                margin-top: 60px;
+            }
+            .tituloEmpleos{
+            margin-bottom: 10px;
+            font-size: 190%;
+            }
+        }
+        .sectionEmpleo{
+            margin-top: 40px;
+            .parrafosEmpleo{
+                padding: 0px 20px;
+                border-right: none;
+            }
+            .titulosEmpleos{
+                font-size: 100%;
+            }
+        }
+        .sectionLinks{
+            padding: 0px 20px;
+            margin-top: 20px;
+            .linkBox{
+                margin-bottom: 50px;
+            }
+            .tituloLinksEmpleos{
+                margin-bottom: 30px;
+            }
+        }
+        .CVTCN{
+            padding: 0px;
+            margin: 0px;
+            height: auto;
+            width: 100%;
+        }
+        .imagenformTCN{
+            height: auto;
+            width: 100%;
+        }
+        .iconoformTCN{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloformTCN{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formTCN{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        .mb-3{
+            width: 100%;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 100%;
+            height: 30px;
+        }
+        #Nombre{
+            width: 100%;
+            margin: 0px;
+        }
+        #Apellido{
+            width: 100%;  
+        }
+        .btn-secondary{
+            padding: 10px 50px;
+        }  
+        
     }
 }
 @media (max-width: 576px){

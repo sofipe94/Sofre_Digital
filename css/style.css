@@ -10836,6 +10836,7 @@ main {
     transform: scale(1.1); }
   .mainQH .sect_Acc {
     width: 100%;
+    height: auto;
     margin: -50px 0px 0px 0px;
     padding: 0px; }
     .mainQH .sect_Acc .AccSinFondo {
@@ -11689,6 +11690,46 @@ main {
     font-family: "Hepta Slab", serif;
     text-align: center;
     padding-top: 20px; }
+  .mainTCN .seccBusquedas {
+    width: 100%;
+    height: auto;
+    background-color: #f6f6ff;
+    margin: 0;
+    padding: 20px 100px; }
+  .mainTCN .headerBuesquedas {
+    margin: 50px;
+    padding: 20px 0px; }
+  .mainTCN .iconoBusquedas {
+    width: 90px;
+    height: 90px; }
+  .mainTCN .tituloBusquedas {
+    color: #a14ea1;
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    margin-left: 20px; }
+  .mainTCN .boxBusquedas {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px #e8e4e4;
+    padding: 35px;
+    margin: 10px;
+    background-color: white;
+    text-align: left;
+    border: solid 1px #e6e4e4;
+    color: #133a61; }
+    .mainTCN .boxBusquedas a {
+      text-decoration: none;
+      color: #133a61; }
+  .mainTCN .tituloBoxBusquedas {
+    font-weight: 500;
+    font-size: 130%;
+    color: #a14ea1; }
+  .mainTCN .textoBoxBusquedas {
+    color: #6f7377;
+    font-size: 90%; }
+  .mainTCN .textoReducido {
+    font-size: 90%; }
   .mainTCN .CVTCN {
     margin: 90px 0px 150px 0px;
     padding: 0;
@@ -12156,6 +12197,176 @@ main {
     background-color: transparent;
     color: #e54848;
     border: solid #e54848 2px; }
+
+.mainEmpleos {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  .mainEmpleos .row {
+    margin: 0;
+    padding: 0; }
+  .mainEmpleos .empleoColor {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6ff; }
+    .mainEmpleos .empleoColor .empleo {
+      padding: 0; }
+    .mainEmpleos .empleoColor .sectEmpleos {
+      padding: 0px 100px 0px 150px;
+      width: 50%; }
+    .mainEmpleos .empleoColor .imagenesEmpleo {
+      width: 100%; }
+    .mainEmpleos .empleoColor .btnBackEmpleos {
+      text-decoration: none;
+      color: #133a61;
+      margin-bottom: 50px; }
+    .mainEmpleos .empleoColor .btnBackEmpleos:hover {
+      color: #a14ea1; }
+    .mainEmpleos .empleoColor .div_ImgEmpleo {
+      margin: 0;
+      padding: 0;
+      width: 50%; }
+    .mainEmpleos .empleoColor .tituloEmpleos {
+      font-family: "Hepta Slab", serif;
+      color: #a14ea1;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 210%; }
+    .mainEmpleos .empleoColor .textoEmpleos {
+      color: #133a61; }
+    .mainEmpleos .empleoColor .textolinks {
+      color: #133a61;
+      font-size: 90%;
+      margin: 0; }
+    .mainEmpleos .empleoColor .imgLinks {
+      width: 20px;
+      height: 20px;
+      margin-left: 10px; }
+    .mainEmpleos .empleoColor .hr_lineagruesa {
+      border: solid 0, 3px #133a61;
+      opacity: 1;
+      width: 100% 140px; }
+    .mainEmpleos .empleoColor .arrow_down {
+      margin-top: 50px; }
+  .mainEmpleos .sectionEmpleo {
+    margin-top: 90px; }
+    .mainEmpleos .sectionEmpleo .parrafosEmpleo {
+      padding: 0px 50px 0px 100px;
+      border-right: solid 1px #838383;
+      color: #133a61; }
+    .mainEmpleos .sectionEmpleo .titulosEmpleos {
+      font-family: "Hepta Slab", serif;
+      font-size: 120%;
+      font-weight: 600;
+      margin: 15px 0px; }
+    .mainEmpleos .sectionEmpleo .subtitulosEmpleos {
+      font-family: "Hepta Slab", serif;
+      font-weight: 700;
+      font-size: 100%; }
+    .mainEmpleos .sectionEmpleo mark, .mainEmpleos .sectionEmpleo .mark {
+      background-color: transparent;
+      color: #133a61;
+      text-decoration: underline; }
+    .mainEmpleos .sectionEmpleo .imgLinks {
+      width: 20px;
+      height: 20px;
+      margin-left: 10px; }
+    .mainEmpleos .sectionEmpleo .hr_lineafinita {
+      border: solid 0, 3px #133a61;
+      opacity: 0.3; }
+  .mainEmpleos .sectionLinks {
+    padding: 0px 100px 0px 50px; }
+    .mainEmpleos .sectionLinks .linkBox {
+      border-bottom: solid 1px #133a61;
+      margin-bottom: 70px;
+      padding-bottom: 30px; }
+    .mainEmpleos .sectionLinks .tituloLinksEmpleos {
+      color: #a14ea1;
+      font-family: "Hepta Slab", serif;
+      font-weight: 600;
+      margin-bottom: 50px;
+      font-size: 130%; }
+    .mainEmpleos .sectionLinks .linkSectLink {
+      text-decoration: none;
+      color: #133a61;
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+    .mainEmpleos .sectionLinks .linkSectLink:hover {
+      color: #a14ea1; }
+  .mainEmpleos .CVTCN {
+    margin: 90px 0px 150px 0px;
+    padding: 0;
+    padding-left: 130px; }
+  .mainEmpleos .sectImgCVTCN {
+    height: auto;
+    width: auto;
+    padding: 0px;
+    margin: 0px; }
+  .mainEmpleos .sectIcCVTCN {
+    height: auto;
+    width: auto;
+    padding: 0px;
+    margin: 0px; }
+  .mainEmpleos .imagenformTCN {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  .mainEmpleos .iconoformTCN {
+    height: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    left: 0;
+    z-index: 10; }
+  .mainEmpleos .tituloformTCN {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 40px 170px; }
+  .mainEmpleos .formTCN {
+    background-color: #f6f6ff;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 95px;
+    left: -130px; }
+  .mainEmpleos .nomApForm {
+    width: 100%; }
+  .mainEmpleos form {
+    padding: 0px 100px 40px 100px; }
+  .mainEmpleos .form-control {
+    border: solid black 0.5px;
+    border-radius: 0px;
+    width: 500px;
+    height: 50px; }
+  .mainEmpleos .form-control:focus {
+    box-shadow: none;
+    border: solid #a14ea1 1px; }
+  .mainEmpleos #Mensaje {
+    height: 100px; }
+  .mainEmpleos #Nombre {
+    width: 230px;
+    margin: 0px 40px 0px 0px; }
+  .mainEmpleos #Apellido {
+    width: 230px; }
+  .mainEmpleos #CV {
+    height: auto; }
+  .mainEmpleos .btn-secondary {
+    background-color: #a14ea1;
+    border: solid #a14ea1 2px;
+    border-radius: 104px;
+    padding-left: 220px;
+    padding-right: 220px; }
+  .mainEmpleos .btn-secondary:hover {
+    background-color: transparent;
+    color: #a14ea1;
+    border: solid #a14ea1 2px; }
 
 @media (max-width: 1330px) {
   .mainInicio .linkBotones {
@@ -12643,7 +12854,74 @@ main {
     width: 350px;
     height: 50px; }
   .mainNoticia .btn-secondary {
-    padding: 15px 150px; } }
+    padding: 15px 150px; }
+  .mainEmpleos .empleoColor .empleo {
+    margin: 0;
+    padding: 0; }
+  .mainEmpleos .empleoColor .sectEmpleos {
+    padding: 20px 40px;
+    margin-top: 60px; }
+  .mainEmpleos .empleoColor .btnBackEmpleos {
+    margin-bottom: 20px; }
+  .mainEmpleos .empleoColor .div_ImgEmpleo {
+    margin: 0px;
+    padding: 0; }
+  .mainEmpleos .empleoColor .imagenesEmpleo {
+    margin-top: 60px; }
+  .mainEmpleos .empleoColor .tituloEmpleos {
+    margin-bottom: 10px;
+    font-size: 190%; }
+  .mainEmpleos .sectionEmpleo {
+    margin-top: 40px; }
+    .mainEmpleos .sectionEmpleo .parrafosEmpleo {
+      padding: 0px 20px;
+      border-right: none; }
+    .mainEmpleos .sectionEmpleo .titulosEmpleos {
+      font-size: 100%; }
+  .mainEmpleos .sectionLinks {
+    padding: 0px 20px;
+    margin-top: 20px; }
+    .mainEmpleos .sectionLinks .linkBox {
+      margin-bottom: 50px; }
+    .mainEmpleos .sectionLinks .tituloLinksEmpleos {
+      margin-bottom: 30px; }
+  .mainEmpleos .CVTCN {
+    padding: 40px;
+    margin: 30px 0px; }
+  .mainEmpleos .imagenformTCN {
+    height: auto;
+    width: 100%; }
+  .mainEmpleos .iconoformTCN {
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    z-index: 10; }
+  .mainEmpleos .tituloformTCN {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 170px 20px 0px 20px; }
+  .mainEmpleos .formTCN {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    left: -130px; }
+  .mainEmpleos form {
+    padding: 20px 40px; }
+  .mainEmpleos .form-control {
+    width: 350px;
+    height: 50px; }
+  .mainEmpleos #Nombre {
+    width: 170px;
+    margin: 0px 20px 0px 0px; }
+  .mainEmpleos #Apellido {
+    width: 150px; }
+  .mainEmpleos .btn-secondary {
+    padding: 15px 170px; } }
 
 @media (max-width: 992px) {
   .mainInicio .solucionesHeader {
@@ -12798,6 +13076,16 @@ main {
     width: 250px;
     height: 50px; }
   .mainBlog .btn-secondary {
+    padding: 10px 100px; }
+  .mainEmpleos .form-control {
+    width: 250px;
+    height: 50px; }
+  .mainEmpleos #Nombre {
+    width: 250px;
+    margin: 0px; }
+  .mainEmpleos #Apellido {
+    width: 250px; }
+  .mainEmpleos .btn-secondary {
     padding: 10px 100px; }
   .mainNoticia .form-control {
     width: 250px;
@@ -12993,7 +13281,10 @@ main {
   .mainQH .textoBotones {
     font-size: 1rem; }
   .mainQH .sect_Acc .AccClarito {
-    margin: 0px; }
+    margin: 0px;
+    overflow-x: hidden; }
+  .mainQH .sect_Acc .AccSinFondo {
+    overflow-x: hidden; }
   .mainQH .sect_Acc .div_ImgAccQH {
     width: 100%; }
   .mainQH .sect_Acc .AccQH {
@@ -13251,6 +13542,32 @@ main {
     height: 100px; }
   .mainTCN .textoCircTCN {
     font-size: 80%; }
+  .mainTCN .seccBusquedas {
+    width: 100%;
+    height: auto;
+    background-color: #f6f6ff;
+    margin: 0;
+    padding: 20px 20px; }
+  .mainTCN .headerBuesquedas {
+    margin: 0px;
+    padding: 20px; }
+  .mainTCN .iconoBusquedas {
+    width: 80px;
+    height: 80px; }
+  .mainTCN .tituloBusquedas {
+    font-size: 170%;
+    margin-left: 0px;
+    margin-top: 20px; }
+  .mainTCN .boxBusquedas {
+    width: 250px;
+    padding: 15px;
+    margin: 10px; }
+  .mainTCN .tituloBoxBusquedas {
+    font-size: 110%; }
+  .mainTCN .textoBoxBusquedas {
+    font-size: 80%; }
+  .mainTCN .textoReducido {
+    font-size: 80%; }
   .mainTCN .CVTCN {
     padding: 0px;
     margin: 0px;
@@ -13455,6 +13772,85 @@ main {
     width: 100%;
     height: auto; }
   .mainNoticia .btn-secondary {
+    padding: 10px 50px; }
+  .mainEmpleos .empleoColor .empleo {
+    margin: 0;
+    padding: 0; }
+  .mainEmpleos .empleoColor .sectEmpleos {
+    padding: 0px 20px;
+    width: 100%;
+    margin-top: 20px; }
+  .mainEmpleos .empleoColor .btnBackEmpleos {
+    margin-bottom: 20px; }
+  .mainEmpleos .empleoColor .btnBackEmpleos:hover {
+    color: #1785de; }
+  .mainEmpleos .empleoColor .div_ImgEmpleo {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+  .mainEmpleos .empleoColor .imagenesEmpleo {
+    margin-top: 60px; }
+  .mainEmpleos .empleoColor .tituloEmpleos {
+    margin-bottom: 10px;
+    font-size: 190%; }
+  .mainEmpleos .sectionEmpleo {
+    margin-top: 40px; }
+    .mainEmpleos .sectionEmpleo .parrafosEmpleo {
+      padding: 0px 20px;
+      border-right: none; }
+    .mainEmpleos .sectionEmpleo .titulosEmpleos {
+      font-size: 100%; }
+  .mainEmpleos .sectionLinks {
+    padding: 0px 20px;
+    margin-top: 20px; }
+    .mainEmpleos .sectionLinks .linkBox {
+      margin-bottom: 50px; }
+    .mainEmpleos .sectionLinks .tituloLinksEmpleos {
+      margin-bottom: 30px; }
+  .mainEmpleos .CVTCN {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%; }
+  .mainEmpleos .imagenformTCN {
+    height: auto;
+    width: 100%; }
+  .mainEmpleos .iconoformTCN {
+    margin: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10; }
+  .mainEmpleos .tituloformTCN {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 170px 20px 0px 20px; }
+  .mainEmpleos .formTCN {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -170px;
+    left: 0px; }
+  .mainEmpleos .mb-3 {
+    width: 100%; }
+  .mainEmpleos form {
+    padding: 40px 20px;
+    width: 100%;
+    height: auto; }
+  .mainEmpleos .form-control {
+    border: solid black 0.5px;
+    border-radius: 0px;
+    width: 100%;
+    height: 30px; }
+  .mainEmpleos #Nombre {
+    width: 100%;
+    margin: 0px; }
+  .mainEmpleos #Apellido {
+    width: 100%; }
+  .mainEmpleos .btn-secondary {
     padding: 10px 50px; } }
 
 @media (max-width: 576px) {
