@@ -218,9 +218,6 @@ header{
             color: $celesteOscuro;
         }              
     }                
-               
-                        
-    
     .headerPages{
         background-color: $blanco;
         width: 100%;
@@ -593,6 +590,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-2{
@@ -603,6 +601,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-3{
@@ -613,6 +612,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-4{
@@ -623,11 +623,37 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
+            }
+            .item-1:hover{
+                color: $rojo;
+            }
+            .nav-item-1:hover{
+                border-bottom: solid transparent 4px;
+            }
+            .item-2:hover{
+                color: $verdeagua;
+            }
+            .nav-item-2:hover{
+                border-bottom: solid transparent 4px;
+            }
+            .item-3:hover{
+                color: $violeta;
+            }
+            .nav-item-3:hover{
+                border-bottom: solid transparent 4px;
+            }
+            .item-4:hover{
+                color: $azul;
+            }
+            .nav-item-4:hover{
+                border-bottom: solid transparent 4px;
             }
             .btn-danger{
                 border: solid $rojo 2px;
                 border-radius: 104px;
+                margin: 10px;
             }
             .btn-danger a{
                 text-decoration: none;
@@ -649,6 +675,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-6{
@@ -660,6 +687,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }.nav-item-7{
                 display: block;
@@ -670,6 +698,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .texto{
@@ -770,6 +799,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-2{
@@ -778,6 +808,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-3{
@@ -786,6 +817,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
             .nav-item-4{
@@ -794,11 +826,37 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
+            }
+            .item-1:hover{
+                color: $rojo;
+            }
+            .nav-item-1:hover{
+                border-bottom: solid transparent 4px;
+            }
+            .item-2:hover{
+                color: $verdeagua;
+            }
+            .nav-item-2:hover{
+                border-bottom: solid transparent 4px;
+            }
+            .item-3:hover{
+                color: $violeta;
+            }
+            .nav-item-3:hover{
+                border-bottom: solid transparent 4px;
+            }
+            .item-4:hover{
+                color: $azul;
+            }
+            .nav-item-4:hover{
+                border-bottom: solid transparent 4px;
             }
             .btn-danger{
                 border: solid $rojo 2px;
                 border-radius: 104px;
+                margin: 10px;
             }
             .btn-danger a{
                 text-decoration: none;
@@ -818,6 +876,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
                 .icono_mail{
                     width: 18px;
@@ -831,6 +890,7 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
                 .icono_redes{
                     width: 18px;
@@ -844,8 +904,33 @@ header{
                     color: $letrazul;
                     padding-right: 15px;
                     padding-left: 15px;
+                    font-size: 110%;
                 }
             }
+            .activeQH_nav{
+                border-bottom: solid transparent 4px !important;
+            }
+            .activeQH_item{
+                color: $rojo !important;
+            } 
+            .activeQS_nav{
+                border-bottom: solid transparent 4px !important;
+            }
+            .activeQS_item{
+                color: $verdeagua !important;
+            }    
+            .activeTCN_nav{
+                border-bottom: solid transparent 4px !important;
+            }
+            .activeTCN_item{
+                color: $violeta !important;
+            }    
+            .activeBlog_nav{
+                border-bottom: solid transparent 4px !important;
+            }
+            .activeBlog_item{
+                color: $azul !important;
+            }              
         }
         .scrolling{
             background-image: none;

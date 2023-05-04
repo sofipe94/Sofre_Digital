@@ -1522,7 +1522,7 @@ main{
         height: auto;
         background-color: $fondoClarito;
         margin: 0;
-        padding: 20px 100px;
+        padding: 20px 0px 20px 100px;
     }
     .headerBuesquedas{
         margin: 50px;
@@ -2440,8 +2440,7 @@ main{
             padding-top: 20px;
             height: 220px;
         }
-    }
-    
+    }  
 }  
 @media (max-width: 1200px){
     .mainInicio{
@@ -2536,7 +2535,7 @@ main{
     .mainQH{
         .seccionQH{
             padding: 20px;
-            margin: 40px 0px;
+            margin: 60px 0px;
         }
         .tituloQH{
             font-size: 180%;
@@ -2610,7 +2609,7 @@ main{
     .mainQS{
         .seccionQS{
             padding: 20px;
-            margin: 40px 0px;
+            margin: 60px 0px;
         }
         .tituloQS{
             font-size: 180%;
@@ -2847,7 +2846,7 @@ main{
             margin-top: 60px;
         }
         .seccionBlog{
-            padding: 0px 50px;
+            padding: 30px 50px;
             margin-top: 60px;
         }
         .tituloBlog{
@@ -4442,8 +4441,7 @@ main{
         .textoBotones{
             font-size: 0.9rem;
         }
-    }
-    
+    }   
 }
 @media (max-width: 392px){
     .mainInicio{
@@ -4519,8 +4517,7 @@ main{
         .textoBotones{
             font-size: 0.9rem;
         }
-    }
-    
+    }  
 }
 
 // Animaciones

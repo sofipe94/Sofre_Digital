@@ -9740,7 +9740,8 @@ header {
         header .inicio .nav-item-1 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .inicio .nav-item-2 {
         border-bottom: solid transparent 4px;
         width: 100%;
@@ -9748,7 +9749,8 @@ header {
         header .inicio .nav-item-2 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .inicio .nav-item-3 {
         border-bottom: solid transparent 4px;
         width: 100%;
@@ -9756,7 +9758,8 @@ header {
         header .inicio .nav-item-3 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .inicio .nav-item-4 {
         border-bottom: solid transparent 4px;
         width: 100%;
@@ -9764,10 +9767,28 @@ header {
         header .inicio .nav-item-4 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
+      header .inicio .item-1:hover {
+        color: #e54848; }
+      header .inicio .nav-item-1:hover {
+        border-bottom: solid transparent 4px; }
+      header .inicio .item-2:hover {
+        color: #5cd3ab; }
+      header .inicio .nav-item-2:hover {
+        border-bottom: solid transparent 4px; }
+      header .inicio .item-3:hover {
+        color: #a14ea1; }
+      header .inicio .nav-item-3:hover {
+        border-bottom: solid transparent 4px; }
+      header .inicio .item-4:hover {
+        color: #1785de; }
+      header .inicio .nav-item-4:hover {
+        border-bottom: solid transparent 4px; }
       header .inicio .btn-danger {
         border: solid #e54848 2px;
-        border-radius: 104px; }
+        border-radius: 104px;
+        margin: 10px; }
       header .inicio .btn-danger a {
         text-decoration: none;
         color: white; }
@@ -9784,7 +9805,8 @@ header {
         header .inicio .nav-item-5 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .inicio .nav-item-6 {
         display: block;
         border-bottom: solid transparent 4px;
@@ -9793,7 +9815,8 @@ header {
         header .inicio .nav-item-6 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .inicio .nav-item-7 {
         display: block;
         border-bottom: solid transparent 4px;
@@ -9802,7 +9825,8 @@ header {
         header .inicio .nav-item-7 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .inicio .texto {
         margin: 100px 0px; }
         header .inicio .texto h2, header .inicio .texto .h2 {
@@ -9885,28 +9909,49 @@ header {
         header .headerPages .nav-item-1 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .headerPages .nav-item-2 {
         border-bottom: solid transparent 4px; }
         header .headerPages .nav-item-2 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .headerPages .nav-item-3 {
         border-bottom: solid transparent 4px; }
         header .headerPages .nav-item-3 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
       header .headerPages .nav-item-4 {
         border-bottom: solid transparent 4px; }
         header .headerPages .nav-item-4 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
+      header .headerPages .item-1:hover {
+        color: #e54848; }
+      header .headerPages .nav-item-1:hover {
+        border-bottom: solid transparent 4px; }
+      header .headerPages .item-2:hover {
+        color: #5cd3ab; }
+      header .headerPages .nav-item-2:hover {
+        border-bottom: solid transparent 4px; }
+      header .headerPages .item-3:hover {
+        color: #a14ea1; }
+      header .headerPages .nav-item-3:hover {
+        border-bottom: solid transparent 4px; }
+      header .headerPages .item-4:hover {
+        color: #1785de; }
+      header .headerPages .nav-item-4:hover {
+        border-bottom: solid transparent 4px; }
       header .headerPages .btn-danger {
         border: solid #e54848 2px;
-        border-radius: 104px; }
+        border-radius: 104px;
+        margin: 10px; }
       header .headerPages .btn-danger a {
         text-decoration: none;
         color: white; }
@@ -9921,7 +9966,8 @@ header {
         header .headerPages .nav-item-5 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
         header .headerPages .nav-item-5 .icono_mail {
           width: 18px;
           height: 15px; }
@@ -9931,7 +9977,8 @@ header {
         header .headerPages .nav-item-6 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
         header .headerPages .nav-item-6 .icono_redes {
           width: 18px;
           height: 18px; }
@@ -9941,7 +9988,24 @@ header {
         header .headerPages .nav-item-7 .nav-link {
           color: #133a61;
           padding-right: 15px;
-          padding-left: 15px; }
+          padding-left: 15px;
+          font-size: 110%; }
+      header .headerPages .activeQH_nav {
+        border-bottom: solid transparent 4px !important; }
+      header .headerPages .activeQH_item {
+        color: #e54848 !important; }
+      header .headerPages .activeQS_nav {
+        border-bottom: solid transparent 4px !important; }
+      header .headerPages .activeQS_item {
+        color: #5cd3ab !important; }
+      header .headerPages .activeTCN_nav {
+        border-bottom: solid transparent 4px !important; }
+      header .headerPages .activeTCN_item {
+        color: #a14ea1 !important; }
+      header .headerPages .activeBlog_nav {
+        border-bottom: solid transparent 4px !important; }
+      header .headerPages .activeBlog_item {
+        color: #1785de !important; }
     header .scrolling {
       background-image: none;
       width: 100%;
@@ -11695,7 +11759,7 @@ main {
     height: auto;
     background-color: #f6f6ff;
     margin: 0;
-    padding: 20px 100px; }
+    padding: 20px 0px 20px 100px; }
   .mainTCN .headerBuesquedas {
     margin: 50px;
     padding: 20px 0px; }
@@ -12491,7 +12555,7 @@ main {
     padding: 15px 150px; }
   .mainQH .seccionQH {
     padding: 20px;
-    margin: 40px 0px; }
+    margin: 60px 0px; }
   .mainQH .tituloQH {
     font-size: 180%; }
   .mainQH .textoQH {
@@ -12544,7 +12608,7 @@ main {
     padding: 15px 150px; }
   .mainQS .seccionQS {
     padding: 20px;
-    margin: 40px 0px; }
+    margin: 60px 0px; }
   .mainQS .tituloQS {
     font-size: 180%; }
   .mainQS .textoQS {
@@ -12719,7 +12783,7 @@ main {
   .mainBlog .imagenesBlog {
     margin-top: 60px; }
   .mainBlog .seccionBlog {
-    padding: 0px 50px;
+    padding: 30px 50px;
     margin-top: 60px; }
   .mainBlog .tituloBlog {
     font-size: 200%; }
