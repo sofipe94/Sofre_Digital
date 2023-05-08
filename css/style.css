@@ -10822,6 +10822,35 @@ main {
   color: #e54848;
   border: solid #e54848 2px; }
 
+.mainInicio .toast {
+  margin: 50px; }
+
+.mainInicio .enviado {
+  background-color: rgba(15, 167, 15, 0.459); }
+  .mainInicio .enviado .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainInicio .enviado .toast-body {
+    color: white; }
+  .mainInicio .enviado .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
+.mainInicio .error {
+  background-color: rgba(247, 40, 40, 0.587); }
+  .mainInicio .error .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainInicio .error .toast-body {
+    color: white; }
+  .mainInicio .error .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
 .mainQH {
   width: 100%;
   margin: 0;
@@ -11030,6 +11059,32 @@ main {
     background-color: transparent;
     color: #e54848;
     border: solid #e54848 2px; }
+  .mainQH .toast {
+    margin: 50px; }
+  .mainQH .enviado {
+    background-color: rgba(15, 167, 15, 0.459); }
+    .mainQH .enviado .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainQH .enviado .toast-body {
+      color: white; }
+    .mainQH .enviado .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
+  .mainQH .error {
+    background-color: rgba(247, 40, 40, 0.587); }
+    .mainQH .error .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainQH .error .toast-body {
+      color: white; }
+    .mainQH .error .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
 
 .mainQS .row {
   margin: 0;
@@ -11594,6 +11649,35 @@ main {
   color: #e54848;
   border: solid #e54848 2px; }
 
+.mainQS .toast {
+  margin: 50px; }
+
+.mainQS .enviado {
+  background-color: rgba(15, 167, 15, 0.459); }
+  .mainQS .enviado .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainQS .enviado .toast-body {
+    color: white; }
+  .mainQS .enviado .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
+.mainQS .error {
+  background-color: rgba(247, 40, 40, 0.587); }
+  .mainQS .error .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainQS .error .toast-body {
+    color: white; }
+  .mainQS .error .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
 .mainTCN {
   margin: 0;
   padding: 0; }
@@ -11867,6 +11951,32 @@ main {
     background-color: transparent;
     color: #a14ea1;
     border: solid #a14ea1 2px; }
+  .mainTCN .toast {
+    margin: 50px; }
+  .mainTCN .enviado {
+    background-color: rgba(15, 167, 15, 0.459); }
+    .mainTCN .enviado .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainTCN .enviado .toast-body {
+      color: white; }
+    .mainTCN .enviado .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
+  .mainTCN .error {
+    background-color: rgba(247, 40, 40, 0.587); }
+    .mainTCN .error .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainTCN .error .toast-body {
+      color: white; }
+    .mainTCN .error .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
 
 .mainBlog {
   width: 100%;
@@ -12042,6 +12152,32 @@ main {
     background-color: transparent;
     color: #e54848;
     border: solid #e54848 2px; }
+  .mainBlog .toast {
+    margin: 50px; }
+  .mainBlog .enviado {
+    background-color: rgba(15, 167, 15, 0.459); }
+    .mainBlog .enviado .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainBlog .enviado .toast-body {
+      color: white; }
+    .mainBlog .enviado .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
+  .mainBlog .error {
+    background-color: rgba(247, 40, 40, 0.587); }
+    .mainBlog .error .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainBlog .error .toast-body {
+      color: white; }
+    .mainBlog .error .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
 
 .mainNoticia {
   width: 100%;
@@ -12261,6 +12397,32 @@ main {
     background-color: transparent;
     color: #e54848;
     border: solid #e54848 2px; }
+  .mainNoticia .toast {
+    margin: 50px; }
+  .mainNoticia .enviado {
+    background-color: rgba(15, 167, 15, 0.459); }
+    .mainNoticia .enviado .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainNoticia .enviado .toast-body {
+      color: white; }
+    .mainNoticia .enviado .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
+  .mainNoticia .error {
+    background-color: rgba(247, 40, 40, 0.587); }
+    .mainNoticia .error .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainNoticia .error .toast-body {
+      color: white; }
+    .mainNoticia .error .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
 
 .mainEmpleos {
   width: 100%;
@@ -12431,6 +12593,32 @@ main {
     background-color: transparent;
     color: #a14ea1;
     border: solid #a14ea1 2px; }
+  .mainEmpleos .toast {
+    margin: 50px; }
+  .mainEmpleos .enviado {
+    background-color: rgba(15, 167, 15, 0.459); }
+    .mainEmpleos .enviado .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainEmpleos .enviado .toast-body {
+      color: white; }
+    .mainEmpleos .enviado .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
+  .mainEmpleos .error {
+    background-color: rgba(247, 40, 40, 0.587); }
+    .mainEmpleos .error .toast-header {
+      background-color: transparent;
+      color: white;
+      font-family: "Hepta Slab", serif; }
+    .mainEmpleos .error .toast-body {
+      color: white; }
+    .mainEmpleos .error .icono_alert {
+      width: 30px;
+      height: auto;
+      margin: 2px; }
 
 @media (max-width: 1330px) {
   .mainInicio .linkBotones {
@@ -13935,6 +14123,9 @@ main {
     font-size: 150%; }
   .mainInicio .textoOportunidadesDescrip {
     font-size: 90%; }
+  .mainInicio .toast {
+    margin: 10px;
+    width: 300px; }
   .mainQH .botones {
     padding: 0px 5px; }
   .mainQH .linkBotones {
@@ -13945,6 +14136,9 @@ main {
     margin: -50px 0px 0px 0px; }
   .mainQH .textoBotones {
     font-size: 0.9rem; }
+  .mainQH .toast {
+    margin: 10px;
+    width: 300px; }
   .mainQS .botones {
     padding: 0px 5px; }
   .mainQS .linkBotones {
@@ -13955,6 +14149,9 @@ main {
     margin: -50px 0px 0px 0px; }
   .mainQS .textoBotones {
     font-size: 0.9rem; }
+  .mainQS .toast {
+    margin: 10px;
+    width: 300px; }
   .mainTCN .botones {
     padding: 0px 5px; }
   .mainTCN .linkBotones {
@@ -13964,7 +14161,19 @@ main {
     padding: 10px 5px;
     margin: -50px 0px 0px 0px; }
   .mainTCN .textoBotones {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  .mainTCN .toast {
+    margin: 10px;
+    width: 300px; }
+  .mainBlog .toast {
+    margin: 10px;
+    width: 300px; }
+  .mainNoticia .toast {
+    margin: 10px;
+    width: 300px; }
+  .mainEmpleos .toast {
+    margin: 10px;
+    width: 300px; } }
 
 @media (max-width: 392px) {
   .mainInicio .botones {

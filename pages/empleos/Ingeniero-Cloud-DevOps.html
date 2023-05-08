@@ -243,7 +243,29 @@
                   </fieldset>
                 </form>
               </div>
-          </div>          
+          </div>    
+          
+          <div class="toast enviado" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="../../images/iconos/white-check.png" class="rounded me-2 icono_alert" alt="confirmación">
+              <strong class="me-auto">Enviado con éxito</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              ¡Su CV ha sido enviada con éxito!
+            </div>
+          </div>
+          
+          <div class="toast error" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="../../images/iconos/white-cross.png" class="rounded me-2 icono_alert" alt="error al enviar">
+              <strong class="me-auto">Hubo un error al enviar</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Se ha producido un error al enviar el CV. Por favor, inténtelo de nuevo más tarde.
+            </div>
+          </div> 
         </div>
   </main>
 
