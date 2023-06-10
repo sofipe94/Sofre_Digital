@@ -10808,7 +10808,7 @@ main {
   border: solid #e54848 1px; }
 
 .mainInicio #Comentarios {
-  height: 100px; }
+  height: 150px; }
 
 .mainInicio .btn-secondary {
   background-color: #e54848;
@@ -11048,7 +11048,7 @@ main {
     box-shadow: none;
     border: solid #e54848 1px; }
   .mainQH #Comentarios {
-    height: 100px; }
+    height: 150px; }
   .mainQH .btn-secondary {
     background-color: #e54848;
     border: solid #e54848 2px;
@@ -11572,6 +11572,13 @@ main {
 .mainQS .accordion-body {
   color: #133a61; }
 
+.mainQS .linkEyC {
+  text-decoration: none;
+  color: #133a61; }
+
+.mainQS .linkEyC:hover {
+  color: #12c9b9; }
+
 .mainQS .proyecto {
   margin: 90px 0px 150px 0px;
   padding: 0;
@@ -11635,7 +11642,7 @@ main {
   border: solid #e54848 1px; }
 
 .mainQS #Comentarios {
-  height: 100px; }
+  height: 150px; }
 
 .mainQS .btn-secondary {
   background-color: #e54848;
@@ -11933,7 +11940,7 @@ main {
     box-shadow: none;
     border: solid #a14ea1 1px; }
   .mainTCN #Mensaje {
-    height: 100px; }
+    height: 150px; }
   .mainTCN #Nombre {
     width: 230px;
     margin: 0px 40px 0px 0px; }
@@ -12141,7 +12148,7 @@ main {
     box-shadow: none;
     border: solid #e54848 1px; }
   .mainBlog #Comentarios {
-    height: 100px; }
+    height: 150px; }
   .mainBlog .btn-secondary {
     background-color: #e54848;
     border: solid #e54848 2px;
@@ -12386,7 +12393,7 @@ main {
     box-shadow: none;
     border: solid #e54848 1px; }
   .mainNoticia #Comentarios {
-    height: 100px; }
+    height: 150px; }
   .mainNoticia .btn-secondary {
     background-color: #e54848;
     border: solid #e54848 2px;
@@ -12575,7 +12582,7 @@ main {
     box-shadow: none;
     border: solid #a14ea1 1px; }
   .mainEmpleos #Mensaje {
-    height: 100px; }
+    height: 150px; }
   .mainEmpleos #Nombre {
     width: 230px;
     margin: 0px 40px 0px 0px; }
@@ -12619,6 +12626,246 @@ main {
       width: 30px;
       height: auto;
       margin: 2px; }
+
+.mainCanalDenuncia .sectCanalDenuncia {
+  margin: 30px 0px 0px 0px;
+  padding: 0px; }
+  .mainCanalDenuncia .sectCanalDenuncia .titleCanalDenuncia {
+    font-family: "Hepta Slab", serif;
+    font-weight: 600;
+    color: #e54848;
+    margin: 50px; }
+  .mainCanalDenuncia .sectCanalDenuncia .pCanalDenuncia {
+    font-family: "Hepta Slab", serif;
+    font-size: 110%;
+    color: #133a61;
+    padding: 0px 200px;
+    text-align: center; }
+  .mainCanalDenuncia .sectCanalDenuncia .btnCanalDenuncia {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px #e54848;
+    color: white;
+    background-color: #e54848;
+    margin: 50px;
+    font-weight: 500;
+    font-size: 110%; }
+  .mainCanalDenuncia .sectCanalDenuncia .btnCanalDenuncia:hover {
+    color: #e54848;
+    background-color: transparent; }
+
+.mainCanalDenuncia .proyecto {
+  margin: 90px 0px 150px 0px;
+  padding: 0;
+  padding-left: 130px; }
+
+.mainCanalDenuncia .sectImgForm {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px; }
+
+.mainCanalDenuncia .sectIcForm {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px; }
+
+.mainCanalDenuncia .imagenProyecto {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.mainCanalDenuncia .iconoProyecto {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 30px;
+  left: 0;
+  z-index: 10; }
+
+.mainCanalDenuncia .tituloProyecto {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  padding: 40px 170px; }
+
+.mainCanalDenuncia .formProyecto {
+  background-color: #f6f6ff;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 95px;
+  left: -130px; }
+
+.mainCanalDenuncia form {
+  padding: 0px 170px 40px 170px; }
+
+.mainCanalDenuncia .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px;
+  width: 500px;
+  height: 50px; }
+
+.mainCanalDenuncia .form-control:focus {
+  box-shadow: none;
+  border: solid #e54848 1px; }
+
+.mainCanalDenuncia #Comentarios {
+  height: 150px; }
+
+.mainCanalDenuncia .btn-secondary {
+  background-color: #e54848;
+  border: solid #e54848 2px;
+  border-radius: 104px;
+  padding-left: 220px;
+  padding-right: 220px; }
+
+.mainCanalDenuncia .btn-secondary:hover {
+  background-color: transparent;
+  color: #e54848;
+  border: solid #e54848 2px; }
+
+.mainCanalDenuncia .toast {
+  margin: 50px; }
+
+.mainCanalDenuncia .enviado {
+  background-color: rgba(15, 167, 15, 0.459); }
+  .mainCanalDenuncia .enviado .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainCanalDenuncia .enviado .toast-body {
+    color: white; }
+  .mainCanalDenuncia .enviado .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
+.mainCanalDenuncia .error {
+  background-color: rgba(247, 40, 40, 0.587); }
+  .mainCanalDenuncia .error .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainCanalDenuncia .error .toast-body {
+    color: white; }
+  .mainCanalDenuncia .error .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
+.mainContactenos .proyecto {
+  margin: 90px 0px 150px 0px;
+  padding: 0;
+  padding-left: 130px; }
+
+.mainContactenos .sectImgForm {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px; }
+
+.mainContactenos .sectIcForm {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px; }
+
+.mainContactenos .imagenProyecto {
+  height: 550px;
+  width: 500px;
+  margin: 0;
+  padding: 0; }
+
+.mainContactenos .iconoProyecto {
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 30px;
+  left: 0;
+  z-index: 10; }
+
+.mainContactenos .tituloProyecto {
+  font-family: "Hepta Slab", serif;
+  font-size: 180%;
+  font-weight: 500;
+  padding: 40px 170px; }
+
+.mainContactenos .formProyecto {
+  background-color: #f6f6ff;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 95px;
+  left: -130px; }
+
+.mainContactenos form {
+  padding: 0px 170px 40px 170px; }
+
+.mainContactenos .form-control {
+  border: solid black 0.5px;
+  border-radius: 0px;
+  width: 500px;
+  height: 50px; }
+
+.mainContactenos .form-control:focus {
+  box-shadow: none;
+  border: solid #e54848 1px; }
+
+.mainContactenos #Comentarios {
+  height: 150px; }
+
+.mainContactenos .btn-secondary {
+  background-color: #e54848;
+  border: solid #e54848 2px;
+  border-radius: 104px;
+  padding-left: 220px;
+  padding-right: 220px; }
+
+.mainContactenos .btn-secondary:hover {
+  background-color: transparent;
+  color: #e54848;
+  border: solid #e54848 2px; }
+
+.mainContactenos .toast {
+  margin: 50px; }
+
+.mainContactenos .enviado {
+  background-color: rgba(15, 167, 15, 0.459); }
+  .mainContactenos .enviado .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainContactenos .enviado .toast-body {
+    color: white; }
+  .mainContactenos .enviado .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
+
+.mainContactenos .error {
+  background-color: rgba(247, 40, 40, 0.587); }
+  .mainContactenos .error .toast-header {
+    background-color: transparent;
+    color: white;
+    font-family: "Hepta Slab", serif; }
+  .mainContactenos .error .toast-body {
+    color: white; }
+  .mainContactenos .error .icono_alert {
+    width: 30px;
+    height: auto;
+    margin: 2px; }
 
 @media (max-width: 1330px) {
   .mainInicio .linkBotones {
@@ -13173,7 +13420,71 @@ main {
   .mainEmpleos #Apellido {
     width: 150px; }
   .mainEmpleos .btn-secondary {
-    padding: 15px 170px; } }
+    padding: 15px 170px; }
+  .mainCanalDenuncia .proyecto {
+    padding: 40px;
+    margin: 30px 0px; }
+  .mainCanalDenuncia .imagenProyecto {
+    height: auto;
+    width: 100%; }
+  .mainCanalDenuncia .iconoProyecto {
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    z-index: 10; }
+  .mainCanalDenuncia .tituloProyecto {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 170px 20px 0px 20px; }
+  .mainCanalDenuncia .formProyecto {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    left: -130px; }
+  .mainCanalDenuncia form {
+    padding: 20px 40px; }
+  .mainCanalDenuncia .form-control {
+    width: 350px;
+    height: 50px; }
+  .mainCanalDenuncia .btn-secondary {
+    padding: 15px 150px; }
+  .mainContactenos .proyecto {
+    padding: 40px;
+    margin: 30px 0px; }
+  .mainContactenos .imagenProyecto {
+    height: auto;
+    width: 100%; }
+  .mainContactenos .iconoProyecto {
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    z-index: 10; }
+  .mainContactenos .tituloProyecto {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 170px 20px 0px 20px; }
+  .mainContactenos .formProyecto {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    left: -130px; }
+  .mainContactenos form {
+    padding: 20px 40px; }
+  .mainContactenos .form-control {
+    width: 350px;
+    height: 50px; }
+  .mainContactenos .btn-secondary {
+    padding: 15px 150px; } }
 
 @media (max-width: 992px) {
   .mainInicio .solucionesHeader {
@@ -13343,6 +13654,16 @@ main {
     width: 250px;
     height: 50px; }
   .mainNoticia .btn-secondary {
+    padding: 10px 100px; }
+  .mainCanalDenuncia .form-control {
+    width: 250px;
+    height: 50px; }
+  .mainCanalDenuncia .btn-secondary {
+    padding: 10px 100px; }
+  .mainContactenos .form-control {
+    width: 250px;
+    height: 50px; }
+  .mainContactenos .btn-secondary {
     padding: 10px 100px; } }
 
 @media (max-width: 768px) {
@@ -14103,6 +14424,102 @@ main {
   .mainEmpleos #Apellido {
     width: 100%; }
   .mainEmpleos .btn-secondary {
+    padding: 10px 50px; }
+  .mainCanalDenuncia .sectCanalDenuncia .titleCanalDenuncia {
+    margin: 50px 10px; }
+  .mainCanalDenuncia .sectCanalDenuncia .pCanalDenuncia {
+    padding: 0px 30px;
+    font-size: 100%; }
+  .mainCanalDenuncia .proyecto {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%; }
+  .mainCanalDenuncia .imagenProyecto {
+    height: auto;
+    width: 100%; }
+  .mainCanalDenuncia .iconoProyecto {
+    margin: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10; }
+  .mainCanalDenuncia .tituloProyecto {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 170px 20px 0px 20px; }
+  .mainCanalDenuncia .formProyecto {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -170px;
+    left: 0px; }
+  .mainCanalDenuncia .mb-3 {
+    width: 100%; }
+  .mainCanalDenuncia form {
+    padding: 40px 20px;
+    width: 100%;
+    height: auto; }
+  .mainCanalDenuncia fieldset {
+    width: 100%;
+    height: auto; }
+  .mainCanalDenuncia .form-control {
+    border: solid black 0.5px;
+    border-radius: 0px;
+    width: 100%;
+    height: auto; }
+  .mainCanalDenuncia .btn-secondary {
+    padding: 10px 50px; }
+  .mainContactenos .sectCanalDenuncia .titleCanalDenuncia {
+    margin: 50px 10px; }
+  .mainContactenos .sectCanalDenuncia .pCanalDenuncia {
+    padding: 0px 30px;
+    font-size: 100%; }
+  .mainContactenos .proyecto {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%; }
+  .mainContactenos .imagenProyecto {
+    height: auto;
+    width: 100%; }
+  .mainContactenos .iconoProyecto {
+    margin: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10; }
+  .mainContactenos .tituloProyecto {
+    font-family: "Hepta Slab", serif;
+    font-size: 180%;
+    font-weight: 500;
+    padding: 170px 20px 0px 20px; }
+  .mainContactenos .formProyecto {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -170px;
+    left: 0px; }
+  .mainContactenos .mb-3 {
+    width: 100%; }
+  .mainContactenos form {
+    padding: 40px 20px;
+    width: 100%;
+    height: auto; }
+  .mainContactenos fieldset {
+    width: 100%;
+    height: auto; }
+  .mainContactenos .form-control {
+    border: solid black 0.5px;
+    border-radius: 0px;
+    width: 100%;
+    height: auto; }
+  .mainContactenos .btn-secondary {
     padding: 10px 50px; } }
 
 @media (max-width: 576px) {
@@ -14172,6 +14589,12 @@ main {
     margin: 10px;
     width: 300px; }
   .mainEmpleos .toast {
+    margin: 10px;
+    width: 300px; }
+  .mainCanalDenuncia .toast {
+    margin: 10px;
+    width: 300px; }
+  .mainContactenos .toast {
     margin: 10px;
     width: 300px; } }
 

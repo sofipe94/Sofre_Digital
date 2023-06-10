@@ -479,7 +479,7 @@ main{
         border: solid $rojo 1px;
     }
     #Comentarios{
-        height: 100px;
+        height: 150px;
     }
     .btn-secondary{
         background-color: $rojo;
@@ -768,7 +768,7 @@ main{
         border: solid $rojo 1px;
     }
     #Comentarios{
-        height: 100px;
+        height: 150px;
     }
     .btn-secondary{
         background-color: $rojo;
@@ -1312,6 +1312,13 @@ main{
     .accordion-body{
         color: $letrazul;
     }
+    .linkEyC{
+        text-decoration: none;
+        color: $letrazul;
+    }
+    .linkEyC:hover{
+        color: $verdeaguaoscuro;
+    }
     .proyecto{
         margin: 90px 0px 150px 0px;
         padding: 0;
@@ -1375,7 +1382,7 @@ main{
         border: solid $rojo 1px;
     }
     #Comentarios{
-        height: 100px;
+        height: 150px;
     }
     .btn-secondary{
         background-color: $rojo;
@@ -1737,7 +1744,7 @@ main{
         border: solid $violeta 1px;
     }
     #Mensaje{
-        height: 100px;
+        height: 150px;
     }
     #Nombre{
         width: 230px;
@@ -1997,7 +2004,7 @@ main{
         border: solid $rojo 1px;
     }
     #Comentarios{
-        height: 100px;
+        height: 150px;
     }
     .btn-secondary{
         background-color: $rojo;
@@ -2310,7 +2317,7 @@ main{
         border: solid $rojo 1px;
     }
     #Comentarios{
-        height: 100px;
+        height: 150px;
     }
     .btn-secondary{
         background-color: $rojo;
@@ -2548,7 +2555,7 @@ main{
         border: solid $violeta 1px;
     }
     #Mensaje{
-        height: 100px;
+        height: 150px;
     }
     #Nombre{
         width: 230px;
@@ -2608,6 +2615,266 @@ main{
         }
     }
     
+}
+.mainCanalDenuncia{
+    .sectCanalDenuncia{
+        margin: 30px 0px 0px 0px;
+        padding: 0px;
+        .titleCanalDenuncia{
+            font-family: $letraSofre;
+            font-weight: 600;
+            color: $rojo;
+            margin: 50px;
+        }
+        .pCanalDenuncia{
+            font-family: $letraSofre;
+            font-size: 110%;
+            color: $letrazul;
+            padding: 0px 200px;
+            text-align: center;
+        }
+        .btnCanalDenuncia{
+            text-decoration: none;
+            padding: 20px;
+            border-radius: 20px;
+            border: solid 1px $rojo;
+            color: $blanco;
+            background-color: $rojo;
+            margin: 50px;
+            font-weight: 500;
+            font-size: 110%;
+        }
+        .btnCanalDenuncia:hover{
+            color: $rojo;
+            background-color: transparent;
+        }
+    }
+    .proyecto{
+        margin: 90px 0px 150px 0px;
+        padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .imagenProyecto{
+        height: 550px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoProyecto{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
+    }
+    .tituloProyecto{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        padding: 40px 170px;
+    }
+    .formProyecto{
+        background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
+    }
+    form{
+        padding: 0px 170px 40px 170px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+        width: 500px;
+        height: 50px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $rojo 1px;
+    }
+    #Comentarios{
+        height: 150px;
+    }
+    .btn-secondary{
+        background-color: $rojo;
+        border: solid $rojo 2px;
+        border-radius: 104px;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $rojo;
+        border: solid $rojo 2px;
+    }
+    .toast{
+        margin: 50px;
+    }
+    .enviado{
+        background-color: rgba(15, 167, 15, 0.459);
+        .toast-header{
+            background-color: transparent;
+            color: $blanco;
+            font-family: $letraSofre;
+        }
+        .toast-body{
+            color: $blanco;
+        }
+        .icono_alert{
+            width: 30px;
+            height: auto;
+            margin: 2px;
+        }
+    }
+    .error{
+        background-color: rgba(247, 40, 40, 0.587);
+        .toast-header{
+            background-color: transparent;
+            color: $blanco;
+            font-family: $letraSofre;
+        }
+        .toast-body{
+            color: $blanco;
+        }
+        .icono_alert{
+            width: 30px;
+            height: auto;
+            margin: 2px;
+        }
+    }    
+}
+.mainContactenos{
+    .proyecto{
+        margin: 90px 0px 150px 0px;
+        padding: 0;
+        padding-left: 130px;
+    }
+    .sectImgForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sectIcForm{
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .imagenProyecto{
+        height: 550px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .iconoProyecto{
+        height: 130px;
+        width: 130px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 30px;
+        left: 0;
+        z-index: 10;
+    }
+    .tituloProyecto{
+        font-family: $letraSofre;
+        font-size: 180%;
+        font-weight: 500;
+        padding: 40px 170px;
+    }
+    .formProyecto{
+        background-color: $fondoClarito;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 95px;
+        left: -130px;
+    }
+    form{
+        padding: 0px 170px 40px 170px;
+    }
+    .form-control{
+        border: solid $negro 0.5px;
+        border-radius: 0px;
+        width: 500px;
+        height: 50px;
+    }
+    .form-control:focus{
+        box-shadow: none;
+        border: solid $rojo 1px;
+    }
+    #Comentarios{
+        height: 150px;
+    }
+    .btn-secondary{
+        background-color: $rojo;
+        border: solid $rojo 2px;
+        border-radius: 104px;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+        color: $rojo;
+        border: solid $rojo 2px;
+    }
+    .toast{
+        margin: 50px;
+    }
+    .enviado{
+        background-color: rgba(15, 167, 15, 0.459);
+        .toast-header{
+            background-color: transparent;
+            color: $blanco;
+            font-family: $letraSofre;
+        }
+        .toast-body{
+            color: $blanco;
+        }
+        .icono_alert{
+            width: 30px;
+            height: auto;
+            margin: 2px;
+        }
+    }
+    .error{
+        background-color: rgba(247, 40, 40, 0.587);
+        .toast-header{
+            background-color: transparent;
+            color: $blanco;
+            font-family: $letraSofre;
+        }
+        .toast-body{
+            color: $blanco;
+        }
+        .icono_alert{
+            width: 30px;
+            height: auto;
+            margin: 2px;
+        }
+    }
 }
 @media (max-width: 1330px){
     .mainInicio{
@@ -3370,6 +3637,90 @@ main{
             padding: 15px 170px;
         }        
     }
+    .mainCanalDenuncia{
+        .proyecto{
+            padding: 40px;
+            margin: 30px 0px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }
+    }
+    .mainContactenos{
+        .proyecto{
+            padding: 40px;
+            margin: 30px 0px;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 0px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0px;
+            left: -130px;
+        }
+        form{
+            padding: 20px 40px;
+        }
+        .form-control{
+            width: 350px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 15px 150px;
+        }
+    }
 }
 @media (max-width: 992px) {
     .mainInicio{
@@ -3600,6 +3951,24 @@ main{
         }
     }
     .mainNoticia{
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainCanalDenuncia{
+        .form-control{
+            width: 250px;
+            height: 50px;
+        }
+        .btn-secondary{
+            padding: 10px 100px;
+        }
+    }
+    .mainContactenos{
         .form-control{
             width: 250px;
             height: 50px;
@@ -4611,6 +4980,134 @@ main{
         }  
         
     }
+    .mainCanalDenuncia{
+        .sectCanalDenuncia{
+            .titleCanalDenuncia{
+                margin: 50px 10px;
+            }
+            .pCanalDenuncia{
+                padding: 0px 30px;
+                font-size: 100%;
+            }
+        }
+        .proyecto{
+            padding: 0px;
+            margin: 0px;
+            height: auto;
+            width: 100%;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        .mb-3{
+            width: 100%;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        fieldset{
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 100%;
+            height: auto;
+        }
+        .btn-secondary{
+            padding: 10px 50px;
+        }
+    }
+    .mainContactenos{
+        .sectCanalDenuncia{
+            .titleCanalDenuncia{
+                margin: 50px 10px;
+            }
+            .pCanalDenuncia{
+                padding: 0px 30px;
+                font-size: 100%;
+            }
+        }
+        .proyecto{
+            padding: 0px;
+            margin: 0px;
+            height: auto;
+            width: 100%;
+        }
+        .imagenProyecto{
+            height: auto;
+            width: 100%;
+        }
+        .iconoProyecto{
+            margin: 20px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+        }
+        .tituloProyecto{
+            font-family: $letraSofre;
+            font-size: 180%;
+            font-weight: 500;
+            padding: 170px 20px 0px 20px;
+        }
+        .formProyecto{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -170px;
+            left: 0px;
+        }
+        .mb-3{
+            width: 100%;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+            height: auto;
+        }
+        fieldset{
+            width: 100%;
+            height: auto;
+        }
+        .form-control{
+            border: solid $negro 0.5px;
+            border-radius: 0px;
+            width: 100%;
+            height: auto;
+        }
+        .btn-secondary{
+            padding: 10px 50px;
+        }
+    }
 }
 @media (max-width: 576px){
     .mainInicio{
@@ -4716,6 +5213,18 @@ main{
         }
     } 
     .mainEmpleos{
+        .toast{
+            margin: 10px;
+            width: 300px;
+        }
+    }
+    .mainCanalDenuncia{
+        .toast{
+            margin: 10px;
+            width: 300px;
+        }
+    }
+    .mainContactenos{
         .toast{
             margin: 10px;
             width: 300px;

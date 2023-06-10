@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="../css/style.css"/>
   <link rel="shortcut icon" href="../images/logos/logo_browser.ico">
-  <title>Sin Categoría - Blog - Sofre Digital</title>
+  <title>Blog - Sofre Digital</title>
 </head>
 <body>
   <header class="container-fluid">
@@ -52,11 +52,11 @@
                   <li class="nav-item-3">
                     <a class="nav-link item-3" aria-current="page" href="../pages/trabajaconnosotros.html">Trabaja con nosotros</a>
                   </li>
-                  <li class="nav-item-4 activeBlog_nav">
-                    <a class="nav-link item-4 activeBlog_item" aria-current="page" href="../pages/blog.html">Blog</a>
+                  <li class="nav-item-4">
+                    <a class="nav-link item-4" aria-current="page" href="../pages/blog.html">Blog</a>
                   </li>
                   <li class="d-flex align-items-center justify-content-start">
-                    <a class="btn-danger" href="./blog_MujeresIT.html#proyecto">Contactanos</a>
+                    <a class="btn-danger" href="./contactenos.html#proyecto">Contactanos</a>
                   </li>
                   <li class="nav-item-5">
                       <a class="nav-link item-5" aria-current="page" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -125,96 +125,56 @@
   </header>
 
   <main class="container-fluid">
-      <div class="mainBlog">
-
-        <div class="row sectPrimBlog">
-          <div class="col-6 sectImgBlog"><img src="../images/blog/primera-seccion.jpg" alt="Blog" class="imagenesBlog" data-aos="slide-right"></div>
-          <div class="col-6 seccionBlog" data-aos="fade-in">
-            <div class="d-flex flex-inline justify-content-between">
-              <img src="../images/blog/icono-primera-seccion.jpg" alt="" class="iconoBlog">
-              <img src="../images/blog/logo.png" alt="" class="logoBlog">
-            </div>              
-            <h1 class="tituloBlog">Insights</h1>
-            <p class="textoBlog">Conoce más acerca de Sofre Digital y las últimas tendencias y novedades.</p>
-            <a href="./blog.html#botonesBlog"><img src="../images/iconos/icon-down.svg" alt="arrow down" class="arrow_down bounce-top"></a>
+    <div class="mainContactenos">    
+        <div class="row" id="proyecto">
+          <div class="d-flex flex-column flex-md-row align-items-start justify-content-center proyecto">
+            <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
+            <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
+            <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
+              <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
+              <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                <fieldset>
+                  <div class="mb-3">
+                    <label for="Email" class="form-label">Email *</label>
+                    <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
+                    <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Comentarios" class="form-label">Comentarios</label>
+                    <textarea name="comentarios" cols="30" rows="30" class="form-control" id="Comentarios"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-secondary">Enviar</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>  
+          
+          <div class="toast enviado" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="../images/iconos/white-check.png" class="rounded me-2 icono_alert" alt="confirmación">
+              <strong class="me-auto">Enviado con éxito</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              ¡Su consulta ha sido enviada con éxito!
+            </div>
+          </div>
+          
+          <div class="toast error" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="../images/iconos/white-cross.png" class="rounded me-2 icono_alert" alt="error al enviar">
+              <strong class="me-auto">Hubo un error al enviar</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Se ha producido un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde.
+            </div>
           </div>
       </div>
-
-        <div class="row col-12 d-flex flex-inline flex-wrap align-items-center justify-content-center fade-in" id="botonesBlog">
-          <a href="./blog_Ciberseguridad.html" class="linkBtn">Ciberseguridad</a>
-          <a href="./blog_IoT.html" class="linkBtn">IoT</a>
-          <a href="./blog_MujeresIT.html" class="linkBtn">Mujeres IT</a>
-          <a href="./blog_RPA.html" class="linkBtn">RPA</a>
-          <a href="./blog_SinCategoria.html" class="linkBtn activeBtnBlog">Sin Categoría</a>
-          <a href="./blog_TalentoIT.html" class="linkBtn">Talento IT</a>
-          <a href="./blog_TransformacionDigital.html" class="linkBtn">Transformación digital</a>
-        </div>
-
-        <div class="sect_Blog">
-
-          <div class="row">
-            <a href="./blog/Prevencion-de-ciberataques.html">
-                <div class="d-flex flex-column flex-lg-row sectNotBlog">
-                    <div class="div_ImgNotBlog" data-aos="slide-up">
-                        <img src="../images/blog/ciberataques.jpg" alt="Prevención de ciberataques" class="imagenesBlog">
-                    </div>
-                    <div class="notBlog d-flex flex-column align-items-start justify-content-center" data-aos="slide-up">
-                        <div class="d-flex flex-inline"><p class="textoNotBlog">ABR 19, 2023 | </p><p class="textoNotBlogClarito espaciado"> <small> 2 MINs DE LECTURA</small></p></div>
-                        <h2 class="tituloNotBlog">Prevención de ciberataques</h2>
-                        <p class="textoNotBlogClarito">La revolución 4.0 pone como protagonistas a los usuarios, quienes demandan acceso a la información desde cualquier dispositivo y en...</p>
-                        <div class="btn-info">Ver más</div>
-                    </div>
-                </div>
-            </a>
-          </div>
-        
-          <div class="row" id="proyecto">
-            <div class="d-flex flex-column flex-md-row align-items-start justify-content-center proyecto">
-              <div class="sectImgForm"><img src="../images/iconos/module-contact-image.jpg" alt="Hombre trabajando" class="imagenProyecto" data-aos="slide-right"></div>
-              <div class="sectIcForm"><img src="../images/iconos/module-contact-icon.jpg" alt="Lamparita" class="iconoProyecto"></div>
-              <div class="d-flex flex-wrap flex-column align-items-center align-items-md-start justify-content-center formProyecto">
-                <h2 class="tituloProyecto">¿Tienes algún proyecto en mente?</h2>
-                <form autocomplete="on" action="" method="post" class="d-flex flex-column align-items-center justify-content-center">
-                  <fieldset>
-                    <div class="mb-3">
-                      <label for="Email" class="form-label">Email *</label>
-                      <input name="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                      <label for="ServicioDeInteres" class="form-label">Servicio de interés *</label>
-                      <input name="servicio_de_interes" type="text" class="form-control" id="ServicioDeInteres">
-                    </div>
-                    <div class="mb-3">
-                      <label for="Comentarios" class="form-label">Comentarios</label>
-                      <textarea name="comentarios" cols="30" rows="30" class="form-control" id="Comentarios"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
-                  </fieldset>
-                </form>
-              </div>
-            </div>   
-            <div class="toast enviado" role="alert" aria-live="assertive" aria-atomic="true">
-              <div class="toast-header">
-                <img src="../images/iconos/white-check.png" class="rounded me-2 icono_alert" alt="confirmación">
-                <strong class="me-auto">Enviado con éxito</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-              </div>
-              <div class="toast-body">
-                ¡Su consulta ha sido enviada con éxito!
-              </div>
-            </div>
-            
-            <div class="toast error" role="alert" aria-live="assertive" aria-atomic="true">
-              <div class="toast-header">
-                <img src="../images/iconos/white-cross.png" class="rounded me-2 icono_alert" alt="error al enviar">
-                <strong class="me-auto">Hubo un error al enviar</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-              </div>
-              <div class="toast-body">
-                Se ha producido un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde.
-              </div>
-            </div>      
-        </div>
+    </div>
   </main>
 
   <footer class="container-fluid" data-aos="fade-in">
@@ -273,7 +233,7 @@
           <p class="copyright">© Copyright 2023 Sofre Digital. Todos los derechos reservados.</p>
         </div>
         <div class="col-lg-3 col-12 d-flex align-items-center justify-content-center">
-          <a class="legales" href="../pages/canaldedenuncia.html">Canal de denuncia</a>
+          <a class="legales" href="./canaldedenuncia.html">Canal de denuncia</a>
         </div>
       </div>
     </div>
